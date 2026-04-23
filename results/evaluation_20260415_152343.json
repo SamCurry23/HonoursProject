@@ -1,0 +1,1524 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-15T15:18:12.378567",
+    "elapsed_seconds": 330.7,
+    "total_questions": 25,
+    "models_evaluated": [
+      "gpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  "raw_results": [
+    {
+      "question_id": "math_028",
+      "question": "How many ways can 5 people be arranged in a line?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "120 ways.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_028",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "120",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_028",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "120",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_028",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_023",
+      "question": "What is sin(90 degrees)?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_019",
+      "question": "What is the GCD of 48 and 180?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "The GCD of 48 and 180 is 12.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_019",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "12",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_019",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "12",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_019",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_039",
+      "question": "What is the mean of: 4, 8, 15, 16, 23, 42?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "18. The mean is 18.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_039",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "18",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_039",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "18",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_039",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_017",
+      "question": "What is 25% of 25% of 400?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "25.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_017",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "25",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_017",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "25",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_017",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_011",
+      "question": "What is the powerhouse of the cell?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The powerhouse of the cell is the mitochondrion.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_011",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Mitochondria",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_011",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "The mitochondrion (plural: mitochondria) is the powerhouse of the cell.\n\nMitochondria are organelles responsible for generating ATP (adenosine triphosphate), the energy molecule that powers most cellular processes through aerobic respiration.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_011",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_040",
+      "question": "How many planets are in our solar system?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "There are eight planets in our solar system.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_040",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "There are 8 planets in our solar system.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_040",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "There are 8 planets in our solar system:\n\n1. Mercury\n2. Venus\n3. Earth\n4. Mars\n5. Jupiter\n6. Saturn\n7. Uranus\n8. Neptune\n\n(Pluto was reclassified as a \"dwarf planet\" in 2006.)",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_040",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_049",
+      "question": "Which language is primarily used for styling web pages?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The language primarily used for styling web pages is CSS (Cascading Style Sheets).",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_049",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "CSS",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_049",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "CSS (Cascading Style Sheets) is the primary language used for styling web pages.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_049",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_032",
+      "question": "What does ACID stand for in database systems?",
+      "domain": "factual",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These are the properties that ensure reliable processing of database transactions.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "ACID stands for Atomicity, Consistency, Isolation, and Durability.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# ACID in Database Systems\n\nACID stands for:\n\n- **A**tomicity\n- **C**onsistency\n- **I**solation\n- **D**urability\n\nThese are four key properties that ensure reliable database transactions. They guarantee that data remains accurate and reliable even in the event of errors, failures, or concurrent access.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_004",
+      "question": "What is the speed of light in a vacuum (approximately, in km/s)?",
+      "domain": "factual",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The speed of light in a vacuum is approximately 299,792 km/s.",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Matched 1/3 keywords",
+            "question_id": "fact_004",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "299,792.458 km/s",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Matched 1/3 keywords",
+            "question_id": "fact_004",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "The speed of light in a vacuum is approximately **300,000 km/s** (or more precisely, 299,792 km/s).",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "fact_004",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_028",
+      "question": "There are 100 people in a room. At least how many people must share a birth month?",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "At least 9 people must share a birth month. Since there are 12 months in a year, if you divide 100 people by 12 months, you get approximately 8.33. Therefore, to ensure that at least one month has more than 8 people, at least 9 people must share a birth month.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "9",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Answer: At least 9 people\n\n## Explanation:\n\nUsing the Pigeonhole Principle:\n- There are 12 months in a year\n- There are 100 people\n- 100 ÷ 12 = 8 remainder 4\n\nThis means if we distribute 100 people as evenly as possible across 12 months, at least one month must contain ⌈100/12⌉ = **9 people**.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_001",
+      "question": "All cats are mammals. Whiskers is a cat. Is Whiskers a mammal? Answer yes or no.",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "Yes.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_001",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Yes",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_001",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "Yes.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_001",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_039",
+      "question": "What is the next item: triangle (3), square (4), pentagon (5), hexagon (?)",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The next item is \"hexagon (6).\" Each shape corresponds to the number of sides it has. A hexagon has 6 sides.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Heptagon (7)",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "No keywords found",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Hexagon (6)\n\nA hexagon has **6 sides**.\n\nThe pattern shows polygons with an increasing number of sides, so the next number in the sequence is 6.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_007",
+      "question": "A rooster lays an egg on top of a barn. Which way does the egg roll?",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "Roosters do not lay eggs, as they are male chickens. Therefore, there is no egg to roll.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Matched 2/5 keywords",
+            "question_id": "logic_007",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Roosters do not lay eggs.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Matched 2/5 keywords",
+            "question_id": "logic_007",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "Roosters don't lay eggs. Only hens (female chickens) lay eggs.\n\nThis is a trick question with a false premise.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Matched 2/5 keywords",
+            "question_id": "logic_007",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_006",
+      "question": "If it rains, the ground gets wet. The ground is wet. Does it necessarily mean it rained? Answer yes or no.",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "No.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_006",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "No",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_006",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "No.\n\nThe ground could be wet for other reasons (sprinklers, dew, a hose, etc.). This is a logical fallacy called \"affirming the consequent.\" Just because rain causes wet ground doesn't mean wet ground was caused only by rain.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_006",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_011",
+      "question": "Is it ethical for governments to use facial recognition technology in public spaces?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The ethical implications of using facial recognition technology (FRT) by governments in public spaces is a complex issue that involves balancing security, privacy, civil liberties, and technological efficacy. Below is a structured analysis of the ethical considerations surrounding this topic.\n\n### 1. **Security and Public Safety**\n   - **Proponents' View**: Advocates argue that FRT can enhance public safety by aiding law enforcement in identifying criminals, locating missing persons, and preventing terrorist activities. The technology can serve as a deterrent against crime, as the presence of surveillance may discourage unlawful behavior.\n   - **Counterargument**: Critics contend that the effectiveness of FRT in preventing crime is not conclusively proven. Moreover, reliance on technology can lead to over-policing and a culture of surveillance that may not necessarily correlate with increased safety.\n\n### 2. **Privacy Concerns**\n   - **Invasion of Privacy**: FRT can track individuals without their consent, raising significant privacy concerns. The ability to monitor citizens in public spaces can lead to a chilling effect on free expression and assembly, as individuals may alter their behavior if they know they are being watched.\n   - **Data Security**: The collection and storage of biometric data pose risks of misuse, hacking, and unauthorized access. If sensitive data is compromised, it could lead to identity theft or other forms of harm.\n\n### 3. **Bias and Discrimination**\n   - **Algorithmic Bias**: Studies have shown that FRT can exhibit biases, particularly against marginalized groups. This can result in higher rates of false positives for certain demographics, leading to wrongful accusations and reinforcing systemic inequalities.\n   - **Discriminatory Practices**: The deployment of FRT may disproportionately target specific communities, exacerbating existing societal biases and leading to discriminatory policing practices.\n\n### 4. **Transparency and Accountability**\n   - **Lack of Oversight**: The use of FRT often occurs without adequate public oversight or regulation. This lack of transparency can lead to abuses of power and a lack of accountability for government actions.\n   - **Public Engagement**: Ethical deployment of FRT should involve public discourse and engagement. Citizens should have a say in how such technologies are used, including the establishment of clear guidelines and limitations.\n\n### 5. **Legal Framework**\n   - **Regulatory Standards**: The absence of comprehensive legal frameworks governing the use of FRT raises ethical concerns. Governments should establish clear laws that define acceptable use, data retention policies, and the rights of individuals regarding their biometric data.\n   - **International",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 388 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The ethical implications of governments using facial recognition technology in public spaces are complex and multifaceted, involving a balancing act between security, privacy, and individual liberties. A structured, reasoned response requires examining various ethical frameworks and practical considerations.\n\n## Ethical Frameworks\n\n### 1. Deontology (Duty-Based Ethics)\n\nDeontology focuses on the inherent rightness or wrongness of actions, regardless of their consequences.\n\n*   **Arguments Against:**\n    *   **Violation of Privacy Rights:** Many deontological perspectives argue that individuals have a fundamental right to privacy, especially in public spaces where they have a reasonable expectation of anonymity. The constant, pervasive surveillance enabled by facial recognition can be seen as an inherent violation of this right, regardless of whether any wrongdoing is detected.\n    *   **Lack of Consent:** Individuals in public spaces do not explicitly consent to being scanned and identified by facial recognition systems. From a deontological standpoint, using such technology without informed consent is ethically problematic, as it treats individuals as means to an end (e.g., security) rather than as ends in themselves.\n    *   **Potential for Discrimination:** If the technology itself or its implementation is biased (e.g., less accurate for certain demographics), its use could be seen as inherently discriminatory, violating a duty to treat all individuals equally.\n\n*   **Arguments For (Limited):**\n    *   **Duty to Protect Citizens:** A government might argue it has a duty to protect its citizens from harm (e.g., terrorism, serious crime). If facial recognition is demonstrably effective in fulfilling this duty, a deontological argument could be made that the government has a duty to employ such tools. However, this often clashes with the duty to protect privacy.\n\n### 2. Consequentialism (Utilitarianism)\n\nConsequentialism, particularly utilitarianism, judges the morality of an action based on its outcomes, aiming to maximize overall good or minimize harm for the greatest number of people.\n\n*   **Arguments For:**\n    *   **Enhanced Public Safety:** Proponents argue that facial recognition can significantly enhance public safety by deterring crime, identifying criminals, locating missing persons, and preventing terrorist attacks. If the overall reduction in crime and increased security outweighs the privacy concerns of individuals, a utilitarian argument could support its use.\n    *   **Efficiency in Law Enforcement:** The technology can make law enforcement more efficient, allowing resources to be allocated more effectively and potentially reducing the need for more intrusive or widespread traditional policing methods.\n    *   **Cost-Benefit Analysis:** If the societal benefits (e.g., lives saved, crimes prevented) are demonstrably greater than the societal costs (e.g., erosion of privacy, potential for misuse), a utilitarian perspective might favor its implementation.\n\n*   **Arguments Against:**\n    *   **Chilling Effect on Free Speech/Assembly:** The knowledge of constant surveillance can lead to a \"chilling effect,\" where individuals self-censor or avoid participating in lawful protests or activities for fear of being identified, monitored, or having their actions recorded and potentially misinterpreted. This diminishes overall societal good by suppressing dissent and free expression.\n    *   **Risk of Misuse and Abuse:** The technology can be misused for political oppression, tracking dissidents, or creating comprehensive surveillance states. The potential for authoritarian regimes or even democratic governments to abuse such power for purposes beyond public safety (e.g., social scoring, targeted advertising, harassment) represents a significant negative consequence.\n    *   **Errors and False Positives:** Inaccurate identification can lead to wrongful arrests, harassment, and damage to individuals' reputations, causing significant harm to innocent people. The aggregate harm from such errors could outweigh the benefits.\n    *   **Disproportionate Impact:** If the technology is deployed more heavily in certain neighborhoods or targets specific demographics, it can exacerbate existing inequalities and lead to disproportionate negative consequences for marginalized communities.\n\n### 3. Virtue Ethics\n\nVirtue ethics focuses on the character of the moral agent (the government) and what actions would demonstrate virtuous behavior.\n\n*   **Arguments Against:**\n    *   **Lack of Trust:** A government that constantly surveils its citizens without strong justification or oversight may be seen as lacking virtues like trustworthiness, transparency, and respect for its citizens. This erodes the social contract and public trust.\n    *   **Prudence and Justice:** A virtuous government would act with prudence, carefully weighing the long-term consequences and potential for harm. It would also act justly, ensuring fairness and avoiding discrimination. Widespread, unchecked facial recognition could be seen as imprudent and potentially unjust.\n\n*   **Arguments For (Limited):**\n    *   **Responsibility and Protection:** A virtuous government is responsible for protecting its citizens. If facial recognition is a truly effective and carefully managed tool for achieving this, its use could be seen as an act of responsible governance.\n\n## Practical Considerations and Safeguards\n\nBeyond ethical frameworks, practical considerations are crucial for a reasoned response.\n\n1.  **Scope and Purpose Limitation:**\n    *   **Ethical Requirement:** Facial recognition should only be used for specific, clearly defined, and legitimate purposes (e.g., identifying known serious criminals, locating missing children, preventing imminent threats).\n    *   **Unethical Use:** General, indiscriminate surveillance of the entire population for \"just in case\" scenarios is ethically problematic.\n\n2.  **Transparency and Public Debate:**\n    *   **Ethical Requirement:** Governments should be transparent about where, when, and why facial recognition is being used. There should be robust public debate and democratic oversight before implementation.\n    *   **Unethical Use:** Covert deployment or lack of public consultation undermines democratic principles and public trust.\n\n3.  **Accuracy and Bias:**\n    *   **Ethical Requirement:** The technology must be highly accurate, especially across diverse demographics, to avoid wrongful identification and discriminatory outcomes. Regular, independent audits of accuracy and bias are essential.\n    *   **Unethical Use:** Deploying biased or inaccurate systems is inherently unjust and harmful.\n\n4.  **Data Security and Retention:**\n    *   **Ethical Requirement:** Strict protocols for data security, access control, and retention limits are necessary to prevent data breaches, misuse, or the creation of permanent surveillance records. Data should only be kept for as long as absolutely necessary.\n    *   **Unethical Use:** Indefinite data retention or lax security measures create significant risks.\n\n5.  **Independent Oversight and Accountability:**\n    *   **Ethical Requirement:** An independent body (e.g., a privacy commissioner, judicial oversight) should oversee the use of facial recognition, investigate complaints, and ensure compliance with regulations. Clear accountability mechanisms for misuse are vital.\n    *   **Unethical Use:** Lack of oversight or accountability invites abuse of power.\n\n6.  **Legal Framework:**\n    *   **Ethical Requirement:** Robust legal frameworks are needed to define permissible uses, establish safeguards, and provide avenues for redress. This includes requiring warrants for specific uses, similar to other intrusive surveillance methods.\n    *   **Unethical Use:** Operating without clear legal boundaries or relying on vague general powers is ethically dubious.\n\n## Conclusion\n\nIt is **not inherently ethical** for governments to use facial recognition technology in public spaces without stringent safeguards and a compelling, narrowly defined justification.\n\nWhile a utilitarian argument can be made for its potential to enhance public safety, this must be weighed against significant deontological concerns regarding privacy rights, consent, and the potential for discrimination, as well as the severe negative consequences (chilling effect, misuse, errors) that could arise from unchecked deployment.\n\nFor such use to approach ethical acceptability, governments would need to implement comprehensive safeguards that address the concerns raised by all ethical frameworks. This includes:\n\n*   **Strict purpose and scope limitations.**\n*   **Full transparency and democratic oversight.**\n*   **Guaranteed accuracy and bias mitigation.**\n*   **Robust data security and retention policies.**\n*   **Independent oversight and accountability mechanisms.**\n*   **A strong legal framework that protects individual rights.**\n\nWithout these critical safeguards, the use of facial recognition technology in public spaces poses a significant threat to fundamental rights and democratic values, making it ethically problematic. The burden of proof lies with the government to demonstrate that the benefits unequivocally outweigh the risks, and that all less intrusive alternatives have been exhausted.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 1244 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Is Government Use of Facial Recognition in Public Spaces Ethical?\n\nThis question resists a simple yes/no answer. The ethics depend heavily on *how*, *where*, and *under what safeguards* the technology is deployed.\n\n## Arguments Supporting Limited Use\n\n**Security benefits**\n- Real-time identification of wanted criminals or missing persons\n- Enhanced airport and border security\n- Prevention of large-scale fraud\n\n**Democratic legitimacy**\n- If properly authorized through democratic processes with public debate, governments have legitimate security interests\n\n## Significant Ethical Concerns\n\n**Privacy erosion**\n- Continuous monitoring can chill free movement and association\n- Creates asymmetrical power relationships (state sees you; you don't see state)\n- Scope creep: systems justified for terrorism may expand to political surveillance\n\n**Accuracy and bias**\n- Technology shows disparate error rates across demographic groups\n- Innocent people face wrongful detention or investigation\n- Compounds existing discrimination in policing\n\n**Accountability gaps**\n- Who decides what qualifies as a security threat?\n- How are errors corrected?\n- What prevents mission creep?\n\n**Chilling effects**\n- People self-censor when under surveillance\n- Affects political protest, religious practice, and free association\n\n## Key Ethical Conditions\n\nIf governments deploy this technology, robust ethics would require:\n\n1. **Democratic authorization** through transparent legislation\n2. **Strict limitations** (specific purposes, not general surveillance)\n3. **Independent oversight** and regular audits\n4. **Accuracy standards** with demographic testing\n5. **Clear remedies** when systems malfunction\n6. **Expiration dates** and regular re-authorization\n\n## Conclusion\n\nThe technology itself isn't inherently unethical, but **context matters enormously**. Narrow, accountable use differs fundamentally from mass surveillance infrastructure. Most ethicists argue the burden is on governments to prove necessity and implement safeguards—not on citizens to prove harm.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 271 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_008",
+      "question": "What is the difference between ethics and the law? Give an example where they diverge.",
+      "domain": "ethics",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The distinction between ethics and the law is a fundamental concept in philosophy, social sciences, and practical governance. While both ethics and law serve to guide behavior and maintain order in society, they differ significantly in their nature, purpose, and application. Below is a structured analysis of these differences, followed by an illustrative example where ethics and law diverge.\n\n### Definitions\n\n1. **Ethics**:\n   - **Nature**: Ethics refers to a set of moral principles or values that govern the behavior of individuals and groups. It is often subjective and can vary widely between cultures, societies, and individuals.\n   - **Purpose**: The primary purpose of ethics is to promote moral conduct and to help individuals discern right from wrong. Ethics encourages individuals to consider the implications of their actions on others and to act in ways that are just and fair.\n   - **Application**: Ethical standards are often enforced through social norms, professional codes of conduct, and personal conscience rather than through formal institutions.\n\n2. **Law**:\n   - **Nature**: Law consists of formal rules and regulations established by a governing authority. Laws are objective, codified, and apply uniformly to all individuals within a jurisdiction.\n   - **Purpose**: The primary purpose of law is to maintain order, protect rights, and provide a framework for resolving disputes. Laws are designed to be enforceable and are backed by the power of the state.\n   - **Application**: Legal standards are enforced through institutions such as courts and law enforcement agencies, and violations can result in penalties, including fines or imprisonment.\n\n### Key Differences\n\n1. **Source**:\n   - Ethics is derived from philosophical reasoning, cultural norms, and individual beliefs, while law is created through legislative processes and judicial decisions.\n\n2. **Flexibility**:\n   - Ethical standards can evolve and change over time based on societal values and discussions, whereas laws can be more rigid and require formal processes to change.\n\n3. **Enforcement**:\n   - Ethical violations may lead to social disapproval or professional consequences, but they do not typically result in legal penalties. In contrast, legal violations can lead to criminal charges, civil lawsuits, and formal penalties.\n\n4. **Scope**:\n   - Ethics often addresses broader questions of morality and justice, while law focuses on specific behaviors and actions that are deemed acceptable or unacceptable within a society.\n\n### Example of Divergence\n\nA notable example of the divergence between ethics and law can be seen in the case of **whistleblowing** in corporate environments.\n\n- **Scenario**:",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 397 words",
+            "question_id": "ethics_008",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Ethics and law are related but distinct systems that govern behavior. While both aim to regulate conduct and promote a functional society, they differ in their origins, scope, enforcement, and flexibility.\n\n**Ethics** refers to a set of moral principles or values that guide an individual's or group's behavior. It is concerned with what is considered good or bad, right or wrong, and often delves into the underlying reasons for such judgments.\n\n*   **Origin:** Ethics are often derived from personal beliefs, cultural norms, religious teachings, philosophical reasoning, and societal expectations. They are internalized and self-imposed to a significant degree.\n*   **Scope:** Ethics are broad and can apply to all aspects of life, including personal decisions, professional conduct, and societal interactions. They often address intentions, character, and the spirit of actions, not just the actions themselves.\n*   **Enforcement:** Ethical breaches are typically enforced through social disapproval, guilt, damage to reputation, loss of trust, or professional sanctions (e.g., disbarment from a professional organization). There is no external legal authority to compel ethical behavior.\n*   **Flexibility:** Ethics can be highly flexible and context-dependent. What is considered ethical can vary between individuals, cultures, and situations, leading to ongoing debate and evolution.\n\n**Law** refers to a system of rules that a society or government develops to regulate the actions of its members. These rules are formally enacted, recognized, and enforced by a governing authority.\n\n*   **Origin:** Laws are created by legislative bodies (e.g., parliaments, congresses), judicial decisions (case law), or executive decrees. They are external and formally codified.\n*   **Scope:** Laws are specific and apply to actions that are deemed necessary for maintaining public order, protecting rights, and ensuring justice. They primarily focus on observable behaviors and their consequences.\n*   **Enforcement:** Laws are enforced by governmental institutions such as police, courts, and regulatory agencies. Violations can lead to penalties such as fines, imprisonment, community service, or other legal sanctions.\n*   **Flexibility:** Laws are generally less flexible than ethics. While laws can be amended or repealed, the process is formal and often slow. They aim for consistency and predictability in their application.\n\n**Key Differences Summarized:**\n\n| Feature        | Ethics                                      | Law                                         |\n| :------------- | :------------------------------------------ | :------------------------------------------ |\n| **Origin**     | Personal beliefs, culture, philosophy       | Government, legislative bodies              |\n| **Scope**      | Broad, internal, intentions, character      | Specific, external, actions, consequences   |\n| **Enforcement**| Social disapproval, guilt, reputation loss   | State-sanctioned penalties (fines, prison)  |\n| **Flexibility**| Highly flexible, context-dependent          | Less flexible, formal amendment process     |\n| **Purpose**    | Guide moral conduct, define right/wrong     | Maintain order, protect rights, ensure justice |\n\n---\n\n**Example Where They Diverge: Whistleblowing**\n\nConsider a scenario where an employee discovers that their company is engaging in a practice that, while technically legal, is causing significant environmental damage or is misleading customers in a way that exploits their trust.\n\n*   **Ethical Stance:** From an ethical perspective, many would argue that the employee has a moral obligation to expose the company's actions, even if it means risking their job or career. The ethical principles of honesty, integrity, social responsibility, and protecting the public good would compel them to act. Remaining silent might be seen as complicity in unethical behavior.\n*   **Legal Stance:** Legally, the situation is more complex and often diverges.\n    *   In many jurisdictions, there might not be a specific law compelling the employee to report the activity, especially if the activity itself is not illegal.\n    *   Furthermore, the employee might be bound by confidentiality agreements or non-disclosure clauses in their employment contract. Legally, breaching such an agreement could lead to a lawsuit from the company for damages, even if their intentions were ethical.\n    *   While some laws (like whistleblower protection acts) exist to shield employees who report *illegal* activities, these protections often do not extend to reporting *unethical but legal* activities. Without specific legal protection, the act of whistleblowing could be legally detrimental to the employee.\n\nIn this example, the ethical imperative to expose harm and uphold truth clashes with potential legal obligations (confidentiality) and the absence of a legal mandate to report merely unethical behavior. The employee faces a dilemma where doing what is ethically \"right\" might lead to legal repercussions, demonstrating a clear divergence between ethics and the law.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 702 words",
+            "question_id": "ethics_008",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Ethics vs. Law: Key Differences\n\n## Fundamental Distinctions\n\n**Source and Authority**\n- **Law** derives from governmental institutions with enforcement power; it's codified and binding through courts and penalties\n- **Ethics** emerges from personal values, cultural traditions, and philosophical reasoning; it's internalized rather than imposed\n\n**Scope**\n- **Law** addresses specific, defined conduct with clear boundaries\n- **Ethics** encompasses broader principles about right and wrong, including intentions and character\n\n**Enforcement**\n- **Law** uses tangible penalties (fines, imprisonment, civil liability)\n- **Ethics** relies on internal conscience, social reputation, and moral judgment\n\n**Flexibility**\n- **Law** changes slowly through legislative processes\n- **Ethics** can evolve more dynamically with cultural understanding and individual reflection\n\n## A Clear Example: Legal but Unethical Conduct\n\n**Scenario: Price Gouging During Crisis**\n\nA hardware store owner legally raises prices on bottled water and generators 300% during a hurricane.\n\n- **Legal**: This is generally lawful (price controls are rare in most jurisdictions)\n- **Ethical concerns**: Exploiting vulnerable people during disaster creates moral problems around fairness, compassion, and community responsibility\n\nThe owner has broken no law but arguably violated ethical principles about human dignity and social responsibility.\n\n## Why This Matters\n\nThis divergence shows why legal compliance alone is insufficient for living well—society relies on ethics to address gray areas and uphold values that law cannot fully capture.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 216 words",
+            "question_id": "ethics_008",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_026",
+      "question": "Is plagiarism ever acceptable? Explain.",
+      "domain": "ethics",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Plagiarism, defined as the act of using someone else's work, ideas, or intellectual property without proper attribution, is generally considered unethical and unacceptable in academic, professional, and creative contexts. However, the question of whether plagiarism can ever be acceptable invites a nuanced exploration of the concept, its implications, and the contexts in which it might be viewed differently. Below, I will outline several key points to consider in this discussion.\n\n### 1. **Understanding Plagiarism**\n\nPlagiarism can take many forms, including:\n- **Direct Copying**: Reproducing text verbatim without citation.\n- **Paraphrasing**: Rewording someone else's ideas without giving credit.\n- **Self-Plagiarism**: Reusing one's own previously published work without acknowledgment.\n- **Mosaic Plagiarism**: Blending copied material with original content without proper citation.\n\n### 2. **Ethical Considerations**\n\nIn most academic and professional settings, plagiarism is viewed as a serious ethical violation. The reasons for this include:\n- **Intellectual Integrity**: Plagiarism undermines the trust and integrity of academic and professional work. It devalues original thought and effort.\n- **Respect for Authors**: It disrespects the rights and contributions of original authors, denying them recognition and potential benefits from their work.\n- **Impact on Learning**: In educational contexts, plagiarism hinders the learning process, as it prevents individuals from engaging deeply with the material.\n\n### 3. **Contexts Where Plagiarism Might Be Viewed Differently**\n\nWhile plagiarism is generally unacceptable, there are specific contexts where the boundaries may blur, leading to different interpretations:\n\n#### a. **Common Knowledge**\n- Information that is widely known and accepted (e.g., historical facts, scientific principles) does not require citation. In this case, failing to attribute such information is not considered plagiarism.\n\n#### b. **Collaborative Work**\n- In collaborative environments, such as group projects, the lines of authorship can become blurred. If all contributors agree on the use of shared ideas without formal attribution, it may not be viewed as plagiarism, though transparency is still crucial.\n\n#### c. **Creative Commons and Open Source**\n- Works released under Creative Commons licenses or similar frameworks allow for certain uses without attribution, depending on the specific license. In these cases, using the material without credit may be acceptable within the terms of the license.\n\n#### d. **Cultural Contexts**\n- In some cultures, the concept of authorship and originality may differ from Western norms.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 374 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Plagiarism is generally not acceptable. It involves presenting someone else's work or ideas as your own without proper attribution. This act has significant ethical, academic, and professional implications.\n\n**Ethical Considerations:**\n*   **Dishonesty:** Plagiarism is fundamentally an act of deception. It misrepresents the origin of ideas and efforts, leading others to believe the plagiarizer is the creator.\n*   **Lack of Integrity:** It undermines the principles of honesty and intellectual integrity that are crucial for the advancement of knowledge and fair evaluation.\n*   **Theft of Intellectual Property:** Ideas and creative works are considered intellectual property. Plagiarism is a form of theft, as it appropriates the fruits of another's labor without permission or acknowledgment.\n\n**Academic Consequences:**\n*   **Violation of Academic Honesty Policies:** Educational institutions universally condemn plagiarism. Students found plagiarizing often face severe penalties, including failing grades, suspension, or expulsion.\n*   **Undermining Learning:** The purpose of academic assignments is for students to develop their own understanding, critical thinking, and research skills. Plagiarism bypasses this learning process.\n*   **Devaluation of Degrees:** Widespread plagiarism can devalue academic degrees, as they would no longer reliably signify genuine learning and achievement.\n\n**Professional Ramifications:**\n*   **Damage to Reputation:** In professional fields, plagiarism can irrevocably damage an individual's reputation, leading to loss of credibility and trust among colleagues, clients, and the public.\n*   **Loss of Employment:** Journalists, researchers, authors, and other professionals who plagiarize often face termination of employment and difficulty securing future positions.\n*   **Legal Consequences:** In some cases, particularly involving copyrighted material, plagiarism can lead to legal action, including lawsuits for copyright infringement.\n\n**Limited and Highly Specific Exceptions (with caveats):**\nWhile the general rule is that plagiarism is unacceptable, there are extremely rare and specific contexts where the concept might be viewed differently, though these are often debated and come with significant caveats:\n\n1.  **Parody and Satire:** In artistic contexts, parody often involves directly mimicking or borrowing elements from an original work to create a humorous or critical commentary. While it uses existing material, the intent is not to deceive but to comment on the original. However, even here, the original work is usually recognizable, and the new work transforms it. This is distinct from plagiarism, which aims to pass off the original as one's own.\n2.  **Cultural Practices (Historical/Specific Contexts):** In some historical or very specific cultural contexts, the concept of individual authorship and intellectual property as understood in Western societies might have been less rigid. For example, in certain oral traditions, stories and songs might be passed down and reinterpreted by many individuals over generations, with less emphasis on a single \"original\" author. However, even in these cases, there is often an understanding of the lineage of the work, and modern academic standards would still require acknowledging sources where possible. This is not an excuse for plagiarism in contemporary academic or professional settings.\n3.  **Emergency Situations (Extreme and Debatable):** One could hypothetically construct an extreme emergency scenario where the immediate dissemination of critical information (e.g., a life-saving medical procedure) is paramount, and there is no time or means to properly attribute the source. In such a highly improbable and specific case, the ethical imperative to save lives might temporarily override the attribution requirement. However, this is an edge case and would still require subsequent acknowledgment if possible. This does not justify plagiarism in any normal context.\n\n**Conclusion:**\nWith the extremely rare and highly debatable exceptions noted above, plagiarism is not acceptable. The vast majority of situations demand proper attribution to uphold ethical standards, ensure academic integrity, and maintain professional credibility. The act of plagiarism undermines the very foundations of intellectual discourse and fair evaluation.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 599 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Is Plagiarism Ever Acceptable?\n\n## Short Answer\nNo, plagiarism is not acceptable in academic, professional, or most creative contexts. However, the question benefits from nuance.\n\n## Why Plagiarism Is Fundamentally Problematic\n\n**Breach of trust and honesty**\n- Plagiarism misrepresents authorship and deceives audiences about who created the work\n- It violates the implicit contract in academic and professional settings\n\n**Unfair advantage**\n- Plagiarists gain credit for others' intellectual labor\n- This disadvantages honest contributors\n\n**Stifled attribution**\n- Original authors lose proper recognition and citation\n- The intellectual record becomes distorted\n\n## Where Exceptions Might Exist\n\n**1. Unintentional similarity**\n- Accidentally writing something close to another's words without realizing\n- Remedied by proper citation once discovered\n\n**2. Common knowledge**\n- Some ideas are so widespread (basic facts, well-known concepts) that citation becomes impractical\n- Context-dependent—what's \"common knowledge\" in a field varies\n\n**3. Collaborative/workshop contexts**\n- Some creative environments deliberately blend ideas without formal attribution\n- Participants must explicitly consent to this arrangement\n\n**4. Emergencies or accessibility issues**\n- Though rare, genuine barriers might create gray areas worth individual consideration\n\n## The Clearer Principle\n\nRather than asking \"Is plagiarism ever acceptable?\", it's more useful to ask:\n- **How should I fairly represent ideas that aren't mine?**\n- The answer: cite sources, and when possible, add your own analysis or synthesis\n\nProper attribution solves nearly all ethical concerns without sacrificing the work itself.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 231 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_009",
+      "question": "Is it ethical to develop increasingly powerful AI systems given the potential existential risks? Discuss.",
+      "domain": "ethics",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether it is ethical to develop increasingly powerful AI systems, given the potential existential risks, is a complex and multifaceted issue that requires careful consideration of various ethical frameworks, potential benefits, risks, and the responsibilities of developers and society at large. Below is a structured response that addresses these aspects.\n\n### 1. Understanding the Potential Benefits of AI\n\n**1.1. Economic Growth and Efficiency**\n- AI has the potential to drive significant economic growth by automating tasks, improving efficiency, and creating new markets. This can lead to increased productivity and innovation across various sectors, including healthcare, transportation, and education.\n\n**1.2. Solving Complex Problems**\n- AI systems can analyze vast amounts of data and identify patterns that humans may overlook. This capability can be harnessed to tackle pressing global challenges, such as climate change, disease outbreaks, and resource management.\n\n**1.3. Enhancing Human Capabilities**\n- AI can augment human decision-making and creativity, leading to better outcomes in various fields. For instance, AI-assisted medical diagnostics can improve patient care and outcomes.\n\n### 2. Recognizing the Existential Risks\n\n**2.1. Unintended Consequences**\n- As AI systems become more powerful, the risk of unintended consequences increases. These systems may behave in unpredictable ways, leading to outcomes that could be harmful to individuals or society.\n\n**2.2. Misalignment of Goals**\n- There is a concern that advanced AI systems may develop goals that are misaligned with human values. If an AI system prioritizes its objectives over human welfare, it could pose significant risks.\n\n**2.3. Concentration of Power**\n- The development of powerful AI could lead to a concentration of power in the hands of a few entities (governments or corporations), potentially exacerbating social inequalities and undermining democratic processes.\n\n### 3. Ethical Frameworks for Evaluation\n\n**3.1. Utilitarian Perspective**\n- From a utilitarian standpoint, the ethicality of developing AI hinges on a cost-benefit analysis. If the benefits of AI (e.g., improved quality of life, economic growth) outweigh the potential risks, then its development may be justified. However, this perspective requires robust mechanisms to mitigate risks.\n\n**3.2. Deontological Perspective**\n- A deontological approach emphasizes the moral duties and rights involved in AI development. This perspective may argue against the development of AI systems that could pose existential risks, regardless of potential benefits, as it could violate ethical principles regarding the sanctity of human",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 384 words",
+            "question_id": "ethics_009",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether it is ethical to develop increasingly powerful AI systems given potential existential risks is complex and elicits a range of ethical frameworks and considerations. There is no single, universally accepted answer, as different ethical theories prioritize different values and outcomes.\n\n**1. Utilitarianism:**\n\n*   **Core Principle:** Utilitarianism focuses on maximizing overall well-being and minimizing suffering. The most ethical action is the one that produces the greatest good for the greatest number.\n*   **Application to AI:**\n    *   **Argument for Development:** Proponents might argue that the potential benefits of powerful AI (e.g., solving climate change, curing diseases, enhancing human intelligence, creating unprecedented prosperity) are so immense that they outweigh the risks. If AI could lead to a future of unimaginable flourishing, then developing it, even with risks, could be seen as a utilitarian imperative. The \"greatest good\" could be a future where humanity thrives beyond current limitations.\n    *   **Argument Against Development:** Opponents would emphasize the catastrophic potential of existential risk. If powerful AI has even a small but non-negligible chance of leading to human extinction or irreversible suffering, then the negative utility of such an outcome would be so immense that it would outweigh any potential benefits. A utilitarian calculation would need to carefully weigh the probability and magnitude of both positive and negative outcomes. If the risk of existential catastrophe is high enough, then developing such AI would be profoundly unethical.\n*   **Conclusion (Utilitarian):** A utilitarian perspective would require a rigorous cost-benefit analysis, weighing the probability and magnitude of both the potential benefits and the potential harms. The ethical conclusion would depend on the specific probabilities and magnitudes assigned to these outcomes, which are currently highly speculative.\n\n**2. Deontology (Duty-Based Ethics):**\n\n*   **Core Principle:** Deontology emphasizes moral duties and rules, regardless of the consequences. Certain actions are inherently right or wrong.\n*   **Application to AI:**\n    *   **Argument for Development (Duty to Progress/Knowledge):** Some might argue that humanity has a duty to pursue knowledge and technological advancement. To intentionally halt scientific progress, especially in an area with such transformative potential, could be seen as a dereliction of a fundamental human duty to explore and understand.\n    *   **Argument Against Development (Duty to Protect Humanity):** Conversely, a strong deontological argument could be made that humanity has a fundamental duty to protect its own existence and the well-being of future generations. If developing powerful AI poses an existential threat, then there is a moral duty to refrain from such development, regardless of potential benefits. This duty might be seen as a categorical imperative: \"Act only according to that maxim whereby you can at the same time will that it should become a universal law\" – would we want a universal law that permits actions with existential risk?\n    *   **Duty to Prudence/Responsibility:** A deontological perspective might also emphasize a duty to act with extreme prudence and responsibility when dealing with technologies of such power. This could translate into a duty to develop robust safety measures, ethical guidelines, and international cooperation before advancing AI capabilities.\n*   **Conclusion (Deontological):** Deontology would likely focus on inherent duties. The ethical conclusion would depend on which duty is prioritized: the duty to pursue knowledge and progress, or the duty to protect humanity from existential threats. Many deontologists would likely lean towards the latter, arguing that the duty to ensure human survival is paramount.\n\n**3. Virtue Ethics:**\n\n*   **Core Principle:** Virtue ethics focuses on the character of the moral agent rather than on rules or consequences. It asks what a virtuous person would do.\n*   **Application to AI:**\n    *   **Virtues of Prudence and Responsibility:** A virtuous approach would emphasize the virtues of prudence, caution, foresight, and responsibility. A truly virtuous developer or society would not recklessly pursue power without carefully considering and mitigating potential dangers.\n    *   **Virtues of Courage and Innovation:** However, virtues like courage, innovation, and the pursuit of knowledge are also valued. A virtuous society might be seen as one that bravely pushes the boundaries of understanding, but always tempered by wisdom and a commitment to the common good.\n    *   **Balancing Virtues:** The ethical challenge from a virtue ethics perspective would be to find the right balance between these virtues. It would involve cultivating a character that is both ambitious and cautious, innovative and responsible.\n*   **Conclusion (Virtue Ethics):** Virtue ethics would not provide a direct \"yes\" or \"no\" answer but would instead guide the *manner* of development. It would emphasize the importance of developing AI with wisdom, integrity, and a deep sense of responsibility, prioritizing the long-term well-being of humanity. Reckless or purely profit-driven development would be seen as unvirtuous.\n\n**4. Rights-Based Ethics:**\n\n*   **Core Principle:** Rights-based ethics asserts that individuals (and potentially future generations) have certain fundamental rights that should not be violated.\n*   **Application to AI:**\n    *   **Right to Life/Existence:** The most direct application is the right to life and existence. If powerful AI poses an existential threat, it could be argued that its development violates the fundamental right of all current and future humans to exist.\n    *   **Right to a Safe Future:** Future generations have a right to inherit a world that is not irrevocably damaged or threatened by the actions of previous generations. Developing AI with existential risk could be seen as violating this right.\n*   **Conclusion (Rights-Based):** Rights-based ethics would strongly lean against developing AI with existential risk, as it could be seen as a violation of fundamental human rights, particularly the right to life and a safe future.\n\n**5. Precautionary Principle:**\n\n*   **Core Principle:** When an activity raises threats of harm to human health or the environment, precautionary measures should be taken even if some cause-and-effect relationships are not fully established scientifically.\n*   **Application to AI:** Given the profound and potentially irreversible nature of existential risk from AI, the precautionary principle would argue for extreme caution. It would suggest that unless the safety of powerful AI can be reasonably assured, its development should be halted or severely restricted. The burden of proof would be on those developing the AI to demonstrate its safety, rather than on critics to prove its danger.\n*   **Conclusion (Precautionary Principle):** The precautionary principle would strongly argue against the development of increasingly powerful AI systems until robust safety mechanisms and a clear understanding of existential risks are established.\n\n**Conclusion:**\n\nThe ethical permissibility of developing increasingly powerful AI systems in the face of existential risks is a profound dilemma.\n\n*   **Utilitarianism** would require a highly speculative cost-benefit analysis, potentially justifying development if benefits are overwhelmingly large and risks sufficiently small, but condemning it if risks are significant.\n*   **Deontology** would likely prioritize the duty to protect humanity over the duty to pursue knowledge, especially if the risk is existential.\n*   **Virtue Ethics** would emphasize the need for prudence, responsibility, and wisdom in development.\n*   **Rights-Based Ethics** would likely oppose development that threatens fundamental human rights to life and a safe future.\n*   The **Precautionary Principle** would advocate for extreme caution and a halt to development until safety is assured.\n\nGiven the current uncertainties regarding the nature and probability of AI-related existential risks, many ethical frameworks would lean towards extreme caution, if not outright moratoriums, on the development of increasingly powerful AI without robust safety protocols and a deeper understanding of the potential consequences. The potential for irreversible, catastrophic harm places a heavy ethical burden on those pursuing such technologies. The ethical imperative, from multiple perspectives, appears to be to prioritize the long-term survival and well-being of humanity.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 1240 words",
+            "question_id": "ethics_009",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Ethics of Developing Powerful AI Systems\n\nThis deserves careful treatment since reasonable people disagree substantially. Let me map the key considerations:\n\n## Arguments for proceeding (with caution)\n\n**Potential benefits outweigh risks**\n- Medical breakthroughs, scientific discovery, economic productivity\n- Risks may be manageable through careful development rather than avoidable through cessation\n- Similar arguments applied to nuclear technology, genetic engineering\n\n**Development momentum is hard to stop**\n- Unilateral restraint by some actors leaves others to develop it unsafely\n- Racing dynamics may actually increase risk if safety takes backseat to speed\n\n**Existential risk may be overstated**\n- Technical difficulties in creating truly autonomous, goal-pursuing systems remain underappreciated\n- We may overestimate what current trajectories lead to\n\n## Arguments for restraint/slowdown\n\n**Genuine uncertainty about control**\n- We lack proven methods for aligning superintelligent systems with human values\n- The stakes of failure are categorical (not just bad, but potentially extinction-level)\n\n**Asymmetric burden of proof**\n- Unlike drugs or bridges, we can't test whether \"safe superintelligence\" works at scale before deployment\n- This may justify higher caution thresholds\n\n**Institutional inadequacy**\n- Current governance structures (corporate timelines, market incentives) may be poorly suited to existential safety questions\n\n## My structured assessment\n\nThe ethical defensibility likely depends on:\n\n1. **Whether development includes robust safety investment** (not an afterthought)\n2. **Governance structures** that prioritize safety over speed\n3. **Honest uncertainty acknowledgment** rather than confident reassurance\n4. **International coordination** to reduce race dynamics\n\n**A reasonable position**: Continued development is ethically permissible *if* coupled with serious safety-first constraints—but current incentives often don't reflect this.\n\nWhat aspect concerns you most?",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 263 words",
+            "question_id": "ethics_009",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_012",
+      "question": "What is utilitarianism and what is a common criticism of it?",
+      "domain": "ethics",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Utilitarianism is a consequentialist ethical theory that posits that the best action is the one that maximizes overall happiness or utility. The core idea is that the moral worth of an action is determined by its outcome, specifically in terms of the well-being it produces. This theory is often associated with philosophers such as Jeremy Bentham and John Stuart Mill, who articulated its principles in the 18th and 19th centuries.\n\n### Key Principles of Utilitarianism\n\n1. **Consequentialism**: Utilitarianism is fundamentally concerned with the consequences of actions. The rightness or wrongness of an action is judged solely by its outcomes.\n\n2. **Hedonism**: Classical utilitarianism often equates utility with pleasure or happiness, suggesting that actions are right if they promote pleasure and wrong if they produce pain.\n\n3. **Impartiality**: Utilitarianism advocates for an impartial consideration of all individuals affected by an action. Each person's happiness counts equally, and no one’s interests are prioritized over another’s.\n\n4. **Maximization**: The goal is to maximize overall happiness or utility. This means that actions should be evaluated based on their potential to produce the greatest good for the greatest number.\n\n### Common Criticism of Utilitarianism\n\nOne of the most prominent criticisms of utilitarianism is its potential to justify morally questionable actions if they lead to a greater overall good. This criticism can be articulated through several key points:\n\n1. **The \"Trolley Problem\"**: This thought experiment illustrates a scenario where one must choose between taking an action that results in the death of one person to save five others. A strict utilitarian approach might endorse sacrificing the one to maximize overall happiness, raising ethical concerns about the value of individual rights and the morality of sacrificing one for many.\n\n2. **Neglect of Justice and Rights**: Critics argue that utilitarianism can lead to outcomes that violate individual rights or principles of justice. For instance, if harming an innocent person could lead to a greater overall benefit for a larger group, utilitarianism might condone such harm, which many find morally unacceptable.\n\n3. **Measurement of Happiness**: Another criticism revolves around the difficulty of measuring and comparing happiness or utility across different individuals. What constitutes happiness can vary widely among people, making it challenging to quantify and compare the outcomes of different actions.\n\n4. **Long-term vs. Short-term Consequences**: Utilitarianism often focuses on immediate outcomes, which can lead to decisions that are beneficial in the short term but",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 396 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Utilitarianism is an ethical theory that determines right from wrong by focusing on outcomes. It is a form of consequentialism, meaning that the morality of an action is judged by its results. Utilitarianism holds that the most ethical choice is the one that produces the greatest good for the greatest number of people.\n\nThere are several key aspects to understanding utilitarianism:\n\n1.  **The Principle of Utility (or Greatest Happiness Principle):** This is the foundational principle. It states that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness. Happiness is generally understood as pleasure and the absence of pain.\n2.  **Consequentialism:** The moral worth of an action is determined solely by its outcome. The intentions behind an action are not considered morally relevant in themselves, only the consequences they lead to.\n3.  **Impartiality:** Each person's happiness counts equally. There is no special weight given to one's own happiness or the happiness of those close to them. The calculation of the greatest good must be impartial.\n4.  **Maximization:** Utilitarianism seeks to maximize overall utility. This means not just creating some good, but creating the *most* good possible given the circumstances.\n5.  **Scope:** Utilitarian calculations typically extend to all sentient beings capable of experiencing pleasure and pain, not just humans.\n\nThere are two main types of utilitarianism:\n\n*   **Act Utilitarianism:** This view holds that in any given situation, you should choose the action that will produce the greatest good for the greatest number. Each individual act is evaluated based on its consequences.\n*   **Rule Utilitarianism:** This view holds that an action is right if it conforms to a rule that, if generally followed, would produce the greatest good for the greatest number. It focuses on the consequences of following general rules rather than individual acts.\n\n***\n\nA common criticism of utilitarianism is that it can lead to **unjust outcomes or the violation of individual rights**.\n\nThis criticism arises because utilitarianism, in its pursuit of maximizing overall happiness, might sanction actions that are intuitively wrong if those actions lead to a greater good for the majority. Since the focus is solely on the aggregate outcome, the well-being or rights of a minority or even an individual can be sacrificed if doing so benefits a larger group.\n\nHere's a breakdown of this criticism:\n\n1.  **Sacrifice of the Individual/Minority:**\n    *   **The \"Scapegoat\" Problem:** Imagine a scenario where framing an innocent person for a crime would prevent widespread riots and save many lives. A strict act utilitarian might argue that framing the innocent person is the morally correct choice because it maximizes overall happiness and minimizes suffering. However, this violates the innocent person's rights and is widely considered unjust.\n    *   **Organ Harvesting Scenario:** Consider a situation where a healthy individual could be painlessly killed and their organs distributed to five people who desperately need them, saving all five lives. A utilitarian calculation might suggest this is the optimal outcome (one life lost, five saved). However, this is a clear violation of the individual's right to life and bodily autonomy.\n\n2.  **Difficulty in Quantifying and Comparing Happiness/Suffering:**\n    *   The criticism also touches on the practical difficulty of measuring and comparing different types of happiness or suffering across individuals. How do you compare the intense suffering of one person with the mild pleasure of many? This makes the \"greatest good\" calculation problematic and potentially arbitrary, allowing for justifications of actions that seem intuitively wrong.\n\n3.  **Ignores Justice and Fairness:**\n    *   Utilitarianism, by focusing solely on the sum total of happiness, can overlook the *distribution* of happiness or suffering. An outcome where a few people are extremely miserable but many are slightly happy might be preferred over an outcome where everyone is moderately happy, if the former yields a higher total sum of happiness. This ignores principles of fairness and equitable distribution.\n\n4.  **Potential for Tyranny of the Majority:**\n    *   If the majority's preferences always dictate what is morally right, there is a risk that the rights and interests of minority groups could be consistently overridden, leading to oppressive outcomes.\n\nWhile rule utilitarianism attempts to mitigate some of these issues by establishing rules that generally promote the greatest good (e.g., \"do not kill innocent people\"), critics argue that even rule utilitarianism can face similar problems when a rule, if strictly followed, leads to a suboptimal outcome in a specific case, or when the rules themselves are chosen based on a utilitarian calculation that could still permit unjust rules.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 750 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Utilitarianism: Definition and Common Criticism\n\n## What is Utilitarianism?\n\n**Utilitarianism** is an ethical theory that defines right action as whatever produces the greatest overall happiness or well-being for the greatest number of people.\n\n### Key Features:\n\n- **Consequentialist**: It judges morality based on outcomes, not intentions or inherent duties\n- **Impartial**: Everyone's happiness counts equally; no one person's well-being is privileged\n- **Aggregative**: It sums total utility across all affected parties\n- **Flexible**: Can be applied to individual acts or general rules\n\n### Example:\nA utilitarian might justify breaking a promise if doing so would produce better overall outcomes for more people than keeping it.\n\n## A Common Criticism: The Demandingness Objection\n\nOne of the most powerful criticisms is that **utilitarianism is excessively demanding**.\n\n### The Argument:\n\n1. If you should always maximize overall utility, you're obligated to donate most of your income to effective charities\n2. You should sacrifice leisure, relationships, and personal projects whenever they reduce total happiness\n3. This leaves almost no room for personal pursuits or special obligations (like caring for your own children)\n4. This is psychologically unrealistic and violates our moral intuitions about reasonable personal boundaries\n\n### Philosophical Significance:\n\nThis criticism highlights a genuine tension: utilitarianism seems to *prove too much*—it demands sacrifices most people find unreasonable, suggesting the theory may be flawed or incomplete as a complete moral framework.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 227 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_014",
+      "question": "Write a simple step-by-step guide (3-4 steps) explaining how someone with no technical background could use an AI evaluation tool.",
+      "domain": "creative",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Using an AI evaluation tool can seem daunting for someone without a technical background, but with a clear, structured approach, it can be manageable and even enjoyable. Here’s a simple step-by-step guide to help you navigate the process:\n\n### Step 1: Identify Your Purpose\n\n**What to Do:**\n- Determine what you want to evaluate using the AI tool. This could be anything from assessing the quality of written content, analyzing customer feedback, or evaluating the performance of a marketing campaign.\n\n**Why It Matters:**\n- Having a clear purpose will help you choose the right AI evaluation tool and understand what metrics or outcomes you should focus on. It sets the foundation for your entire evaluation process.\n\n### Step 2: Choose the Right AI Evaluation Tool\n\n**What to Do:**\n- Research and select an AI evaluation tool that aligns with your purpose. Look for user-friendly options that offer tutorials or customer support. Some popular tools include Grammarly for writing evaluation, MonkeyLearn for text analysis, or Google Analytics for website performance.\n\n**How to Choose:**\n- Read reviews and check ratings to ensure the tool is reliable. Look for features that match your needs, such as ease of use, integration capabilities, and the type of analysis it provides.\n\n### Step 3: Input Your Data\n\n**What to Do:**\n- Once you have selected a tool, gather the data you want to evaluate. This could be text documents, survey results, or website metrics. Follow the tool’s instructions to upload or input your data.\n\n**Tips:**\n- Most tools will have a straightforward interface. Look for buttons or prompts that say “Upload,” “Import,” or “Start Analysis.” If you encounter any difficulties, refer to the tool’s help section or tutorials.\n\n### Step 4: Review the Results and Take Action\n\n**What to Do:**\n- After the analysis is complete, review the results provided by the AI tool. Most tools will present findings in a clear format, such as graphs, charts, or written summaries. Take note of key insights and recommendations.\n\n**Next Steps:**\n- Use the insights to inform your decisions. For example, if you’re evaluating written content, you might revise it based on the feedback. If analyzing customer feedback, consider implementing changes to improve customer satisfaction.\n\n### Conclusion\n\nBy following these four steps—identifying your purpose, choosing the right tool, inputting your data, and reviewing the results—you can effectively use an AI evaluation tool without a technical background. Remember, the key is to take it one step at",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 408 words",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Here's a simple step-by-step guide for someone with no technical background to use an AI evaluation tool:\n\n**Step 1: Understand What You Want to Evaluate and Why**\n\nBefore you even open a tool, clearly define what you want to evaluate about an AI and why it matters to you. Are you testing a chatbot's ability to answer questions accurately? A content generator's creativity? An image recognition system's ability to identify objects?\n\n*   **Action:** Write down in plain language:\n    *   \"I want to evaluate [specific AI feature/output, e.g., a chatbot's responses to customer service questions].\"\n    *   \"I want to know if it [specific performance metric, e.g., provides correct answers, sounds natural, avoids offensive language].\"\n    *   \"This is important because [reason, e.g., it will be used by our customers, I need reliable information].\"\n\n**Step 2: Input Your Data or Prompts into the Tool**\n\nMost AI evaluation tools work by either taking a set of pre-existing data (like a list of chatbot conversations) or by allowing you to directly interact with the AI through the tool.\n\n*   **Action (Choose one based on the tool):**\n    *   **If evaluating existing data:** Look for buttons like \"Upload Data,\" \"Import File,\" or \"Paste Text.\" Select your file (e.g., a spreadsheet of questions and AI answers) or paste the text directly into the designated box.\n    *   **If interacting directly:** Find a text box labeled \"Enter Prompt,\" \"Ask AI,\" or similar. Type in the questions, commands, or scenarios you want the AI to respond to, one by one, just as you would if you were talking to the AI directly. The tool will then capture the AI's responses.\n\n**Step 3: Review the Evaluation Results and Feedback**\n\nOnce you've provided the data or prompts, the evaluation tool will process them and present its findings. These findings might be in the form of scores, color-coded indicators, or even natural language summaries.\n\n*   **Action:**\n    *   Look for sections labeled \"Results,\" \"Summary,\" \"Scores,\" or \"Feedback.\"\n    *   Pay attention to any numerical scores (e.g., a \"correctness score\" of 85%), color indicators (e.g., green for good, red for bad), or simple descriptions (e.g., \"The AI frequently misunderstood complex queries\").\n    *   If the tool provides examples of good or bad responses, read them to understand *why* the AI performed that way. Don't worry about the underlying technical details; focus on what the results mean for your specific goal from Step 1.\n\n**Step 4: Interpret and Act on the Insights**\n\nThe final step is to understand what the results mean for your initial goal and decide what to do next. The tool provides data; you provide the human judgment.\n\n*   **Action:**\n    *   Compare the results to your expectations from Step 1. Did the AI meet your criteria?\n    *   Identify areas where the AI performed well and areas where it struggled.\n    *   Based on your findings, decide on your next steps:\n        *   \"The AI is good enough for my purpose.\"\n        *   \"The AI needs improvement in [specific area, e.g., handling sarcasm]. I need to provide more examples or adjust its settings.\"\n        *   \"This AI isn't suitable for my needs.\"\n    *   Document your conclusions and any actions you plan to take.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 522 words",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Simple Guide: Using an AI Evaluation Tool for Non-Technical Users\n\n## Step 1: Choose Your Tool and Access It\n- Select an evaluation tool suited to your needs (e.g., a chatbot comparison platform, content quality checker, or AI testing interface)\n- Visit the website or open the application\n- Create a free account if required (usually just an email and password)\n- **No coding knowledge needed** — it's designed like any other website or app\n\n## Step 2: Input Your Content or Question\n- Copy and paste the text, image, or prompt you want to evaluate into the input box\n- Follow any on-screen instructions (they're written in plain language)\n- For example: \"Paste the AI response you want to evaluate here\"\n- Click the \"Submit,\" \"Analyze,\" or \"Evaluate\" button\n- **Tip:** The more specific your input, the more helpful the results\n\n## Step 3: Review the Results\n- The tool displays its findings in simple formats: scores, ratings, bullet points, or plain-language summaries\n- Look for sections like \"Quality Assessment,\" \"Accuracy,\" or \"Recommendations\"\n- Read explanations alongside any numbers or ratings\n- **Don't worry about jargon** — reputable tools explain findings in everyday language\n\n## Step 4: Apply Insights and Iterate (Optional)\n- Use the feedback to refine your input or prompt if needed\n- Re-submit a modified version if the tool allows multiple tries\n- Compare results to see what changes improved the output\n\n---\n\n**Key Principle:** Good AI evaluation tools are designed for accessibility — if you can use Google or send an email, you can use them.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 262 words",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_013",
+      "question": "Write a short abstract (100-150 words) for a fictional research paper proposing a new user-centred approach to AI model evaluation.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Abstract:**\n\nIn the rapidly evolving landscape of artificial intelligence, traditional evaluation metrics often fall short in capturing the nuanced interactions between users and AI systems. This paper proposes a novel user-centred approach to AI model evaluation, emphasizing the importance of user experience, contextual relevance, and ethical considerations. By integrating qualitative user feedback with quantitative performance metrics, we introduce a comprehensive framework that prioritizes user satisfaction and real-world applicability. Our methodology includes user journey mapping, participatory design workshops, and iterative testing phases, ensuring that AI models are not only technically proficient but also aligned with user needs and values. We present case studies demonstrating the effectiveness of this approach across various domains, highlighting improvements in user trust, engagement, and overall system efficacy. This research aims to redefine AI evaluation standards, fostering the development of more intuitive and responsible AI technologies that enhance user interaction and societal impact.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 146 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "This paper proposes a novel user-centred framework for evaluating Artificial Intelligence (AI) models, moving beyond traditional technical metrics to incorporate human experience and impact. Current evaluation methods often prioritize performance benchmarks and algorithmic efficiency, neglecting the nuanced ways users interact with and are affected by AI systems. Our approach integrates qualitative user feedback, usability testing, and ethical considerations directly into the evaluation pipeline. We introduce a multi-dimensional scoring system that combines quantitative technical metrics with qualitative user satisfaction, perceived fairness, and transparency scores. This framework aims to provide a more holistic and actionable understanding of AI model effectiveness, ensuring that development aligns with user needs and societal values. This shift will foster the creation of more responsible, trustworthy, and user-friendly AI applications.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 122 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Abstract\n\n**User-Centred Evaluation Framework for AI Models: Beyond Accuracy Metrics**\n\nTraditional AI evaluation relies heavily on aggregate accuracy measures, often neglecting real-world user experiences and contextual performance variation. This paper introduces UCEF (User-Centred Evaluation Framework), a novel methodology that prioritizes user satisfaction, task completion rates, and contextual appropriateness over conventional benchmarks. We conducted mixed-methods evaluation of three state-of-the-art language models across twelve diverse user populations, incorporating qualitative interviews, task-based assessments, and longitudinal engagement studies. Results demonstrate that models ranking highest on standard metrics frequently underperformed in user satisfaction (correlation r = 0.34). UCEF identified critical failure modes invisible to traditional evaluation, particularly among non-English speakers and users with accessibility requirements. Our framework provides practical guidelines for practitioners, enabling model selection tailored to specific user communities rather than generic optimization. We argue this paradigm shift better predicts real-world deployment success and promotes more equitable AI development practices.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 147 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_023",
+      "question": "Write a short (4-5 sentence) discussion on why ethical reasoning is particularly difficult to evaluate in AI models.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Evaluating ethical reasoning in AI models is particularly challenging due to several interrelated factors. First, AI systems often operate as \"black boxes,\" where the decision-making processes are not transparent, making it difficult to trace how ethical considerations are integrated into their algorithms. Second, ethical reasoning itself is inherently complex and subjective, influenced by cultural, social, and individual values that can vary widely across different contexts. Additionally, AI models are trained on vast datasets that may contain biases, leading to outcomes that reflect those biases rather than a principled ethical stance. Finally, the rapid evolution of AI technology outpaces the development of ethical frameworks, leaving a gap in our ability to assess and regulate these systems effectively. Together, these factors create a landscape where ethical evaluation is not only difficult but also critical for ensuring responsible AI deployment.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 137 words",
+            "question_id": "creative_023",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Evaluating ethical reasoning in AI models is uniquely challenging due to several factors. Firstly, ethical principles are often context-dependent and culturally nuanced, making it difficult to establish universal benchmarks for \"correct\" ethical behavior. An AI's decision might be deemed ethical in one cultural context but unethical in another, complicating objective evaluation. Secondly, AI models typically operate as \"black boxes,\" meaning their internal decision-making processes are opaque. It's hard to ascertain *why* an AI made a particular ethical choice, making it difficult to distinguish between genuine ethical reasoning and mere pattern matching or statistical correlation. Thirdly, the dynamic and evolving nature of ethical considerations means that what is considered ethical today might not be tomorrow. This necessitates continuous re-evaluation and adaptation, which is difficult to implement and assess in static AI models. Finally, the very definition of \"ethical reasoning\" for an AI is debated; is it about adhering to predefined rules, optimizing for human well-being, or something else entirely? This lack of a clear, universally accepted definition hinders the development of robust evaluation metrics.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 173 words",
+            "question_id": "creative_023",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Why Ethical Reasoning is Difficult to Evaluate in AI Models\n\n**Lack of objective ground truth:** Unlike mathematical problems with verifiable answers, ethical questions often lack universally agreed-upon correct responses. What constitutes ethical behavior varies across cultures, philosophical frameworks, and individual contexts, making it nearly impossible to establish a single benchmark against which to measure an AI's ethical reasoning.\n\n**The challenge of measuring internal reasoning:** AI models produce outputs without transparent reasoning processes that we can directly examine. We cannot easily verify whether an AI reached a conclusion through genuine ethical deliberation or through pattern-matching on training data, making it difficult to assess the quality of reasoning versus lucky accuracy.\n\n**Contextual complexity:** Ethical decisions depend heavily on nuanced contextual factors—stakeholder perspectives, consequences, power dynamics, and competing values—that are difficult to fully encode into test scenarios. A model might perform well on simplified ethical dilemmas while failing on real-world situations with hidden complexities.\n\n**The alignment problem:** There's an inherent difficulty in defining what \"correct\" ethical behavior means for an AI to demonstrate. Even if we could measure ethical reasoning perfectly, we'd still face the deeper question of which ethical values the AI should embody, requiring us to resolve disagreements that humans themselves cannot settle.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 203 words",
+            "question_id": "creative_023",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_024",
+      "question": "Write a brief disclaimer (2-3 sentences) that could appear at the top of an AI model evaluation report, informing readers of the tool's limitations.",
+      "domain": "creative",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Disclaimer:** This evaluation report reflects the performance of the AI model based on specific datasets and testing conditions. Readers should be aware that the model's outputs may not always be accurate or applicable in all contexts, and its performance can vary with different inputs or real-world scenarios. It is essential to consider these limitations when interpreting the results and making decisions based on this evaluation.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 65 words",
+            "question_id": "creative_024",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "This evaluation report details the performance of an AI model under specific test conditions and datasets. Readers should be aware that the model's real-world performance may vary due to factors such as evolving data distributions, novel use cases, and interactions with other systems. This report does not guarantee the model's suitability for any particular application or its freedom from all potential biases or errors.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Adequate – 5 criteria assessed, 64 words",
+            "question_id": "creative_024",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Disclaimer for AI Model Evaluation Report\n\n**This evaluation represents a snapshot of model performance under specific test conditions and datasets, and results may not generalize to all real-world applications, use cases, or deployment environments. The metrics and conclusions presented here are subject to limitations inherent in the testing methodology, including potential data biases, benchmark selection, and the inability to predict performance on novel or adversarial inputs. Users should interpret these findings as one input among many when making deployment decisions and are responsible for conducting additional validation appropriate to their specific use case and risk tolerance.**\n\n---\n\n## Why This Works:\n\n**Scope limitation** — Acknowledges that controlled testing differs from production use\n\n**Methodological honesty** — Names specific sources of uncertainty (bias, benchmarks, novel data)\n\n**Responsibility clarity** — Distinguishes between the report's findings and user accountability\n\n**Brevity with depth** — Stays within length constraints while covering key limitations essential for informed decision-making",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Adequate – 5 criteria assessed, 152 words",
+            "question_id": "creative_024",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_009",
+      "question": "Write a short persuasive paragraph arguing that benchmarks alone are insufficient for evaluating AI models.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "While benchmarks serve as a useful starting point for evaluating AI models, relying on them exclusively is insufficient for a comprehensive assessment of performance and applicability. Benchmarks often focus on narrow tasks or specific datasets, which can lead to a misleading representation of a model's capabilities in real-world scenarios. They may not account for factors such as robustness, generalization, and ethical considerations, which are crucial for deploying AI in diverse environments. Furthermore, benchmarks can inadvertently encourage overfitting to specific metrics, stifling innovation and leading to models that excel in tests but fail in practical applications. To truly understand an AI model's effectiveness, we must adopt a multifaceted evaluation approach that includes qualitative assessments, user feedback, and real-world performance metrics, ensuring that AI systems are not only technically proficient but also aligned with societal values and needs.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 136 words",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "While benchmarks offer quantifiable metrics for AI model comparison, they are inherently insufficient for comprehensive evaluation. Benchmarks often focus on narrow, predefined tasks, failing to capture an AI's adaptability, robustness to real-world variability, or its capacity for generalization beyond training data. Furthermore, they frequently overlook critical qualitative aspects such as interpretability, ethical implications, and potential biases, which are paramount for responsible AI deployment. A holistic assessment necessitates supplementing benchmark scores with rigorous qualitative analysis, including human-in-the-loop evaluations, adversarial testing, and real-world deployment monitoring, to truly understand an AI's capabilities and limitations.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 91 words",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Why Benchmarks Alone Are Insufficient for Evaluating AI Models\n\nWhile standardized benchmarks provide valuable quantitative measures, they offer an incomplete picture of AI model quality and real-world utility. Benchmarks typically measure narrow, predefined capabilities under controlled conditions that rarely reflect the messiness of actual deployment—a model may score exceptionally on academic datasets yet fail catastrophically with slight input variations or adversarial prompts. Critically, benchmarks cannot adequately capture safety properties, fairness across diverse populations, computational efficiency, or interpretability, dimensions that determine whether a system should be trusted in high-stakes domains like healthcare or criminal justice. Furthermore, benchmarks can incentivize \"gaming\" behaviors where models memorize test patterns rather than develop robust reasoning, creating an illusion of progress that evaporates in novel contexts. A comprehensive evaluation framework must therefore complement benchmark scores with qualitative testing, adversarial stress-testing, demographic bias audits, human expert review, and longitudinal monitoring post-deployment. Only by triangulating multiple evaluation methods can we move beyond benchmark theater to genuinely assess whether AI systems are reliable, fair, and ready for responsible real-world application.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 172 words",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    }
+  ],
+  "aggregated": {
+    "gpt": {
+      "overall": {
+        "total": 25,
+        "mean": 81.3,
+        "correct": 19
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 66.7,
+          "correct": 2
+        },
+        "logical": {
+          "total": 5,
+          "mean": 68.0,
+          "correct": 2
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 92.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 80.0,
+          "correct": 5
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 6,
+          "mean": 90.0,
+          "correct": 6
+        },
+        "medium": {
+          "total": 9,
+          "mean": 83.3,
+          "correct": 6
+        },
+        "easy": {
+          "total": 10,
+          "mean": 74.3,
+          "correct": 7
+        }
+      }
+    },
+    "gemini": {
+      "overall": {
+        "total": 25,
+        "mean": 77.3,
+        "correct": 17
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 56.7,
+          "correct": 1
+        },
+        "logical": {
+          "total": 5,
+          "mean": 58.0,
+          "correct": 2
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 96.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 76.0,
+          "correct": 4
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 6,
+          "mean": 93.3,
+          "correct": 6
+        },
+        "medium": {
+          "total": 9,
+          "mean": 77.8,
+          "correct": 5
+        },
+        "easy": {
+          "total": 10,
+          "mean": 67.3,
+          "correct": 6
+        }
+      }
+    },
+    "claude": {
+      "overall": {
+        "total": 25,
+        "mean": 81.5,
+        "correct": 20
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 83.3,
+          "correct": 4
+        },
+        "logical": {
+          "total": 5,
+          "mean": 68.0,
+          "correct": 2
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 88.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 68.0,
+          "correct": 4
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 6,
+          "mean": 86.7,
+          "correct": 6
+        },
+        "medium": {
+          "total": 9,
+          "mean": 86.7,
+          "correct": 7
+        },
+        "easy": {
+          "total": 10,
+          "mean": 73.7,
+          "correct": 7
+        }
+      }
+    }
+  },
+  "observations": {
+    "all_zero_questions": [],
+    "likely_false_negatives": [],
+    "model_domain_strengths": {
+      "gpt": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "factual",
+        "weakest_score": 66.7
+      },
+      "gemini": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "factual",
+        "weakest_score": 56.7
+      },
+      "claude": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "creative",
+        "weakest_score": 68.0
+      }
+    },
+    "biggest_gaps": [
+      {
+        "domain": "factual",
+        "gap": 26.6,
+        "best_model": "claude",
+        "best_score": 83.3,
+        "worst_model": "gemini",
+        "worst_score": 56.7
+      },
+      {
+        "domain": "creative",
+        "gap": 12.0,
+        "best_model": "gpt",
+        "best_score": 80.0,
+        "worst_model": "claude",
+        "worst_score": 68.0
+      },
+      {
+        "domain": "logical",
+        "gap": 10.0,
+        "best_model": "gpt",
+        "best_score": 68.0,
+        "worst_model": "gemini",
+        "worst_score": 58.0
+      },
+      {
+        "domain": "ethics",
+        "gap": 8.0,
+        "best_model": "gemini",
+        "best_score": 96.0,
+        "worst_model": "claude",
+        "worst_score": 88.0
+      },
+      {
+        "domain": "mathematics",
+        "gap": 0.0,
+        "best_model": "gpt",
+        "best_score": 100.0,
+        "worst_model": "gpt",
+        "worst_score": 100.0
+      }
+    ],
+    "refusals": {
+      "gpt": 1,
+      "gemini": 1
+    },
+    "score_spread": {
+      "gpt": 33.3,
+      "gemini": 43.3,
+      "claude": 32.0
+    },
+    "best_model_overall": "claude",
+    "worst_domain_overall": {
+      "domain": "logical",
+      "avg_score": 64.7
+    }
+  }
+}

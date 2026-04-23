@@ -1,0 +1,1523 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-15T15:03:02.950623",
+    "elapsed_seconds": 568.0,
+    "total_questions": 25,
+    "models_evaluated": [
+      "gpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  "raw_results": [
+    {
+      "question_id": "math_026",
+      "question": "What is the derivative of f(x) = 3x^4 - 2x^2 + 5x - 1?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "f'(x) = 12x^3 - 4x + 5",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "$f'(x) = 12x^3 - 4x + 5$",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gVBnFaSaidDmLHu6Z9'}",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_022",
+      "question": "Simplify: (3x^2 * 4x^3). Give the coefficient and power of x.",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "Coefficient: 12, Power of x: 5",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Partial match (1/3 keywords)",
+            "question_id": "math_022",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Coefficient: 12, Power: 5",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Partial match (1/3 keywords)",
+            "question_id": "math_022",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gWj2UwFBmVqzLJGmof'}",
+            "question_id": "math_022",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_011",
+      "question": "Solve for x: 3x + 7 = 22",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "x = 5",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_011",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "x = 5",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_011",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "x = 5",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_011",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_005",
+      "question": "What is the square root of 169?",
+      "domain": "mathematics",
+      "difficulty": "easy",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "13",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "13",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gZXNq93uWPX1cp613c'}",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_048",
+      "question": "If f(x) = 2x^2 + 3, what is f(4)?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "f(4) = 35.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "35",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gaw7cW5k5BsAwwBFqj'}",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_047",
+      "question": "What is the name for the study of algorithms and data structures?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The study of algorithms and data structures is called \"Computer Science.\"",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_047",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Algorithmics.",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "No keywords found",
+            "question_id": "fact_047",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Computer Science\n\nThe study of algorithms and data structures is called **Computer Science**, or more specifically, it falls under the field of **theoretical computer science** or **algorithms and data structures** as a dedicated area within computer science.\n\nIf you're looking for a more precise academic term, it's often referred to as **algorithmic analysis** or **algorithm design**.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_047",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_017",
+      "question": "What is the pH of pure water?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The pH of pure water at 25°C (77°F) is 7, which is considered neutral.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_017",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The pH of pure water is 7.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_017",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gdv4Ck1puj81bffMDv'}",
+            "question_id": "fact_017",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_039",
+      "question": "What is the name of the process used to convert source code into machine code?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The process used to convert source code into machine code is called \"compilation.\"",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Matched 1/3 keywords",
+            "question_id": "fact_039",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Compilation",
+          "score_result": {
+            "score": 0.33,
+            "max_score": 1.0,
+            "percentage": 33.3,
+            "detail": "Matched 1/3 keywords",
+            "question_id": "fact_039",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gfBZP72Ysv8Byahfzh'}",
+            "question_id": "fact_039",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_010",
+      "question": "How many continents are there on Earth?",
+      "domain": "factual",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "There are seven continents on Earth.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_010",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "There are 7 continents on Earth.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_010",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5ghQw6tuCnZJTyhHDaT'}",
+            "question_id": "fact_010",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_018",
+      "question": "How many chambers does the human heart have?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The human heart has four chambers.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_018",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The human heart has four chambers.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "fact_018",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gikTPRWoDvbVVWJ1iP'}",
+            "question_id": "fact_018",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_027",
+      "question": "If a = 0, b = 0, what is a OR b?",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "If a = 0 and b = 0, then a OR b is 0.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "0",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gkFhZddEqfWzpEsguV'}",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_013",
+      "question": "In a race, you overtake the person in second place. What position are you now in?",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "You are now in second place.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_013",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Second place.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_013",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "You are now in second place.\n\nWhen you overtake the person in second place, you take their position, moving into second place yourself. The person you overtook moves to third place.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_013",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_026",
+      "question": "If a = 1, b = 0, what is a AND b?",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "If a = 1 and b = 0, then a AND b = 0.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_026",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "0",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_026",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5goBQvmuVPeFWgPnpCc'}",
+            "question_id": "logic_026",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_005",
+      "question": "There are 5 apples and you take away 3. How many apples do you have?",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "You have 3 apples.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_005",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "You have 3 apples.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_005",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "You have 2 apples.\n\n(5 - 3 = 2)",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_005",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_038",
+      "question": "If the converse of a statement is false, is the original statement also necessarily false? Answer yes or no.",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "No.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_038",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "No.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_038",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gr6W68jXchDHZnf9iu'}",
+            "question_id": "logic_038",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_021",
+      "question": "What ethical responsibilities do software developers have towards the users of their software?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Software developers hold significant ethical responsibilities towards the users of their software, which can be categorized into several key areas: user safety, privacy, transparency, accessibility, and accountability. Each of these areas reflects a commitment to ethical principles that prioritize the well-being and rights of users.\n\n### 1. User Safety\n\n**Responsibility**: Developers must ensure that their software is safe to use and does not cause harm to users or their devices.\n\n**Reasoning**: Software can have direct and indirect impacts on users' physical and mental well-being. For instance, software that controls medical devices must be rigorously tested to prevent malfunctions that could endanger lives. Developers should adhere to industry standards and best practices to minimize risks, conduct thorough testing, and implement robust security measures to protect users from malware, data breaches, and other threats.\n\n### 2. Privacy\n\n**Responsibility**: Developers are responsible for protecting users' personal data and respecting their privacy.\n\n**Reasoning**: In an era where data breaches and misuse of personal information are prevalent, developers must prioritize user privacy by implementing strong data protection measures. This includes minimizing data collection to what is necessary, using encryption, and ensuring that users have control over their data. Developers should also comply with relevant regulations, such as the General Data Protection Regulation (GDPR) in Europe, which mandates transparency and user consent regarding data usage.\n\n### 3. Transparency\n\n**Responsibility**: Developers should be transparent about how their software works, including its limitations and potential risks.\n\n**Reasoning**: Users have the right to understand the tools they are using. This includes clear communication about the software's functionality, data usage, and any algorithms that may affect user experience (e.g., recommendation systems). Transparency fosters trust and allows users to make informed decisions about whether to use the software. It also encourages developers to be accountable for their design choices and the implications of their software.\n\n### 4. Accessibility\n\n**Responsibility**: Developers must strive to make their software accessible to all users, including those with disabilities.\n\n**Reasoning**: Ethical software development includes creating products that can be used by a diverse range of individuals, regardless of their physical or cognitive abilities. This involves adhering to accessibility standards (such as the Web Content Accessibility Guidelines) and considering the needs of users with disabilities during the design and development process. By doing so, developers promote inclusivity and ensure that their software can benefit a wider audience.\n\n### 5. Accountability\n\n**Responsibility**: Developers should take responsibility for the consequences of their",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 403 words",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Software developers wield significant power through the tools they create, and with that power comes a profound",
+          "score_result": {
+            "score": 0.17,
+            "max_score": 1.0,
+            "percentage": 17.0,
+            "detail": "Poor – 5 criteria assessed, 17 words",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Ethical Responsibilities of Software Developers\n\n## Core Responsibilities\n\n### 1. **Safety and Security**\n- Design systems that protect users from harm (physical, financial, or psychological)\n- Implement robust security measures against breaches and unauthorized access\n- Conduct adequate testing before release\n- Promptly address and patch vulnerabilities\n- *Rationale:* Users trust developers with sensitive data and potentially critical systems\n\n### 2. **Informed Consent and Transparency**\n- Clearly communicate what software does, including its limitations\n- Disclose data collection practices, algorithms, and AI decision-making processes\n- Avoid dark patterns or manipulative design\n- Use accessible language avoiding excessive jargon\n- *Rationale:* Users deserve agency in decisions affecting them\n\n### 3. **Privacy Protection**\n- Collect only necessary data with clear justification\n- Implement strong data protection standards\n- Respect user rights to access, modify, or delete personal information\n- Avoid selling or sharing data without explicit consent\n- *Rationale:* Privacy is foundational to autonomy and dignity\n\n### 4. **Accessibility and Inclusivity**\n- Design for people with disabilities (vision, hearing, mobility, cognitive)\n- Consider diverse socioeconomic backgrounds and digital literacy levels\n- Avoid perpetuating bias in algorithms or interfaces\n- *Rationale:* Software should serve broad populations, not exclude vulnerable groups\n\n## Secondary Responsibilities\n\n### 5. **Reliability and Quality**\n- Maintain uptime and functionality users depend on\n- Avoid planned obsolescence that forces unnecessary upgrades\n- Provide adequate support and documentation\n\n### 6. **Fair Pricing and Service Terms**\n- Avoid exploitative pricing models\n- Make terms of service actually readable and fair\n- Honor user expectations about what they've purchased\n\n### 7. **Environmental Consideration**\n- Optimize code efficiency to reduce energy consumption\n- Consider the environmental impact of hardware requirements\n\n## Competing Values and Tensions\n\n**Business vs. Ethics:** Profit motives may conflict with user interests\n- *Example:* Aggressive data collection vs. privacy protection\n\n**Innovation vs. Safety:** Moving quickly can mean insufficient testing\n- *Reasonable approach:* Risk-appropriate testing based on impact\n\n**Accessibility vs. Complexity:** Features can conflict with usability\n- *",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 327 words",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_025",
+      "question": "If a nation can prevent a genocide in another country at low cost to itself, does it have a moral obligation to do so?",
+      "domain": "ethics",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether a nation has a moral obligation to prevent genocide in another country, particularly when it can do so at low cost, is a complex ethical dilemma that involves considerations of moral philosophy, international law, and practical implications. Below is a structured response that explores various dimensions of this issue.\n\n### 1. Definition of Genocide and Moral Responsibility\n\n**Genocide** is defined by the United Nations as acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group. The moral weight of preventing genocide is significant, as it involves the protection of human life and dignity. \n\n**Moral Responsibility**: The moral obligation to prevent genocide can be framed through various ethical theories:\n\n- **Utilitarianism**: From a utilitarian perspective, preventing genocide maximizes overall happiness and minimizes suffering. If a nation can intervene at a low cost, the potential benefits (saving lives, preserving communities) outweigh the costs, thus creating a moral imperative to act.\n\n- **Deontological Ethics**: This perspective emphasizes duty and principles. If one accepts that all human lives have intrinsic value, then there is a moral duty to intervene in cases of genocide, regardless of the costs involved. The obligation arises from a commitment to uphold human rights and dignity.\n\n- **Virtue Ethics**: This approach focuses on the character of the moral agent. A nation that values compassion, justice, and humanity would likely feel a moral obligation to intervene in the face of genocide, as failing to do so could be seen as a moral failing.\n\n### 2. International Law and Norms\n\nThe **Responsibility to Protect (R2P)** doctrine, established by the United Nations, asserts that the international community has a responsibility to protect populations from genocide, war crimes, ethnic cleansing, and crimes against humanity. This principle suggests that nations not only have a moral obligation but also a legal one to intervene when they can do so effectively and at a low cost.\n\n### 3. Practical Considerations\n\nWhile the moral obligation to prevent genocide is compelling, practical considerations must also be taken into account:\n\n- **Effectiveness of Intervention**: The ability to prevent genocide is not always straightforward. Nations must consider whether their intervention would be effective in stopping the violence or if it could exacerbate the situation.\n\n- **Long-term Consequences**: Interventions can have unintended consequences, including destabilization of the region, backlash against the intervening nation, or the potential for prolonged conflict. A careful assessment of the potential outcomes is necessary",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 408 words",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether a nation has a moral obligation to prevent genocide in another country at low cost to itself",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 21 words",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Moral Obligation to Prevent Genocide: A Structured Analysis\n\n## The Case for Obligation\n\n**Humanitarian imperative**\n- When cost is low and lives are at stake, inaction seems indefensible\n- A capable person watching a child drown in a shallow pond should rescue them—geographic distance shouldn't change this logic (Peter Singer's drowning child argument)\n- Genocide represents humanity's most extreme atrocity, triggering heightened moral urgency\n\n**Practical feasibility removes excuses**\n- Traditional sovereignty arguments weaken considerably when intervention is low-cost\n- The nation gains minimal strategic disadvantage, making refusal harder to justify\n- Modern military/diplomatic capabilities sometimes make prevention genuinely achievable\n\n## Significant Counterarguments\n\n**Sovereignty and self-determination**\n- Nations traditionally reserve exclusive authority within borders\n- External intervention, even well-intentioned, can violate legitimate autonomy\n- Who determines when a crisis justifies intervention?\n\n**Hidden costs and unintended consequences**\n- \"Low cost\" is notoriously difficult to predict accurately (Iraq, Libya)\n- Military intervention often spirals; humanitarian missions become entangled wars\n- Domestic political costs may be understated in calculations\n\n**Selective application problem**\n- If obligation exists for one genocide, it exists for all suffering\n- Nations can't realistically intervene everywhere; selective action raises fairness questions\n- Choosing which crises matter risks neo-colonial patterns\n\n## A Nuanced Position\n\nRather than absolute obligation, consider:\n\n1. **Graduated responsibility**: Low-cost measures (sanctions, aid, diplomacy) create stronger obligations than military intervention\n2. **Threshold approach**: Obligation increases proportionally as costs decrease\n3. **Collective burden**: International community has stronger obligation than any single nation\n4. **Transparency requirement**: Decisions to intervene or abstain deserve honest public justification\n\nThe most defensible view is probably: **moral weight exists, but doesn't override all competing considerations**.\n\nWhat aspects interest you most?",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 276 words",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_012",
+      "question": "What is utilitarianism and what is a common criticism of it?",
+      "domain": "ethics",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Utilitarianism is a consequentialist ethical theory that posits that the best action is the one that maximizes overall happiness or utility. The core idea is that the moral worth of an action is determined by its outcome, specifically in terms of the well-being it produces. This theory is often associated with philosophers such as Jeremy Bentham and John Stuart Mill, who articulated the principles of utilitarian thought in the 18th and 19th centuries.\n\n### Key Principles of Utilitarianism\n\n1. **Consequentialism**: Utilitarianism is fundamentally concerned with the consequences of actions. The rightness or wrongness of an action is judged solely by its outcomes.\n\n2. **Hedonism**: Classical utilitarianism often equates utility with pleasure or happiness, suggesting that actions are right if they promote pleasure and wrong if they produce pain.\n\n3. **Impartiality**: Utilitarianism advocates for an impartial consideration of all individuals affected by an action. Each person's happiness counts equally, and no one’s well-being is prioritized over another's.\n\n4. **Maximization**: The goal of utilitarianism is to maximize overall happiness or utility. This means that actions should be evaluated based on their potential to produce the greatest good for the greatest number.\n\n### Common Criticism of Utilitarianism\n\nOne of the most prominent criticisms of utilitarianism is its potential to justify morally questionable actions if they lead to a greater overall good. This criticism can be broken down into several key points:\n\n1. **Violation of Individual Rights**: Critics argue that utilitarianism can lead to situations where the rights of individuals are overridden for the sake of the majority. For example, if sacrificing one innocent person could save many others, a strict utilitarian approach might deem this action morally acceptable. This raises ethical concerns about justice and the protection of individual rights.\n\n2. **Quantification of Happiness**: Another criticism is the challenge of measuring and comparing happiness or utility. Critics question whether it is feasible to quantify happiness in a way that allows for fair comparisons between different individuals' experiences. This raises issues about the subjectivity of pleasure and pain, making it difficult to apply utilitarian principles consistently.\n\n3. **Long-term vs. Short-term Consequences**: Utilitarianism often focuses on immediate outcomes, which can lead to decisions that are beneficial in the short term but harmful in the long run. Critics argue that this short-sightedness can result in policies or actions that are ultimately detrimental to society.\n\n4. **Moral Luck**:",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 391 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Utilitarianism is a prominent ethical theory that belongs to the broader category of consequentialist ethics.",
+          "score_result": {
+            "score": 0.15,
+            "max_score": 1.0,
+            "percentage": 15.0,
+            "detail": "Poor – 5 criteria assessed, 15 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Utilitarianism: Definition and Criticism\n\n## What is Utilitarianism?\n\nUtilitarianism is an ethical theory asserting that **the right action is the one that maximizes overall well-being or happiness** and minimizes suffering, typically for the greatest number of people.\n\n### Key principles:\n- **Consequentialist basis**: Actions are judged by their outcomes, not inherent rightness or wrongness\n- **Impartiality**: Everyone's well-being counts equally; no special preference for oneself\n- **Aggregation**: We should sum total utility (happiness) across all affected parties\n- **Maximization**: The goal is to produce the greatest overall good possible\n\n### Common formulations:\n- *Act utilitarianism*: Evaluate each action individually\n- *Rule utilitarianism*: Follow rules that generally produce the best outcomes\n\n## A Common Criticism: The Demanding Nature Problem\n\nOne significant criticism is that **utilitarianism can require unacceptable personal sacrifices**.\n\n### The concern:\nIf we must always maximize overall utility, the theory could demand that you:\n- Donate most of your income to effective charities\n- Abandon personal projects and relationships\n- Make extreme sacrifices for marginal gains in aggregate happiness\n\nThis seems to leave no room for personal pursuits, special obligations to loved ones, or reasonable self-concern—potentially making utilitarianism too demanding to be a realistic moral framework.\n\n### Why this matters:\nThis criticism challenges whether utilitarianism properly accounts for the separateness of persons and individual rights, suggesting it might overlook legitimate personal prerogatives.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 224 words",
+            "question_id": "ethics_012",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_002",
+      "question": "Is it ethical to use AI-generated content without disclosing it as AI-generated to readers?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether it is ethical to use AI-generated content without disclosing its origin is complex and multifaceted. To address this issue thoughtfully, we can break it down into several key considerations: transparency, trust, accountability, and the potential impact on various stakeholders.\n\n### 1. Transparency\n\n**Definition and Importance**: Transparency refers to the practice of being open and clear about the sources and methods used in content creation. In the context of AI-generated content, transparency involves informing readers that the material they are consuming was produced by an artificial intelligence system.\n\n**Ethical Implications**: Failing to disclose the AI origin of content can be seen as a form of deception. Readers may have different expectations when engaging with human-generated content versus AI-generated content. For instance, they might assume that human authors bring personal experience, emotional depth, and critical thinking to their work, which AI lacks. Not disclosing the AI origin can mislead readers about the nature and quality of the information presented.\n\n### 2. Trust\n\n**Building Trust**: Trust is a cornerstone of any relationship between content creators and their audience. When readers are aware that they are engaging with AI-generated content, they can make informed decisions about how to interpret and use that information.\n\n**Erosion of Trust**: If it becomes known that AI-generated content is being presented without disclosure, it could lead to a broader erosion of trust in media and information sources. Readers may become skeptical of all content, questioning its authenticity and reliability, which can have detrimental effects on public discourse and the dissemination of knowledge.\n\n### 3. Accountability\n\n**Responsibility of Content Creators**: Content creators, whether human or AI, have a responsibility to ensure that their work is ethical and does not mislead or harm their audience. When AI is involved, the question of accountability becomes more complicated. If AI-generated content is presented without disclosure, it raises questions about who is responsible for the content's accuracy, bias, and potential misinformation.\n\n**Legal and Ethical Standards**: Many industries have established ethical guidelines and legal standards regarding content creation. For example, journalism emphasizes the importance of sourcing and attribution. If AI-generated content is used without disclosure, it may violate these standards, leading to potential legal ramifications and ethical breaches.\n\n### 4. Impact on Stakeholders\n\n**Readers**: The primary stakeholders are the readers who consume the content. They deserve to know the nature of the information they are engaging with, as it affects their understanding and interpretation.\n\n**Content Creators**: For human authors, the",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 409 words",
+            "question_id": "ethics_002",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether it is ethical to use AI-generated content without disclosing its origin to",
+          "score_result": {
+            "score": 0.16,
+            "max_score": 1.0,
+            "percentage": 16.0,
+            "detail": "Poor – 5 criteria assessed, 16 words",
+            "question_id": "ethics_002",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5gzFZWySTup5mQ84b4A'}",
+            "question_id": "ethics_002",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_027",
+      "question": "Should whistleblowers who expose illegal corporate or government activity be protected?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether whistleblowers who expose illegal corporate or government activity should be protected is a complex and multifaceted issue that touches on ethics, law, public interest, and organizational integrity. Below is a structured response that outlines the key arguments in favor of protecting whistleblowers, as well as considerations that must be taken into account.\n\n### 1. Definition and Importance of Whistleblowing\n\nWhistleblowing refers to the act of reporting unethical, illegal, or harmful activities within an organization, whether it be a corporation or a government entity. Whistleblowers play a crucial role in promoting transparency and accountability, often at great personal risk. Their actions can lead to the exposure of corruption, fraud, environmental violations, and other serious misconduct that can have widespread implications for society.\n\n### 2. Arguments in Favor of Whistleblower Protection\n\n#### A. Public Interest and Safety\n- **Upholding the Law**: Whistleblowers often expose violations of laws and regulations that can harm the public. Protecting them encourages the reporting of such activities, which is essential for maintaining the rule of law.\n- **Preventing Harm**: By revealing illegal activities, whistleblowers can prevent further harm to individuals, communities, and the environment. For example, exposing unsafe working conditions can save lives.\n\n#### B. Encouraging Ethical Behavior\n- **Promoting Integrity**: Whistleblower protections foster a culture of integrity within organizations. Employees are more likely to report wrongdoing if they know they will not face retaliation.\n- **Deterrence of Misconduct**: The knowledge that whistleblowers are protected can deter potential wrongdoers from engaging in illegal activities, as the risk of exposure increases.\n\n#### C. Legal and Moral Obligations\n- **Human Rights**: Protecting whistleblowers aligns with the principles of human rights, as it supports individuals' rights to speak out against injustices without fear of retribution.\n- **Corporate Responsibility**: Organizations have a moral obligation to create an environment where employees can report misconduct safely. This is essential for ethical corporate governance.\n\n### 3. Counterarguments and Considerations\n\n#### A. Potential for Abuse\n- **False Allegations**: Critics argue that whistleblower protections could be misused by individuals making false claims, which can damage reputations and lead to wrongful consequences for innocent parties.\n- **Disruption of Operations**: Whistleblowing can lead to significant disruptions within organizations, potentially affecting employees, shareholders, and the economy.\n\n#### B. Balancing Interests\n-",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 376 words",
+            "question_id": "ethics_027",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether whistleblowers who expose illegal corporate or government activity should be protected is complex,",
+          "score_result": {
+            "score": 0.37,
+            "max_score": 1.0,
+            "percentage": 37.0,
+            "detail": "Weak – 5 criteria assessed, 17 words",
+            "question_id": "ethics_027",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5h2ne6kYV919BZHMdGb'}",
+            "question_id": "ethics_027",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_009",
+      "question": "Write a short persuasive paragraph arguing that benchmarks alone are insufficient for evaluating AI models.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "While benchmarks serve as a useful starting point for evaluating AI models, relying on them exclusively is insufficient for a comprehensive assessment of performance and applicability. Benchmarks often focus on narrow tasks or specific datasets, which can lead to a misleading representation of a model's capabilities in real-world scenarios. For instance, a model may excel in a benchmark test yet struggle with nuanced, context-rich tasks that require understanding beyond mere statistical patterns. Additionally, benchmarks can inadvertently encourage overfitting to specific metrics, stifling innovation and the exploration of diverse problem-solving approaches. Furthermore, they often fail to account for ethical considerations, robustness, and adaptability in dynamic environments, which are crucial for responsible AI deployment. Therefore, a holistic evaluation framework that includes qualitative assessments, user feedback, and real-world performance metrics is essential to truly gauge the effectiveness and reliability of AI models.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 139 words",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "While benchmarks provide valuable quantitative insights into an AI model's performance on specific tasks, they are fundamentally",
+          "score_result": {
+            "score": 0.17,
+            "max_score": 1.0,
+            "percentage": 17.0,
+            "detail": "Poor – 5 criteria assessed, 17 words",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5h4TgtNxqsTYyWPFc3T'}",
+            "question_id": "creative_009",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_027",
+      "question": "Write a brief (2-3 sentence) instruction telling a user how to add their own questions to the evaluation dataset.",
+      "domain": "creative",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "To add your own questions to the evaluation dataset, first, ensure that your questions align with the existing format and criteria used in the dataset. Next, create a new entry in the designated section of the dataset file, following the established structure (e.g., question text, category, difficulty level). Finally, save your changes and, if applicable, submit the updated dataset for review to ensure consistency and quality.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Adequate – 5 criteria assessed, 66 words",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Here's a brief instruction for adding questions to an evaluation dataset, followed by a structured explanation",
+          "score_result": {
+            "score": 0.36,
+            "max_score": 1.0,
+            "percentage": 36.0,
+            "detail": "Weak – 5 criteria assessed, 16 words",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Instructions for Adding Questions to the Evaluation Dataset\n\nTo add your own questions to the evaluation dataset, navigate to the dataset management section and select \"Add New Question,\" then enter your question text, specify the appropriate category or domain, and provide correct answers along with any relevant metadata (such as difficulty level or source). Finally, click \"Submit\" to add the question to the dataset, and it will undergo a brief validation check before becoming available for use in evaluations.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 80 words",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_029",
+      "question": "Write 2-3 sentences explaining why temperature=0 is used when querying AI models for evaluation purposes.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "In the context of querying AI models, particularly language models, a temperature setting of 0 is used to ensure deterministic outputs. This means that the model will always produce the same response for a given input, as it eliminates randomness in the generation process. By setting the temperature to 0, evaluators can assess the model's performance based on consistent and predictable outputs, allowing for a clearer analysis of its capabilities and limitations without the variability introduced by higher temperature settings.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 80 words",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "When evaluating AI models, `temperature=0` is used to ensure deterministic and reproducible outputs.",
+          "score_result": {
+            "score": 0.73,
+            "max_score": 1.0,
+            "percentage": 73.0,
+            "detail": "Good – 5 criteria assessed, 13 words",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5h7M6qZPC7iFdnXSnsX'}",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_006",
+      "question": "Write three unique names for a fictional AI assistant aimed at helping students with homework.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "When creating names for a fictional AI assistant designed to help students with homework, it's essential to consider factors such as the target audience, the assistant's purpose, and the tone of the name. The names should be engaging, memorable, and convey a sense of support and intelligence. Here are three unique names, along with their meanings and reasoning:\n\n### 1. **EduGenie**\n   - **Meaning**: The name \"EduGenie\" combines \"Edu,\" short for education, and \"Genie,\" which evokes the idea of a magical helper that grants wishes. \n   - **Reasoning**: This name suggests that the AI assistant can magically provide answers and assistance to students' academic challenges, making learning feel more accessible and enjoyable. The playful connotation of a genie also appeals to younger students, making the assistant feel friendly and approachable. The name implies that the AI can help students achieve their academic wishes, whether it's understanding a complex math problem or writing a compelling essay.\n\n### 2. **StudyBuddy**\n   - **Meaning**: \"StudyBuddy\" is a straightforward and relatable name that emphasizes companionship in the learning process. \n   - **Reasoning**: The term \"buddy\" suggests a friendly, supportive presence, which is crucial for students who may feel overwhelmed by their homework. This name conveys the idea that the AI is not just a tool but a partner in the educational journey. It fosters a sense of collaboration, encouraging students to engage with their studies in a more interactive and less intimidating way. The simplicity of the name makes it easy to remember and resonates well with students of all ages.\n\n### 3. **Questor**\n   - **Meaning**: \"Questor\" derives from the word \"quest,\" which signifies a journey or pursuit of knowledge. \n   - **Reasoning**: This name embodies the idea of exploration and discovery in education. It suggests that learning is an adventure, and the AI assistant is there to guide students on their quests for knowledge. The name has a slightly more sophisticated tone, appealing to older students who may appreciate a more mature branding. \"Questor\" implies that the AI can help students navigate through their academic challenges, encouraging them to seek answers and develop critical thinking skills.\n\n### Conclusion\nEach of these names—EduGenie, StudyBuddy, and Questor—offers a unique perspective on the role of an AI assistant in education. They are designed to resonate with students, making the learning experience feel more engaging and supportive. By choosing a name that reflects the assistant's",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 393 words",
+            "question_id": "creative_006",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The task is to create three unique names for a fictional AI assistant designed to help students with homework. Each",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 20 words",
+            "question_id": "creative_006",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011Ca5h9aaGNQznUsUtsCxzF'}",
+            "question_id": "creative_006",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_013",
+      "question": "Write a short abstract (100-150 words) for a fictional research paper proposing a new user-centred approach to AI model evaluation.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Abstract:**\n\nIn the rapidly evolving landscape of artificial intelligence, traditional evaluation metrics often fall short in capturing the nuanced interactions between AI systems and their end-users. This paper proposes a novel user-centred approach to AI model evaluation, emphasizing the importance of user experience, contextual relevance, and ethical considerations. By integrating qualitative user feedback with quantitative performance metrics, our framework aims to create a holistic evaluation paradigm that prioritizes user satisfaction and real-world applicability. We introduce a multi-dimensional evaluation model that incorporates user engagement, interpretability, and trustworthiness as core components. Through case studies across diverse applications, we demonstrate the effectiveness of this approach in enhancing AI system design and deployment. Our findings suggest that a user-centred evaluation not only improves model performance but also fosters greater acceptance and ethical alignment in AI technologies, ultimately leading to more responsible and impactful AI solutions.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 141 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Here is a short abstract for a fictional research paper proposing a new user-centred approach to AI model evaluation",
+          "score_result": {
+            "score": 0.79,
+            "max_score": 1.0,
+            "percentage": 79.0,
+            "detail": "Good – 5 criteria assessed, 19 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Abstract\n\nTraditional AI evaluation metrics often prioritize computational efficiency and aggregate performance statistics while neglecting real-world user experiences. This paper introduces User-Centered Iterative Evaluation (UCIE), a novel framework for assessing AI systems through continuous engagement with diverse end-users. UCIE integrates qualitative feedback mechanisms, task-specific performance metrics, and contextual usability assessments to create comprehensive evaluation profiles. Our mixed-methods approach combines automated performance benchmarks with ethnographic observation and semi-structured interviews across three distinct user populations. Preliminary findings demonstrate that UCIE identifies critical failure modes invisible to standard evaluation protocols, particularly in edge cases and underrepresented demographic contexts. We argue that incorporating user perspectives throughout development cycles yields more robust, equitable, and practically valuable AI systems. This framework offers researchers and practitioners a replicable methodology for human-centered AI assessment, potentially reshaping industry evaluation standards.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 132 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    }
+  ],
+  "aggregated": {
+    "gpt": {
+      "overall": {
+        "total": 25,
+        "mean": 79.9,
+        "correct": 17
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 86.7,
+          "correct": 4
+        },
+        "factual": {
+          "total": 5,
+          "mean": 66.7,
+          "correct": 2
+        },
+        "logical": {
+          "total": 5,
+          "mean": 70.0,
+          "correct": 2
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 88.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 88.0,
+          "correct": 4
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 5,
+          "mean": 96.0,
+          "correct": 5
+        },
+        "medium": {
+          "total": 13,
+          "mean": 79.0,
+          "correct": 9
+        },
+        "easy": {
+          "total": 7,
+          "mean": 70.0,
+          "correct": 3
+        }
+      }
+    },
+    "gemini": {
+      "overall": {
+        "total": 25,
+        "mean": 57.1,
+        "correct": 11
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 86.7,
+          "correct": 4
+        },
+        "factual": {
+          "total": 5,
+          "mean": 46.7,
+          "correct": 1
+        },
+        "logical": {
+          "total": 5,
+          "mean": 70.0,
+          "correct": 2
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 29.0,
+          "correct": 1
+        },
+        "creative": {
+          "total": 5,
+          "mean": 53.0,
+          "correct": 3
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 5,
+          "mean": 71.2,
+          "correct": 4
+        },
+        "medium": {
+          "total": 13,
+          "mean": 51.5,
+          "correct": 5
+        },
+        "easy": {
+          "total": 7,
+          "mean": 57.3,
+          "correct": 2
+        }
+      }
+    },
+    "claude": {
+      "overall": {
+        "total": 25,
+        "mean": 31.6,
+        "correct": 8
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 20.0,
+          "correct": 1
+        },
+        "factual": {
+          "total": 5,
+          "mean": 20.0,
+          "correct": 1
+        },
+        "logical": {
+          "total": 5,
+          "mean": 30.0,
+          "correct": 1
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 56.0,
+          "correct": 3
+        },
+        "creative": {
+          "total": 5,
+          "mean": 32.0,
+          "correct": 2
+        }
+      },
+      "by_difficulty": {
+        "hard": {
+          "total": 5,
+          "mean": 36.0,
+          "correct": 2
+        },
+        "medium": {
+          "total": 13,
+          "mean": 26.9,
+          "correct": 3
+        },
+        "easy": {
+          "total": 7,
+          "mean": 37.1,
+          "correct": 3
+        }
+      }
+    }
+  },
+  "observations": {
+    "all_zero_questions": [],
+    "likely_false_negatives": [],
+    "model_domain_strengths": {
+      "gpt": {
+        "strongest": "ethics",
+        "strongest_score": 88.0,
+        "weakest": "factual",
+        "weakest_score": 66.7
+      },
+      "gemini": {
+        "strongest": "mathematics",
+        "strongest_score": 86.7,
+        "weakest": "ethics",
+        "weakest_score": 29.0
+      },
+      "claude": {
+        "strongest": "ethics",
+        "strongest_score": 56.0,
+        "weakest": "factual",
+        "weakest_score": 20.0
+      }
+    },
+    "biggest_gaps": [
+      {
+        "domain": "mathematics",
+        "gap": 66.7,
+        "best_model": "gpt",
+        "best_score": 86.7,
+        "worst_model": "claude",
+        "worst_score": 20.0
+      },
+      {
+        "domain": "ethics",
+        "gap": 59.0,
+        "best_model": "gpt",
+        "best_score": 88.0,
+        "worst_model": "gemini",
+        "worst_score": 29.0
+      },
+      {
+        "domain": "creative",
+        "gap": 56.0,
+        "best_model": "gpt",
+        "best_score": 88.0,
+        "worst_model": "claude",
+        "worst_score": 32.0
+      },
+      {
+        "domain": "factual",
+        "gap": 46.7,
+        "best_model": "gpt",
+        "best_score": 66.7,
+        "worst_model": "claude",
+        "worst_score": 20.0
+      },
+      {
+        "domain": "logical",
+        "gap": 40.0,
+        "best_model": "gpt",
+        "best_score": 70.0,
+        "worst_model": "claude",
+        "worst_score": 30.0
+      }
+    ],
+    "refusals": {
+      "gpt": 2
+    },
+    "score_spread": {
+      "gpt": 21.3,
+      "gemini": 57.7,
+      "claude": 36.0
+    },
+    "best_model_overall": "gpt",
+    "worst_domain_overall": {
+      "domain": "factual",
+      "avg_score": 44.5
+    }
+  }
+}

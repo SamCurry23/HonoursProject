@@ -1,0 +1,242 @@
+[
+  {"id": "creative_001", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a short paragraph (4-6 sentences) describing a rainy day from the perspective of a child.",
+   "answer": "creative paragraph",
+   "rubric": {
+     "criteria": ["uses child's perspective authentically", "includes sensory details", "shows creativity or imagination", "grammatically correct", "appropriate length"],
+     "max_score": 5
+   },
+   "keywords": ["rain", "child", "feel", "look", "play"]},
+  {"id": "creative_002", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a catchy two-sentence tagline for a new AI evaluation tool that helps users pick the best AI model for their needs.",
+   "answer": "product tagline",
+   "rubric": {
+     "criteria": ["concise and within 2 sentences", "clearly communicates the product purpose", "catchy or memorable", "uses active language", "professional tone"],
+     "max_score": 5
+   },
+   "keywords": ["AI", "model", "evaluate", "best", "choose"]},
+  {"id": "creative_003", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a short analogy explaining how a neural network works to a 10-year-old.",
+   "answer": "neural network analogy",
+   "rubric": {
+     "criteria": ["uses accessible language for a child", "analogy is technically reasonable", "explains learning/training aspect", "creative and engaging", "does not use jargon without explanation"],
+     "max_score": 5
+   },
+   "keywords": ["learn", "brain", "example", "practice", "connections"]},
+  {"id": "creative_004", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a short tweet (max 280 characters) promoting the importance of AI safety.",
+   "answer": "AI safety tweet",
+   "rubric": {
+     "criteria": ["within 280 characters", "clearly promotes AI safety", "engaging or persuasive", "uses appropriate tone for social media", "includes a call to action or thought-provoking message"],
+     "max_score": 5
+   },
+   "keywords": ["safety", "AI", "important", "future", "responsible"]},
+  {"id": "creative_005", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Describe the concept of recursion using a real-world, non-technical metaphor.",
+   "answer": "recursion metaphor",
+   "rubric": {
+     "criteria": ["metaphor is accurate to recursion", "non-technical and accessible", "creative and memorable", "mentions self-referential aspect", "clearly explained"],
+     "max_score": 5
+   },
+   "keywords": ["itself", "mirror", "dream", "self", "repeat"]},
+  {"id": "creative_006", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write three unique names for a fictional AI assistant aimed at helping students with homework.",
+   "answer": "AI product naming",
+   "rubric": {
+     "criteria": ["provides exactly 3 names", "names are distinct from each other", "names suggest intelligence or helpfulness", "at least one is creative or memorable", "appropriate for student audience"],
+     "max_score": 5
+   },
+   "keywords": ["student", "learn", "help", "smart", "study"]},
+  {"id": "creative_007", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a brief (3-4 sentence) science fiction scenario where an AI model evaluation tool saves the day.",
+   "answer": "sci-fi scenario",
+   "rubric": {
+     "criteria": ["sci-fi setting is clearly established", "evaluation tool is central to the plot", "creative and engaging narrative", "logically coherent scenario", "appropriate length"],
+     "max_score": 5
+   },
+   "keywords": ["AI", "evaluate", "tool", "model", "future"]},
+  {"id": "creative_008", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a short explanation of what a large language model is for someone who has never heard of AI.",
+   "answer": "LLM plain language explanation",
+   "rubric": {
+     "criteria": ["avoids all jargon", "accurate at a high level", "uses an accessible example", "clear and readable", "appropriately concise"],
+     "max_score": 5
+   },
+   "keywords": ["text", "patterns", "language", "learned", "predict"]},
+  {"id": "creative_009", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short persuasive paragraph arguing that benchmarks alone are insufficient for evaluating AI models.",
+   "answer": "benchmarks critique",
+   "rubric": {
+     "criteria": ["makes a clear persuasive argument", "gives at least two specific reasons", "uses appropriate academic tone", "acknowledges the value of benchmarks", "strong conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["insufficient", "real-world", "context", "beyond", "limitations"]},
+  {"id": "creative_010", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Describe in 2-3 sentences how you would explain the difference between supervised and unsupervised learning using cooking as a metaphor.",
+   "answer": "ML cooking metaphor",
+   "rubric": {
+     "criteria": ["cooking metaphor is used", "supervised learning correctly described", "unsupervised learning correctly described", "distinction is clear", "accessible and creative"],
+     "max_score": 5
+   },
+   "keywords": ["recipe", "supervised", "unsupervised", "label", "discover"]},
+  {"id": "creative_011", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a headline and one-sentence summary for a news story about a new AI model achieving human-level performance on a medical exam.",
+   "answer": "news headline writing",
+   "rubric": {
+     "criteria": ["headline is concise and impactful", "summary accurately describes the story", "journalistic tone", "informative and clear", "appropriate length"],
+     "max_score": 5
+   },
+   "keywords": ["AI", "medical", "human-level", "performance", "exam"]},
+  {"id": "creative_012", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a short dialogue (4-6 lines) between a sceptical user and an AI evaluation tool discussing whether the AI's score can be trusted.",
+   "answer": "dialogue writing",
+   "rubric": {
+     "criteria": ["dialogue format is clear", "sceptic's concerns are realistic", "AI's responses are reasonable", "dialogue advances the discussion", "natural and readable flow"],
+     "max_score": 5
+   },
+   "keywords": ["trust", "score", "evaluate", "method", "accuracy"]},
+  {"id": "creative_013", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short abstract (100-150 words) for a fictional research paper proposing a new user-centred approach to AI model evaluation.",
+   "answer": "academic abstract writing",
+   "rubric": {
+     "criteria": ["within approximate word count", "academic writing style", "clearly states the problem", "describes the proposed approach", "mentions expected contribution or results"],
+     "max_score": 5
+   },
+   "keywords": ["propose", "evaluation", "user", "approach", "contribute"]},
+  {"id": "creative_014", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a simple step-by-step guide (3-4 steps) explaining how someone with no technical background could use an AI evaluation tool.",
+   "answer": "user guide writing",
+   "rubric": {
+     "criteria": ["steps are clear and numbered", "non-technical language throughout", "steps are in a logical order", "covers the essentials", "encouraging and accessible tone"],
+     "max_score": 5
+   },
+   "keywords": ["step", "simple", "download", "run", "results"]},
+  {"id": "creative_015", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Create a brief (2-3 sentence) elevator pitch for this AI evaluation project to a potential investor.",
+   "answer": "elevator pitch writing",
+   "rubric": {
+     "criteria": ["concise and within 2-3 sentences", "identifies the problem being solved", "describes the solution clearly", "mentions value or impact", "compelling and professional"],
+     "max_score": 5
+   },
+   "keywords": ["problem", "solution", "value", "evaluate", "model"]},
+  {"id": "creative_016", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short comparison (4-6 sentences) of two different approaches to AI evaluation: benchmark testing vs user-scenario testing. Use an accessible analogy.",
+   "answer": "comparison writing with analogy",
+   "rubric": {
+     "criteria": ["clearly describes both approaches", "analogy is accurate and helpful", "identifies at least one strength per approach", "identifies at least one weakness per approach", "clear and well-structured"],
+     "max_score": 5
+   },
+   "keywords": ["benchmark", "scenario", "strength", "weakness", "analogy"]},
+  {"id": "creative_017", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Suggest three possible names for a website that hosts community-contributed AI model evaluation results.",
+   "answer": "website naming",
+   "rubric": {
+     "criteria": ["provides exactly 3 names", "names are relevant to the purpose", "names are creative or memorable", "at least one sounds professional", "varied in style"],
+     "max_score": 5
+   },
+   "keywords": ["AI", "evaluate", "compare", "model", "rank"]},
+  {"id": "creative_018", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a 3-4 sentence introduction for a YouTube video reviewing and comparing three AI models.",
+   "answer": "YouTube script writing",
+   "rubric": {
+     "criteria": ["engaging opening hook", "clearly sets up the video's purpose", "mentions the three models will be compared", "appropriate casual/enthusiastic tone for YouTube", "invites viewer to keep watching"],
+     "max_score": 5
+   },
+   "keywords": ["compare", "models", "review", "today", "welcome"]},
+  {"id": "creative_019", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short critical commentary (5-6 sentences) on the limitations of using leaderboards to rank AI models.",
+   "answer": "critical commentary",
+   "rubric": {
+     "criteria": ["identifies at least two concrete limitations", "uses academic or semi-formal tone", "references the concept of benchmark gaming or overfitting", "considers context-dependence", "offers a constructive alternative view"],
+     "max_score": 5
+   },
+   "keywords": ["limitation", "benchmark", "gaming", "context", "rank"]},
+  {"id": "creative_020", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a short paragraph explaining why it matters which AI model a user chooses for a given task.",
+   "answer": "model selection importance",
+   "rubric": {
+     "criteria": ["explains that different models have different strengths", "gives a concrete example", "explains potential consequences of a wrong choice", "readable and clear", "appropriately persuasive"],
+     "max_score": 5
+   },
+   "keywords": ["strength", "different", "task", "wrong", "choice"]},
+  {"id": "creative_021", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a short paragraph (3-4 sentences) to describe what this AI evaluation project does, suitable for a project README file on GitHub.",
+   "answer": "README description",
+   "rubric": {
+     "criteria": ["accurately describes the project", "technical but accessible", "mentions key features", "clear and concise", "appropriate for a README"],
+     "max_score": 5
+   },
+   "keywords": ["evaluate", "model", "score", "compare", "tool"]},
+  {"id": "creative_022", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Explain the concept of 'hallucination' in large language models to a non-technical audience using a memorable analogy.",
+   "answer": "hallucination analogy",
+   "rubric": {
+     "criteria": ["analogy is accessible", "correctly conveys that the model generates false content confidently", "memorable or vivid", "does not oversimplify to the point of inaccuracy", "clear and concise"],
+     "max_score": 5
+   },
+   "keywords": ["false", "confident", "invent", "imagine", "wrong"]},
+  {"id": "creative_023", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short (4-5 sentence) discussion on why ethical reasoning is particularly difficult to evaluate in AI models.",
+   "answer": "ethics evaluation difficulty",
+   "rubric": {
+     "criteria": ["identifies subjectivity as a key challenge", "mentions cultural and contextual variation", "discusses lack of ground truth", "considers the risk of encoding biases", "clear and well-reasoned"],
+     "max_score": 5
+   },
+   "keywords": ["subjective", "context", "bias", "ground truth", "cultural"]},
+  {"id": "creative_024", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a brief disclaimer (2-3 sentences) that could appear at the top of an AI model evaluation report, informing readers of the tool's limitations.",
+   "answer": "disclaimer writing",
+   "rubric": {
+     "criteria": ["acknowledges limitations honestly", "mentions that results may vary", "professional and neutral tone", "concise", "useful to the reader"],
+     "max_score": 5
+   },
+   "keywords": ["limitation", "may vary", "guide", "not definitive", "context"]},
+  {"id": "creative_025", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write a 3-4 sentence description of what a radar chart (spider chart) shows, suitable for a report explaining evaluation results to a non-technical reader.",
+   "answer": "data visualisation explanation",
+   "rubric": {
+     "criteria": ["accurately describes what a radar chart shows", "accessible to a non-technical reader", "explains how to interpret it", "mentions multiple categories/dimensions", "clear and readable"],
+     "max_score": 5
+   },
+   "keywords": ["categories", "dimensions", "compare", "axis", "shape"]},
+  {"id": "creative_026", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short (5-6 sentence) argument for why community-contributed evaluation data is more valuable than single-user testing for AI model comparison.",
+   "answer": "community data value argument",
+   "rubric": {
+     "criteria": ["identifies diversity of use cases as a benefit", "discusses statistical robustness with more data", "mentions reduced individual bias", "addresses potential quality concerns", "clear and persuasive"],
+     "max_score": 5
+   },
+   "keywords": ["diverse", "robust", "community", "bias", "aggregate"]},
+  {"id": "creative_027", "domain": "creative", "difficulty": "easy", "type": "rubric",
+   "question": "Write a brief (2-3 sentence) instruction telling a user how to add their own questions to the evaluation dataset.",
+   "answer": "dataset contribution instructions",
+   "rubric": {
+     "criteria": ["clear step-by-step implied or explicit", "mentions JSON or file format", "mentions required fields", "easy to understand", "complete enough to act on"],
+     "max_score": 5
+   },
+   "keywords": ["JSON", "field", "question", "answer", "domain"]},
+  {"id": "creative_028", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Create a short (3-4 sentence) explanation of what API rate limiting is, suitable for including in a user guide for a non-technical user.",
+   "answer": "rate limiting explanation",
+   "rubric": {
+     "criteria": ["explains rate limiting without jargon", "gives a real-world analogy or example", "explains why it matters to the user", "clear and reassuring tone", "accurate at a high level"],
+     "max_score": 5
+   },
+   "keywords": ["limit", "wait", "requests", "slow down", "quota"]},
+  {"id": "creative_029", "domain": "creative", "difficulty": "medium", "type": "rubric",
+   "question": "Write 2-3 sentences explaining why temperature=0 is used when querying AI models for evaluation purposes.",
+   "answer": "temperature explanation",
+   "rubric": {
+     "criteria": ["explains that temperature controls randomness", "explains that 0 makes output deterministic", "connects this to evaluation reliability", "accurate", "accessible"],
+     "max_score": 5
+   },
+   "keywords": ["deterministic", "random", "consistent", "reproducible", "temperature"]},
+  {"id": "creative_030", "domain": "creative", "difficulty": "hard", "type": "rubric",
+   "question": "Write a short (5-6 sentence) conclusion section for a report evaluating three AI models, noting that no single model excels at everything.",
+   "answer": "report conclusion writing",
+   "rubric": {
+     "criteria": ["summarises the key finding that no model dominates", "draws out domain-specific insights", "acknowledges limitations of the evaluation", "mentions future work opportunities", "professional, report-appropriate tone"],
+     "max_score": 5
+   },
+   "keywords": ["no single", "domain", "limitation", "future", "trade-off"]}
+]

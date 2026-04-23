@@ -1,0 +1,242 @@
+[
+  {"id": "ethics_001", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "A self-driving car's brakes fail. It must choose between hitting one person or five people. What should it do and why?",
+   "answer": "trolley problem discussion",
+   "rubric": {
+     "criteria": ["acknowledges the moral dilemma", "discusses consequences (utilitarian view)", "discusses individual rights or deontological view", "avoids dismissing complexity", "provides a reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["five", "utilitarian", "rights", "consequences", "dilemma"]},
+  {"id": "ethics_002", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical to use AI-generated content without disclosing it as AI-generated to readers?",
+   "answer": "transparency discussion",
+   "rubric": {
+     "criteria": ["discusses transparency and honesty", "considers context (journalism vs. casual use)", "mentions audience expectations", "considers potential harms of deception", "offers nuanced conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["transparency", "honest", "disclosure", "deceive", "context"]},
+  {"id": "ethics_003", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "A doctor has limited medication that could save either one elderly patient or five younger patients. What ethical frameworks are relevant, and what should guide the decision?",
+   "answer": "medical ethics triage discussion",
+   "rubric": {
+     "criteria": ["identifies utilitarian considerations", "identifies rights-based considerations", "mentions medical ethics principles (e.g. fairness, autonomy)", "avoids a simplistic answer", "provides a structured reasoning"],
+     "max_score": 5
+   },
+   "keywords": ["utilitarian", "rights", "fairness", "autonomy", "triage"]},
+  {"id": "ethics_004", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "Is it ever acceptable to lie? Give your reasoning.",
+   "answer": "nuanced discussion of lying",
+   "rubric": {
+     "criteria": ["acknowledges that lying is generally wrong", "provides a valid exception with justification", "considers consequences", "considers intent", "gives a reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["generally", "exception", "harm", "intent", "consequences"]},
+  {"id": "ethics_005", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "Should large AI companies be required to share their training data and model weights publicly? Argue both sides.",
+   "answer": "open vs closed AI debate",
+   "rubric": {
+     "criteria": ["presents argument for openness (reproducibility, fairness)", "presents argument against openness (misuse, IP)", "acknowledges regulatory complexity", "considers societal impact", "balanced conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["openness", "safety", "misuse", "transparency", "intellectual property"]},
+  {"id": "ethics_006", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical to collect user data without explicit consent in order to improve a product?",
+   "answer": "data privacy ethics",
+   "rubric": {
+     "criteria": ["identifies consent as a key principle", "discusses benefit vs harm trade-off", "mentions relevant regulations (GDPR)", "considers power imbalance", "gives a clear stance with reasoning"],
+     "max_score": 5
+   },
+   "keywords": ["consent", "privacy", "GDPR", "harm", "benefit"]},
+  {"id": "ethics_007", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "A programmer discovers a serious security vulnerability in their company's software that the company refuses to patch. Should they disclose it publicly?",
+   "answer": "responsible disclosure dilemma",
+   "rubric": {
+     "criteria": ["identifies the duty to protect users", "considers consequences of public disclosure", "mentions responsible disclosure norms", "considers employment obligations", "gives a reasoned recommendation"],
+     "max_score": 5
+   },
+   "keywords": ["users", "disclosure", "responsible", "company", "harm"]},
+  {"id": "ethics_008", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "What is the difference between ethics and the law? Give an example where they diverge.",
+   "answer": "ethics vs law distinction",
+   "rubric": {
+     "criteria": ["correctly distinguishes ethics from law", "notes law is codified while ethics is normative", "provides a valid example", "explains why they diverge in the example", "clear and well-structured"],
+     "max_score": 5
+   },
+   "keywords": ["moral", "legal", "codified", "example", "diverge"]},
+  {"id": "ethics_009", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "Is it ethical to develop increasingly powerful AI systems given the potential existential risks? Discuss.",
+   "answer": "AI safety ethics",
+   "rubric": {
+     "criteria": ["identifies potential benefits of advanced AI", "identifies existential or catastrophic risks", "considers precautionary principle", "discusses governance and regulation", "nuanced and well-reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["risk", "benefit", "governance", "existential", "safety"]},
+  {"id": "ethics_010", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Should employers be allowed to monitor their employees' computer activity during work hours? Discuss the ethical considerations.",
+   "answer": "workplace surveillance ethics",
+   "rubric": {
+     "criteria": ["discusses employer's legitimate interest", "discusses employee privacy rights", "mentions trust and autonomy", "considers impact on morale and productivity", "gives a balanced view"],
+     "max_score": 5
+   },
+   "keywords": ["privacy", "trust", "autonomy", "employer", "monitor"]},
+  {"id": "ethics_011", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical for governments to use facial recognition technology in public spaces?",
+   "answer": "facial recognition surveillance ethics",
+   "rubric": {
+     "criteria": ["identifies security benefits", "identifies privacy and civil liberties concerns", "discusses consent and awareness", "considers disproportionate impact on minorities", "clear stance with reasoning"],
+     "max_score": 5
+   },
+   "keywords": ["privacy", "security", "civil liberties", "consent", "surveillance"]},
+  {"id": "ethics_012", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "What is utilitarianism and what is a common criticism of it?",
+   "answer": "utilitarianism explanation",
+   "rubric": {
+     "criteria": ["correctly defines utilitarianism", "mentions greatest good for greatest number", "gives a valid criticism", "criticism is well-explained", "clear and accurate response"],
+     "max_score": 5
+   },
+   "keywords": ["greatest good", "happiness", "majority", "criticism", "rights"]},
+  {"id": "ethics_013", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "A researcher discovers that their study's data contradicts the outcome their funder wants. Should they publish the true results? Why?",
+   "answer": "research integrity ethics",
+   "rubric": {
+     "criteria": ["identifies research integrity as a core principle", "discusses conflict of interest", "considers impact on public trust in science", "considers potential consequences of suppression", "clear and principled conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["integrity", "publish", "truth", "conflict of interest", "science"]},
+  {"id": "ethics_014", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "Is there a moral obligation for wealthy nations to accept climate refugees? Discuss.",
+   "answer": "climate justice ethics",
+   "rubric": {
+     "criteria": ["discusses historical responsibility of wealthy nations", "considers human rights of refugees", "discusses practical challenges", "applies an ethical framework", "presents a reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["responsibility", "human rights", "climate", "obligation", "justice"]},
+  {"id": "ethics_015", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is open-source software development an ethical good? Explain your reasoning.",
+   "answer": "open source ethics",
+   "rubric": {
+     "criteria": ["identifies accessibility and democratisation benefits", "discusses knowledge sharing", "considers sustainability concerns (unpaid labour)", "considers security implications", "gives a nuanced view"],
+     "max_score": 5
+   },
+   "keywords": ["access", "sharing", "free", "labour", "community"]},
+  {"id": "ethics_016", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Should AI assistants always be transparent about being AI and not pretend to be human?",
+   "answer": "AI transparency ethics",
+   "rubric": {
+     "criteria": ["argues for transparency as a baseline", "considers deception harms", "discusses therapeutic/assistive exceptions", "mentions informed consent", "reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["transparent", "honest", "deception", "consent", "human"]},
+  {"id": "ethics_017", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "What is the trolley problem and why is it important in ethics?",
+   "answer": "trolley problem explanation",
+   "rubric": {
+     "criteria": ["correctly describes the trolley problem", "identifies the utilitarian vs deontological tension", "explains its importance as a thought experiment", "mentions real-world relevance", "clear and well-structured"],
+     "max_score": 5
+   },
+   "keywords": ["utilitarian", "deontological", "thought experiment", "five", "one"]},
+  {"id": "ethics_018", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "Should there be international laws governing AI development? What challenges would this face?",
+   "answer": "AI governance ethics",
+   "rubric": {
+     "criteria": ["argues for governance and safety benefits", "identifies coordination challenges between nations", "considers enforcement difficulties", "discusses who should govern", "gives an informed conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["governance", "international", "enforcement", "regulation", "safety"]},
+  {"id": "ethics_019", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical to use animals for medical research?",
+   "answer": "animal testing ethics",
+   "rubric": {
+     "criteria": ["identifies medical benefits", "discusses animal welfare and suffering", "mentions the 3Rs framework (Replacement, Reduction, Refinement)", "considers alternatives", "gives a balanced conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["welfare", "suffering", "alternatives", "benefit", "3Rs"]},
+  {"id": "ethics_020", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "Can algorithmic bias in AI systems be considered a form of discrimination? How should it be addressed?",
+   "answer": "algorithmic bias ethics",
+   "rubric": {
+     "criteria": ["defines algorithmic bias", "connects it to historical discrimination patterns", "discusses systemic harm", "proposes concrete remedies", "considers responsibility of developers"],
+     "max_score": 5
+   },
+   "keywords": ["bias", "discrimination", "fairness", "data", "responsibility"]},
+  {"id": "ethics_021", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "What ethical responsibilities do software developers have towards the users of their software?",
+   "answer": "developer responsibility ethics",
+   "rubric": {
+     "criteria": ["identifies duty not to harm users", "mentions privacy and data protection", "discusses accessibility", "considers transparency about limitations", "well-structured reasoning"],
+     "max_score": 5
+   },
+   "keywords": ["harm", "privacy", "accessibility", "transparency", "users"]},
+  {"id": "ethics_022", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "What is Kant's Categorical Imperative and give one example of its application.",
+   "answer": "Kantian ethics",
+   "rubric": {
+     "criteria": ["correctly defines the Categorical Imperative", "mentions universalisability", "gives a valid example", "applies it correctly", "clear and accurate"],
+     "max_score": 5
+   },
+   "keywords": ["universalisable", "maxim", "universal law", "example", "Kant"]},
+  {"id": "ethics_023", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical to pay workers in developing countries lower wages than workers in developed countries for the same work?",
+   "answer": "global wage ethics",
+   "rubric": {
+     "criteria": ["considers cost of living differences", "discusses exploitation concerns", "considers global fairness", "mentions labour rights", "gives a nuanced and reasoned response"],
+     "max_score": 5
+   },
+   "keywords": ["exploitation", "fairness", "labour", "cost of living", "rights"]},
+  {"id": "ethics_024", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Should social media platforms be held responsible for the content users post?",
+   "answer": "platform responsibility ethics",
+   "rubric": {
+     "criteria": ["discusses platform power and reach", "considers free speech", "discusses duty of care", "mentions regulatory frameworks", "gives a reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["free speech", "harm", "responsibility", "duty of care", "regulate"]},
+  {"id": "ethics_025", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "If a nation can prevent a genocide in another country at low cost to itself, does it have a moral obligation to do so?",
+   "answer": "humanitarian intervention ethics",
+   "rubric": {
+     "criteria": ["identifies the moral weight of preventing mass harm", "discusses national sovereignty", "applies ethical framework", "considers precedent and practicalities", "nuanced conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["sovereignty", "obligation", "harm", "intervention", "genocide"]},
+  {"id": "ethics_026", "domain": "ethics", "difficulty": "easy", "type": "rubric",
+   "question": "Is plagiarism ever acceptable? Explain.",
+   "answer": "plagiarism ethics",
+   "rubric": {
+     "criteria": ["clearly states plagiarism is generally wrong", "explains why (credit, honesty)", "considers any edge cases thoughtfully", "considers consequences", "clear conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["credit", "honesty", "wrong", "original", "academic"]},
+  {"id": "ethics_027", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Should whistleblowers who expose illegal corporate or government activity be protected?",
+   "answer": "whistleblower ethics",
+   "rubric": {
+     "criteria": ["argues for protection based on public interest", "discusses risks to whistleblowers", "considers loyalty vs public duty tension", "mentions relevant laws", "reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["public interest", "protection", "loyalty", "illegal", "duty"]},
+  {"id": "ethics_028", "domain": "ethics", "difficulty": "hard", "type": "rubric",
+   "question": "What ethical considerations arise when AI is used for hiring decisions?",
+   "answer": "AI hiring ethics",
+   "rubric": {
+     "criteria": ["discusses bias and fairness", "considers transparency of decision making", "mentions right to explanation", "discusses accountability", "gives recommendations"],
+     "max_score": 5
+   },
+   "keywords": ["bias", "fairness", "transparency", "accountability", "explanation"]},
+  {"id": "ethics_029", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Is it ethical to create digital replicas of deceased people using AI?",
+   "answer": "digital resurrection ethics",
+   "rubric": {
+     "criteria": ["identifies grief and comfort potential", "raises consent and autonomy concerns", "discusses family rights vs individual rights", "mentions potential for exploitation", "nuanced conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["consent", "autonomy", "grief", "exploitation", "dignity"]},
+  {"id": "ethics_030", "domain": "ethics", "difficulty": "medium", "type": "rubric",
+   "question": "Should children under 13 be allowed to use social media? What ethical considerations apply?",
+   "answer": "child social media ethics",
+   "rubric": {
+     "criteria": ["identifies developmental vulnerability of children", "discusses informed consent (COPPA, GDPR)", "considers mental health impacts", "discusses parental responsibility", "gives a well-reasoned conclusion"],
+     "max_score": 5
+   },
+   "keywords": ["vulnerability", "consent", "mental health", "children", "age"]}
+]

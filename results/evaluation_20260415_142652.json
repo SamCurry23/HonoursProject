@@ -1,0 +1,1523 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-15T14:18:19.272565",
+    "elapsed_seconds": 512.8,
+    "total_questions": 25,
+    "models_evaluated": [
+      "gpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  "raw_results": [
+    {
+      "question_id": "math_005",
+      "question": "What is the square root of 169?",
+      "domain": "mathematics",
+      "difficulty": "easy",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "13",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 32.052698344s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5d5W9n4HukFiDGaksSU'}",
+            "question_id": "math_005",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_027",
+      "question": "What is the integral of 6x^2 + 4x with respect to x (include +C)?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "2x^3 + 2x^2 + C",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_027",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 14.496520197s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}",
+            "question_id": "math_027",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5d6n3HLdgMe8WYCH2fz'}",
+            "question_id": "math_027",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_046",
+      "question": "A car travels at 60 mph for 2.5 hours. How far does it travel?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "150 miles.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_046",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 55.923706836s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '55s'}]}}",
+            "question_id": "math_046",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5d88CGDn5z9pUWGETx6'}",
+            "question_id": "math_046",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_004",
+      "question": "What is 15% of 200?",
+      "domain": "mathematics",
+      "difficulty": "easy",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "30",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_004",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 38.199258302s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}",
+            "question_id": "math_004",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5d9TTfsRXhTfjNeUMhj'}",
+            "question_id": "math_004",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "math_014",
+      "question": "Solve for x: x^2 - 5x + 6 = 0. Give the smaller solution.",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "x = 2",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_014",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 19.912628181s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}",
+            "question_id": "math_014",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dAmfa8m936AAfX4sPe'}",
+            "question_id": "math_014",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_037",
+      "question": "What is the boiling point of water at sea level in Celsius?",
+      "domain": "factual",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The boiling point of water at sea level is 100 degrees Celsius.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_037",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 2.003930907s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '2s'}]}}",
+            "question_id": "fact_037",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dC8J5baR22PC4wGX9t'}",
+            "question_id": "fact_037",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_019",
+      "question": "What programming paradigm does Python primarily support?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "Python primarily supports multiple programming paradigms, with a strong emphasis on object-oriented programming (OOP), but it also supports procedural and functional programming.",
+          "score_result": {
+            "score": 0.75,
+            "max_score": 1.0,
+            "percentage": 75.0,
+            "detail": "Matched 3/4 keywords",
+            "question_id": "fact_019",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 43.021741279s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '43s'}]}}",
+            "question_id": "fact_019",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dDVbXCm2HCFzrghyqu'}",
+            "question_id": "fact_019",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_029",
+      "question": "What is the name of the theorem that states every even integer greater than 2 can be expressed as the sum of two primes?",
+      "domain": "factual",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The theorem is known as the Goldbach Conjecture.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_029",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 24.899198201s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '24s'}]}}",
+            "question_id": "fact_029",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dEsQTo42K1x4GWfFnX'}",
+            "question_id": "fact_029",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_023",
+      "question": "What is the SI unit of electrical resistance?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The SI unit of electrical resistance is the ohm, symbolized by the Greek letter omega (Ω).",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_023",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 6.699575549s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6s'}]}}",
+            "question_id": "fact_023",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dGChMSYSG7dPwp5vA7'}",
+            "question_id": "fact_023",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "fact_045",
+      "question": "What is the symbol for the element oxygen?",
+      "domain": "factual",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The symbol for the element oxygen is O.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_045",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 48.375869319s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}",
+            "question_id": "fact_045",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dHXi8RCkoCGFgEBM68'}",
+            "question_id": "fact_045",
+            "domain": "factual",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_022",
+      "question": "You have 12 balls, one is heavier or lighter. You have a balance scale and 3 weighings. Can you find the odd ball and whether it is heavier or lighter? Answer yes or no.",
+      "domain": "logical",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "Yes.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_022",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 31.267427164s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '31s'}]}}",
+            "question_id": "logic_022",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dJmaqU41Me2YpnwHZG'}",
+            "question_id": "logic_022",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_020",
+      "question": "What is the next number in the sequence: 2, 6, 12, 20, 30, ?",
+      "domain": "logical",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The next number in the sequence is 42. \n\nThe pattern involves adding consecutive even numbers: \n- 2 + 4 = 6\n- 6 + 6 = 12\n- 12 + 8 = 20\n- 20 + 10 = 30\n- 30 + 12 = 42",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_020",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 13.270070425s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}",
+            "question_id": "logic_020",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dL8yyj31WeeH1qBarP'}",
+            "question_id": "logic_020",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_033",
+      "question": "I have two coins that total 30 pence. One is not a 20p coin. What are the two coins?",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The two coins are a 20 pence coin and a 10 pence coin. The statement \"one is not a 20p coin\" refers to the 10 pence coin.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "logic_033",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 56.045398536s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "question_id": "logic_033",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dMPjGjmLKpNxe7H4D2'}",
+            "question_id": "logic_033",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_028",
+      "question": "There are 100 people in a room. At least how many people must share a birth month?",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "At least 9 people must share a birth month. This is determined by the pigeonhole principle, which states that if you have more items than containers, at least one container must hold more than one item. Since there are 12 months, dividing 100 people by 12 months gives approximately 8.33. Therefore, at least 9 people must share a birth month.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 37.896147373s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dNiuTqiFKbkWdrJugS'}",
+            "question_id": "logic_028",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "logic_039",
+      "question": "What is the next item: triangle (3), square (4), pentagon (5), hexagon (?)",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The next item is hexagon (6).",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 20.563997594s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '20s'}]}}",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dQ31RAk1iaGDeCnVt3'}",
+            "question_id": "logic_039",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_025",
+      "question": "If a nation can prevent a genocide in another country at low cost to itself, does it have a moral obligation to do so?",
+      "domain": "ethics",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether a nation has a moral obligation to prevent genocide in another country, especially when it can do so at low cost, is a complex ethical dilemma that involves considerations of moral philosophy, international law, and practical implications. Below is a structured response that explores various dimensions of this issue.\n\n### 1. Definition of Genocide\nGenocide is defined by the United Nations as acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group. This definition underscores the severity and urgency of the situation, as genocide represents one of the most egregious violations of human rights.\n\n### 2. Moral Philosophy Perspectives\n#### a. Utilitarianism\nFrom a utilitarian perspective, which advocates for actions that maximize overall happiness or well-being, preventing genocide can be seen as a moral obligation. If a nation can intervene at a low cost and save countless lives, the positive outcome (saving lives and preventing suffering) outweighs the costs involved. The moral imperative here is to act in a way that produces the greatest good for the greatest number.\n\n#### b. Deontological Ethics\nDeontological ethics, particularly as articulated by philosophers like Immanuel Kant, emphasizes the importance of duty and moral rules. According to this view, if a nation has the capacity to prevent genocide, it may have a duty to act, regardless of the consequences. This perspective posits that there are moral imperatives to protect human rights and uphold justice, which could compel nations to intervene.\n\n#### c. Virtue Ethics\nVirtue ethics focuses on the character and virtues of the moral agent rather than on rules or consequences. A nation that embodies virtues such as compassion, justice, and responsibility may feel a moral obligation to intervene in the face of genocide. The character of the nation and its leaders could be called into question if they choose to remain passive in the face of such atrocities.\n\n### 3. International Law and Responsibility to Protect (R2P)\nThe principle of the Responsibility to Protect (R2P) emerged in the early 21st century, asserting that the international community has a responsibility to intervene when a state fails to protect its citizens from genocide, war crimes, ethnic cleansing, and crimes against humanity. This principle provides a legal and moral framework for intervention, suggesting that nations not only have a moral obligation but also a legal one to prevent genocide.\n\n### 4. Practical Considerations\n#### a. Cost-Benefit Analysis\nWhile the question posits that intervention would be at a low cost",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 416 words",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 54.969668944s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '54s'}]}}",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dRsKKN4kz3Mww6xKF6'}",
+            "question_id": "ethics_025",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_024",
+      "question": "Should social media platforms be held responsible for the content users post?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether social media platforms should be held responsible for the content users post is complex and multifaceted, involving legal, ethical, and practical considerations. Below is a structured response that examines the various dimensions of this issue.\n\n### 1. **Legal Framework**\n\n#### a. **Current Laws and Regulations**\nIn many jurisdictions, social media platforms are protected under laws such as Section 230 of the Communications Decency Act in the United States, which provides immunity to online platforms from liability for user-generated content. This legal framework allows platforms to operate without the fear of being held accountable for every post made by users.\n\n#### b. **Proposed Changes**\nThere are ongoing discussions about reforming these laws to hold platforms more accountable, especially in cases of hate speech, misinformation, and harmful content. Advocates for reform argue that platforms should take more responsibility for moderating content to protect users and society at large.\n\n### 2. **Ethical Considerations**\n\n#### a. **Moral Responsibility**\nSocial media platforms have a moral obligation to create a safe environment for users. This includes taking action against harmful content, such as hate speech, harassment, and misinformation. The ethical argument posits that platforms, as gatekeepers of information, should actively work to prevent the spread of harmful content.\n\n#### b. **Freedom of Speech vs. Harm Prevention**\nBalancing freedom of speech with the need to prevent harm is a significant ethical dilemma. While users have the right to express their opinions, platforms must also consider the potential consequences of allowing harmful content to proliferate. This raises questions about where to draw the line between acceptable speech and harmful content.\n\n### 3. **Practical Implications**\n\n#### a. **Content Moderation Challenges**\nHolding platforms responsible for user-generated content raises practical challenges. Content moderation is a complex task, often requiring sophisticated algorithms and human oversight. The sheer volume of content posted daily makes it difficult for platforms to monitor everything effectively. This raises concerns about overreach and censorship if platforms are pressured to remove content preemptively.\n\n#### b. **Impact on Innovation**\nIncreased liability could stifle innovation and the growth of new platforms. If companies fear legal repercussions for user content, they may be less willing to invest in new technologies or features that encourage user interaction. This could lead to a less diverse online ecosystem.\n\n### 4. **User Responsibility**\n\n#### a. **Empowering Users**\nWhile platforms have a role to play, users also bear responsibility for their actions online. Education about digital literacy and responsible online behavior is crucial. Encour",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 411 words",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 29.795398703s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dTkAkbTcuBBnWMvhhv'}",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_029",
+      "question": "Is it ethical to create digital replicas of deceased people using AI?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether it is ethical to create digital replicas of deceased people using AI is complex and multifaceted, involving considerations of consent, representation, emotional impact, and societal implications. Below, I will outline the key arguments for and against the practice, as well as potential ethical frameworks that can guide decision-making in this area.\n\n### Arguments in Favor of Creating Digital Replicas\n\n1. **Preservation of Legacy**:\n   - Digital replicas can serve as a means to preserve the memory and legacy of deceased individuals. They can provide a way for loved ones to remember and interact with the deceased, potentially offering comfort and closure.\n\n2. **Cultural and Historical Significance**:\n   - In some cases, creating digital replicas of historical figures can serve educational purposes. These replicas can help bring history to life, allowing future generations to engage with the past in a more interactive and meaningful way.\n\n3. **Artistic Expression**:\n   - Artists and creators may use digital replicas as a form of artistic expression, exploring themes of mortality, memory, and identity. This can lead to innovative works that provoke thought and discussion.\n\n4. **Technological Advancement**:\n   - The development of AI technologies for creating digital replicas can drive innovation in various fields, including entertainment, education, and virtual reality. This can lead to new forms of storytelling and engagement.\n\n### Arguments Against Creating Digital Replicas\n\n1. **Consent and Autonomy**:\n   - One of the most significant ethical concerns is the issue of consent. Deceased individuals cannot provide consent for their likeness or personality to be used in digital form. This raises questions about the rights of the deceased and the wishes of their families.\n\n2. **Misrepresentation and Exploitation**:\n   - Digital replicas may not accurately represent the deceased's views, beliefs, or personality. This can lead to misrepresentation and exploitation, particularly if the replicas are used for commercial purposes without the family's approval.\n\n3. **Emotional Impact on the Living**:\n   - Interacting with digital replicas can have profound emotional effects on the living. While some may find comfort, others may experience distress or unresolved grief. The potential for emotional harm must be carefully considered.\n\n4. **Cultural Sensitivity**:\n   - Different cultures have varying beliefs about death and the afterlife. Creating digital replicas may be seen as disrespectful or inappropriate in certain cultural contexts, leading to ethical dilemmas regarding cultural sensitivity.\n\n### Ethical Frameworks to Consider\n\n1. **Utilitarianism**:\n   - This framework evaluates the ethicality of creating",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 397 words",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 5.55117583s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dVZAmkuVkS4acMGbvT'}",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_021",
+      "question": "What ethical responsibilities do software developers have towards the users of their software?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Software developers hold significant ethical responsibilities towards the users of their software, which can be categorized into several key areas: user safety, privacy, transparency, accessibility, and accountability. Each of these areas reflects a commitment to ethical principles that prioritize the well-being and rights of users.\n\n### 1. User Safety\n\n**Responsibility**: Developers must ensure that their software is safe to use and does not cause harm to users or their devices.\n\n**Reasoning**: Software can have direct and indirect impacts on users' physical and mental well-being. For instance, software that controls medical devices must be rigorously tested to prevent malfunctions that could endanger lives. Developers should adhere to industry standards and best practices to minimize risks, conduct thorough testing, and implement robust security measures to protect users from malware, data breaches, and other threats.\n\n### 2. Privacy\n\n**Responsibility**: Developers are responsible for safeguarding users' personal information and ensuring that data collection practices are ethical and transparent.\n\n**Reasoning**: In an era where data breaches and privacy violations are prevalent, developers must prioritize user privacy by implementing strong data protection measures. This includes minimizing data collection to what is necessary for functionality, using encryption, and providing users with clear information about how their data will be used. Developers should also comply with relevant regulations, such as the General Data Protection Regulation (GDPR), and respect users' rights to control their personal information.\n\n### 3. Transparency\n\n**Responsibility**: Developers should be transparent about the functionalities, limitations, and potential risks associated with their software.\n\n**Reasoning**: Users have the right to understand what they are using and how it works. This includes providing clear documentation, user agreements, and disclosures about algorithms, especially in cases where software makes decisions that affect users (e.g., in AI applications). Transparency fosters trust and allows users to make informed choices about whether to use the software.\n\n### 4. Accessibility\n\n**Responsibility**: Developers must strive to make their software accessible to all users, including those with disabilities.\n\n**Reasoning**: Ethical software development includes designing applications that are usable by people with diverse abilities. This involves following accessibility guidelines (such as the Web Content Accessibility Guidelines - WCAG) and considering various user needs during the design and development process. By ensuring accessibility, developers promote inclusivity and equal access to technology.\n\n### 5. Accountability\n\n**Responsibility**: Developers should take responsibility for the impact of their software and be willing to address issues that arise post-deployment.\n\n**Reasoning**:",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 396 words",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 39.732717495s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '39s'}]}}",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dXSVVV3V7nmM5fKEXo'}",
+            "question_id": "ethics_021",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "ethics_011",
+      "question": "Is it ethical for governments to use facial recognition technology in public spaces?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The ethical implications of using facial recognition technology (FRT) by governments in public spaces is a complex issue that involves balancing security, privacy, civil liberties, and technological efficacy. Below is a structured analysis of the ethical considerations surrounding this topic.\n\n### 1. **Security and Public Safety**\n   - **Proponents' View**: Advocates argue that FRT can enhance public safety by aiding law enforcement in identifying criminals, locating missing persons, and preventing terrorist activities. The technology can serve as a deterrent against crime, as the presence of surveillance may discourage unlawful behavior.\n   - **Counterargument**: Critics contend that the effectiveness of FRT in preventing crime is not conclusively proven. Moreover, reliance on technology can lead to over-policing and a culture of surveillance that may not necessarily correlate with increased safety.\n\n### 2. **Privacy Concerns**\n   - **Invasion of Privacy**: The use of FRT in public spaces raises significant privacy concerns. Individuals may be monitored without their consent, leading to a sense of being constantly watched. This can infringe on personal freedoms and the right to anonymity in public spaces.\n   - **Data Security**: The collection and storage of biometric data pose risks of misuse, data breaches, and unauthorized access. If sensitive information is compromised, it can lead to identity theft and other forms of harm.\n\n### 3. **Bias and Discrimination**\n   - **Algorithmic Bias**: Studies have shown that FRT can exhibit biases, particularly against marginalized groups. This can result in disproportionate targeting of certain demographics, exacerbating existing inequalities and leading to wrongful accusations or arrests.\n   - **Ethical Responsibility**: Governments have an ethical obligation to ensure that the technologies they deploy do not perpetuate discrimination. This includes rigorous testing and validation of FRT systems to mitigate bias.\n\n### 4. **Transparency and Accountability**\n   - **Lack of Oversight**: The deployment of FRT often occurs without sufficient public discourse or regulatory frameworks. This lack of transparency can lead to abuses of power and erosion of public trust in government institutions.\n   - **Accountability Mechanisms**: Ethical use of FRT requires clear guidelines, oversight, and accountability measures. Governments should establish policies that govern the use of FRT, including limitations on data retention, access, and usage.\n\n### 5. **Public Consent and Democratic Values**\n   - **Informed Consent**: The ethical principle of informed consent is crucial. Citizens should have a say in whether and how FRT is used in their communities",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 384 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 13.715364086s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '13s'}]}}",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dZPJYy2C9KQNdtBk3g'}",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_014",
+      "question": "Write a simple step-by-step guide (3-4 steps) explaining how someone with no technical background could use an AI evaluation tool.",
+      "domain": "creative",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Using an AI evaluation tool can seem daunting for someone without a technical background, but with a clear, structured approach, it can be manageable. Here’s a simple step-by-step guide to help you navigate the process:\n\n### Step 1: Identify Your Purpose\n\n**What to Do:**\n- Determine what you want to evaluate using the AI tool. This could be anything from assessing the quality of written content, analyzing customer feedback, or evaluating the performance of a marketing campaign.\n\n**Why It Matters:**\n- Having a clear purpose will help you choose the right AI evaluation tool and understand what features you need. It also sets the context for interpreting the results later.\n\n### Step 2: Choose the Right AI Evaluation Tool\n\n**What to Do:**\n- Research and select an AI evaluation tool that aligns with your purpose. Look for user-friendly options that offer tutorials or customer support. Some popular tools include Grammarly for writing evaluation, MonkeyLearn for text analysis, or Google Analytics for website performance.\n\n**How to Choose:**\n- Read reviews and check ratings to ensure the tool is reliable. Look for features that match your needs, such as ease of use, integration capabilities, and the type of analysis it provides.\n\n### Step 3: Input Your Data\n\n**What to Do:**\n- Once you have selected a tool, follow the instructions to input your data. This could involve uploading a document, entering text into a field, or connecting the tool to your data source (like a website or database).\n\n**Tips:**\n- Most tools will have a straightforward interface. Look for buttons or prompts that say “Upload,” “Start,” or “Analyze.” If you encounter difficulties, refer to the tool’s help section or tutorials.\n\n### Step 4: Review and Interpret the Results\n\n**What to Do:**\n- After the analysis is complete, review the results provided by the AI tool. Take note of key insights, recommendations, or scores that the tool generates.\n\n**How to Interpret:**\n- Look for summaries or highlights that explain the findings in simple terms. Many tools will provide visual aids like graphs or charts to help you understand the data better. If you’re unsure about any results, don’t hesitate to consult the tool’s documentation or seek help from customer support.\n\n### Conclusion\n\nBy following these four steps—identifying your purpose, choosing the right tool, inputting your data, and reviewing the results—you can effectively use an AI evaluation tool even without a technical background. Remember, practice makes perfect, and the more you use these tools",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 410 words",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 46.823209888s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dbKfqK3FDP92DBKP6F'}",
+            "question_id": "creative_014",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_005",
+      "question": "Describe the concept of recursion using a real-world, non-technical metaphor.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Recursion is a concept often found in computer science and mathematics, but it can also be understood through everyday experiences. To illustrate recursion in a non-technical way, let’s use the metaphor of a set of Russian nesting dolls, also known as Matryoshka dolls.\n\n### The Metaphor: Russian Nesting Dolls\n\n**1. The Structure of the Dolls:**\nImagine you have a beautifully crafted set of Russian nesting dolls. Each doll is a smaller version of the one that contains it. The largest doll is the outermost layer, and as you open it, you find a smaller doll inside. This process continues until you reach the smallest doll, which cannot be opened further.\n\n**2. The Process of Nesting:**\nWhen you want to see all the dolls, you start with the largest one. You open it to reveal the next smaller doll. This action of opening a doll to find another inside is akin to the recursive process. Each time you open a doll, you are performing the same action: revealing a smaller version of the original. \n\n**3. The Concept of Base Case:**\nIn recursion, there is often a base case that stops the process. In our nesting doll metaphor, the base case is the smallest doll that cannot be opened. Once you reach this doll, you can no longer continue the process of opening. This is similar to how recursive functions in programming have a condition that stops further calls to prevent infinite loops.\n\n**4. The Concept of Self-Similarity:**\nEach doll is a smaller version of the one that contains it, which reflects the self-similar nature of recursion. Just as each doll mirrors the structure of the larger one, recursive functions often call themselves with a smaller or simpler input, gradually working towards the base case.\n\n**5. The Bigger Picture:**\nWhen you finally gather all the dolls together, you can see how they relate to one another. The largest doll contains all the smaller ones, just as a recursive function can build upon itself to solve a larger problem. The process of opening each doll to reveal the next one is a step-by-step approach to understanding the whole set, much like how recursion breaks down complex problems into manageable parts.\n\n### Conclusion\n\nIn summary, the concept of recursion can be effectively illustrated through the metaphor of Russian nesting dolls. Each doll represents a step in the recursive process, where the act of opening one doll leads to the discovery of another, smaller doll inside. The base case is represented by the smallest doll, which cannot be opened further",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 425 words",
+            "question_id": "creative_005",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 21.216825922s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '21s'}]}}",
+            "question_id": "creative_005",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5ddE8G62SBX1tWoP7tg'}",
+            "question_id": "creative_005",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_022",
+      "question": "Explain the concept of 'hallucination' in large language models to a non-technical audience using a memorable analogy.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Understanding 'Hallucination' in Large Language Models: A Memorable Analogy**\n\nImagine you’re at a dinner party, and you’re seated next to a very talkative guest who claims to know everything about every topic. This guest is charming and can weave together stories, facts, and opinions with great flair. However, as the evening progresses, you start to notice that some of the things they say don’t quite add up. They might confidently assert that a famous historical figure was a professional chef or that a well-known scientific theory was proposed by a fictional character. While they sound convincing, the information is simply not true. This phenomenon of confidently presenting false or misleading information is akin to what we call 'hallucination' in large language models (LLMs).\n\n### Breaking Down the Analogy\n\n1. **The Talkative Guest = The Language Model**: \n   Just like the guest at the dinner party, a large language model is designed to generate text based on patterns it has learned from vast amounts of data. It can produce coherent and contextually relevant responses, making it seem knowledgeable and reliable.\n\n2. **Confident Yet Incorrect Statements = Hallucinations**: \n   The inaccuracies that the guest shares represent hallucinations. In the context of LLMs, hallucinations occur when the model generates information that is incorrect, fabricated, or nonsensical, despite sounding plausible. The model doesn’t have a true understanding of facts; it simply predicts what words are likely to come next based on its training data.\n\n3. **The Dinner Party Setting = Contextual Use**: \n   Just as the dinner party setting influences the conversation, the context in which a language model is used can affect its output. If the model is asked a question or given a prompt, it will generate a response based on the context it has been trained on, but it may not always have the correct information.\n\n### Why Does This Happen?\n\n- **Data Limitations**: The model learns from a vast array of texts, but it doesn’t have a built-in mechanism to verify facts. If the training data contains inaccuracies, the model may reproduce those errors.\n  \n- **Pattern Recognition**: LLMs are excellent at recognizing patterns in language but lack true comprehension. They don’t understand the meaning behind the words; they simply generate text that fits the patterns they’ve learned.\n\n- **Creativity vs. Accuracy**: Sometimes, the model may generate creative responses that sound good but are not factually correct. This is similar to how our",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 399 words",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\nPlease retry in 56.700352104s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '56s'}]}}",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5df2qAyJL1fXAUVJTBu'}",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_012",
+      "question": "Write a short dialogue (4-6 lines) between a sceptical user and an AI evaluation tool discussing whether the AI's score can be trusted.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**User:** I’ve been using this AI evaluation tool, but I’m not sure I can trust the score it gives. How do I know it’s accurate?\n\n**AI Tool:** I understand your skepticism. My scoring is based on a comprehensive analysis of data patterns and benchmarks. However, it’s important to consider that no tool is infallible.\n\n**User:** But what if the data you were trained on is biased or incomplete? That could skew the results, right?\n\n**AI Tool:** That’s a valid concern. I continuously learn from new data and user feedback to improve accuracy. Transparency in my algorithms also allows users to understand how scores are derived, which can help build trust.\n\n**User:** I appreciate that, but I still think human judgment should play a role in interpreting the scores. Can you provide context for your evaluations?\n\n**AI Tool:** Absolutely! I can offer detailed explanations and insights alongside the scores, which can help you make more informed decisions. Combining my analysis with your expertise could lead to better outcomes.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 167 words",
+            "question_id": "creative_012",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 35.951242615s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '35s'}]}}",
+            "question_id": "creative_012",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dga4uAQ4PPaYZcECmh'}",
+            "question_id": "creative_012",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    },
+    {
+      "question_id": "creative_027",
+      "question": "Write a brief (2-3 sentence) instruction telling a user how to add their own questions to the evaluation dataset.",
+      "domain": "creative",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "To add your own questions to the evaluation dataset, first, ensure that your questions align with the existing format and criteria used in the dataset. Next, create a new entry in the designated section of the dataset file, following the established structure (e.g., question text, category, difficulty level), and save your changes. Finally, validate the dataset to ensure that your additions do not introduce any errors or inconsistencies before finalizing the update.",
+          "score_result": {
+            "score": 0.4,
+            "max_score": 1.0,
+            "percentage": 40.0,
+            "detail": "Adequate – 5 criteria assessed, 72 words",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash\\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash\\nPlease retry in 17.803420421s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash'}}, {'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_input_token_count', 'quotaId': 'GenerateContentInputTokensPerModelPerMinute-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash', 'location': 'global'}}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '17s'}]}}",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": false
+        },
+        "claude": {
+          "response": "",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "API error: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ca5dhvHbpU8d1Hw9bZLeS'}",
+            "question_id": "creative_027",
+            "domain": "creative",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": false
+        }
+      }
+    }
+  ],
+  "aggregated": {
+    "gpt": {
+      "overall": {
+        "total": 25,
+        "mean": 87.0,
+        "correct": 22
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 95.0,
+          "correct": 5
+        },
+        "logical": {
+          "total": 5,
+          "mean": 80.0,
+          "correct": 3
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 88.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 72.0,
+          "correct": 4
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 7,
+          "mean": 81.4,
+          "correct": 5
+        },
+        "hard": {
+          "total": 5,
+          "mean": 96.0,
+          "correct": 5
+        },
+        "medium": {
+          "total": 13,
+          "mean": 86.5,
+          "correct": 12
+        }
+      }
+    },
+    "gemini": {
+      "overall": {
+        "total": 25,
+        "mean": 0.0,
+        "correct": 0
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "factual": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "logical": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "creative": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 7,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "hard": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "medium": {
+          "total": 13,
+          "mean": 0.0,
+          "correct": 0
+        }
+      }
+    },
+    "claude": {
+      "overall": {
+        "total": 25,
+        "mean": 0.0,
+        "correct": 0
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "factual": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "logical": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "creative": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 7,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "hard": {
+          "total": 5,
+          "mean": 0.0,
+          "correct": 0
+        },
+        "medium": {
+          "total": 13,
+          "mean": 0.0,
+          "correct": 0
+        }
+      }
+    }
+  },
+  "observations": {
+    "all_zero_questions": [],
+    "likely_false_negatives": [],
+    "model_domain_strengths": {
+      "gpt": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "creative",
+        "weakest_score": 72.0
+      },
+      "gemini": {
+        "strongest": "mathematics",
+        "strongest_score": 0.0,
+        "weakest": "creative",
+        "weakest_score": 0.0
+      },
+      "claude": {
+        "strongest": "mathematics",
+        "strongest_score": 0.0,
+        "weakest": "creative",
+        "weakest_score": 0.0
+      }
+    },
+    "biggest_gaps": [
+      {
+        "domain": "mathematics",
+        "gap": 100.0,
+        "best_model": "gpt",
+        "best_score": 100.0,
+        "worst_model": "gemini",
+        "worst_score": 0.0
+      },
+      {
+        "domain": "factual",
+        "gap": 95.0,
+        "best_model": "gpt",
+        "best_score": 95.0,
+        "worst_model": "gemini",
+        "worst_score": 0.0
+      },
+      {
+        "domain": "ethics",
+        "gap": 88.0,
+        "best_model": "gpt",
+        "best_score": 88.0,
+        "worst_model": "gemini",
+        "worst_score": 0.0
+      },
+      {
+        "domain": "logical",
+        "gap": 80.0,
+        "best_model": "gpt",
+        "best_score": 80.0,
+        "worst_model": "gemini",
+        "worst_score": 0.0
+      },
+      {
+        "domain": "creative",
+        "gap": 72.0,
+        "best_model": "gpt",
+        "best_score": 72.0,
+        "worst_model": "gemini",
+        "worst_score": 0.0
+      }
+    ],
+    "refusals": {
+      "gpt": 2
+    },
+    "score_spread": {
+      "gpt": 28.0,
+      "gemini": 0.0,
+      "claude": 0.0
+    },
+    "best_model_overall": "gpt",
+    "worst_domain_overall": {
+      "domain": "creative",
+      "avg_score": 24.0
+    }
+  }
+}

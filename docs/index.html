@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Model Evaluation Dashboard</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --gpt:#10a37f;--gemini:#4285F4;--claude:#c96442;
+      --bg:#f4f6f9;--card:#ffffff;--border:#e2e6ea;
+      --text:#2c3e50;--muted:#6c757d;--accent:#0f3460;--radius:10px;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text);}
+    header{background:linear-gradient(135deg,#1a1a2e 0%,#16213e 50%,#0f3460 100%);color:white;padding:2.5rem 2rem 2rem;text-align:center;}
+    header h1{font-size:2rem;font-weight:700;letter-spacing:-0.5px;}
+    header p{margin-top:0.5rem;opacity:0.75;font-size:1rem;}
+    .header-meta{margin-top:1rem;display:flex;justify-content:center;gap:1.5rem;flex-wrap:wrap;}
+    .header-meta span{font-size:0.82rem;opacity:0.85;background:rgba(255,255,255,0.12);padding:0.3rem 0.8rem;border-radius:20px;}
+    nav{background:white;border-bottom:1px solid var(--border);display:flex;overflow-x:auto;padding:0 2rem;}
+    nav button{background:none;border:none;border-bottom:3px solid transparent;padding:1rem 1.3rem;font-size:0.92rem;cursor:pointer;color:var(--muted);white-space:nowrap;transition:all 0.2s;}
+    nav button.active,nav button:hover{color:var(--text);border-bottom-color:var(--accent);}
+    main{max-width:1200px;margin:0 auto;padding:2rem;}
+    .page{display:none;}.page.active{display:block;}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;margin-bottom:1.5rem;}
+    .card h2{font-size:1.05rem;font-weight:600;margin-bottom:1rem;}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem;}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;}
+    @media(max-width:900px){.grid-2,.grid-3{grid-template-columns:1fr;}}
+    .model-card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.4rem;border-top:4px solid;}
+    .model-card h3{font-size:0.95rem;font-weight:600;margin-bottom:0.3rem;}
+    .model-card .score{font-size:2.1rem;font-weight:700;}
+    .stat-tile{background:var(--card);border:1px solid var(--border);border-radius:var(--radius);padding:1.2rem 1.5rem;}
+    .stat-tile .label{font-size:0.72rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--muted);}
+    .stat-tile .value{font-size:1.6rem;font-weight:700;margin:0.2rem 0;}
+    .stat-tile .sub{font-size:0.8rem;color:var(--muted);}
+    .chart-container{position:relative;height:300px;}
+    .chart-container-tall{position:relative;height:420px;}
+    table{width:100%;border-collapse:collapse;font-size:0.88rem;}
+    th{background:#f1f3f5;padding:0.7rem 1rem;text-align:left;font-weight:600;border-bottom:2px solid var(--border);font-size:0.76rem;text-transform:uppercase;letter-spacing:0.05em;}
+    td{padding:0.65rem 1rem;border-bottom:1px solid var(--border);}
+    tr:hover td{background:#f8f9fa;}
+    .bg{padding:0.15rem 0.55rem;border-radius:999px;font-size:0.74rem;font-weight:600;}
+    .bg-good{background:#d1fae5;color:#065f46;}
+    .bg-ok{background:#fef3c7;color:#92400e;}
+    .bg-poor{background:#fee2e2;color:#991b1b;}
+    .finding{background:#f0f4ff;border-left:4px solid var(--accent);border-radius:0 var(--radius) var(--radius) 0;padding:1rem 1.2rem;margin-bottom:0.8rem;font-size:0.91rem;line-height:1.65;}
+    .upload-zone{border:2px dashed var(--border);border-radius:var(--radius);padding:2.5rem;text-align:center;cursor:pointer;transition:all 0.2s;}
+    .upload-zone:hover{border-color:var(--accent);background:#f0f4ff;}
+    .upload-zone input{display:none;}
+    .btn{display:inline-flex;align-items:center;gap:0.4rem;padding:0.6rem 1.2rem;border-radius:6px;font-size:0.88rem;font-weight:500;cursor:pointer;border:none;}
+    .btn-primary{background:var(--accent);color:white;}
+    .alert{padding:0.9rem 1.2rem;border-radius:6px;margin-bottom:1rem;font-size:0.88rem;}
+    .alert-success{background:#d1fae5;color:#065f46;border-left:4px solid #10b981;}
+    .alert-info{background:#e0f0ff;color:#0c4a6e;border-left:4px solid var(--accent);}
+    .community-entry{border:1px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:0.8rem;display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap;}
+    .community-entry .meta{font-size:0.78rem;color:var(--muted);margin-top:0.25rem;}
+    .community-entry .scores{display:flex;gap:1rem;flex-wrap:wrap;}
+    .ms{font-size:0.86rem;font-weight:600;}
+    footer{text-align:center;padding:2rem;font-size:0.8rem;color:var(--muted);border-top:1px solid var(--border);margin-top:3rem;}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>🤖 AI Model Evaluation Dashboard</h1>
+  <p>Systematic comparison of large language models across five domains</p>
+  <div class="header-meta">
+    <span>📊 75 questions</span>
+    <span>🤖 3 models evaluated</span>
+    <span>📁 5 domains</span>
+    <span>🎓 University of Hull · 2025/26</span>
+  </div>
+</header>
+
+<nav>
+  <button class="active" onclick="showPage('overview',this)">Overview</button>
+  <button onclick="showPage('charts',this)">Charts</button>
+  <button onclick="showPage('breakdown',this)">Full Breakdown</button>
+  <button onclick="showPage('findings',this)">Key Findings</button>
+  <button onclick="showPage('community',this)">Community</button>
+  <button onclick="showPage('upload',this)">Upload Results</button>
+  <button onclick="showPage('about',this)">About</button>
+</nav>
+
+<main>
+
+<!-- OVERVIEW -->
+<div id="page-overview" class="page active">
+  <div class="grid-3" style="margin-bottom:1.5rem" id="model-cards"></div>
+  <div class="grid-2">
+    <div class="card"><h2>Domain Scores — All Models</h2><div id="domain-bars"></div></div>
+    <div class="card"><h2>Performance Radar</h2><div class="chart-container"><canvas id="overviewRadar"></canvas></div></div>
+  </div>
+  <div class="grid-3">
+    <div class="stat-tile"><div class="label">Top Overall Model</div><div class="value" id="st1">—</div><div class="sub" id="st1s">—</div></div>
+    <div class="stat-tile"><div class="label">Strongest Domain (avg)</div><div class="value" id="st2">—</div><div class="sub" id="st2s">—</div></div>
+    <div class="stat-tile"><div class="label">Weakest Domain (avg)</div><div class="value" id="st3">—</div><div class="sub" id="st3s">—</div></div>
+  </div>
+</div>
+
+<!-- CHARTS -->
+<div id="page-charts" class="page">
+  <div class="grid-2">
+    <div class="card"><h2>Score by Domain</h2><div class="chart-container"><canvas id="domainBar"></canvas></div></div>
+    <div class="card"><h2>Score by Difficulty</h2><div class="chart-container"><canvas id="diffBar"></canvas></div></div>
+  </div>
+  <div class="grid-2">
+    <div class="card"><h2>Overall Comparison</h2><div class="chart-container"><canvas id="overallBar"></canvas></div></div>
+    <div class="card"><h2>Full Radar Profile</h2><div class="chart-container-tall"><canvas id="fullRadar"></canvas></div></div>
+  </div>
+</div>
+
+<!-- BREAKDOWN -->
+<div id="page-breakdown" class="page">
+  <div class="card">
+    <h2>Complete Results Table</h2>
+    <p style="font-size:0.83rem;color:var(--muted);margin-bottom:1rem">75 questions · 15 per domain · Standard evaluation run · 15 April 2026 · ★ = domain leader</p>
+    <div style="overflow-x:auto" id="breakdown-table"></div>
+  </div>
+  <div class="card"><h2>Scores by Difficulty</h2><div style="overflow-x:auto" id="difficulty-table"></div></div>
+</div>
+
+<!-- FINDINGS -->
+<div id="page-findings" class="page">
+  <div class="card"><h2>Key Findings</h2><p style="font-size:0.85rem;color:var(--muted);margin-bottom:1.2rem">Auto-generated from the standard evaluation run (75 questions, 3 models, 15 Apr 2026).</p><div id="findings-list"></div></div>
+  <div class="card">
+    <h2>Scoring Methodology</h2>
+    <p style="line-height:1.7;font-size:0.91rem">Three scoring modes are used. <strong>Exact match</strong> is applied to mathematics. <strong>Keyword matching</strong> is used for factual and logical questions. <strong>Rubric-based scoring</strong> is applied to ethics and creative questions, using keyword presence and response length as proxies — since no single ground truth exists for these domains. This is an acknowledged limitation; results for subjective domains should be interpreted as indicative rather than definitive.</p>
+  </div>
+</div>
+
+<!-- COMMUNITY -->
+<div id="page-community" class="page">
+  <div class="card"><h2>Community Submitted Results</h2><p style="color:var(--muted);font-size:0.87rem;margin-bottom:1rem">Results submitted by users of the evaluation tool. Upload your own results using the Upload tab.</p><div id="community-list"></div></div>
+</div>
+
+<!-- UPLOAD -->
+<div id="page-upload" class="page">
+  <div class="card">
+    <h2>Upload Your Evaluation Results</h2>
+    <p style="color:var(--muted);font-size:0.88rem;margin-bottom:1.2rem">Run the evaluation tool and select <strong>Export CSV for website</strong> from the main menu. Upload the exported <code>summary_*.csv</code> here to load your results.</p>
+    <div class="upload-zone" onclick="document.getElementById('fileInput').click()">
+      <div style="font-size:2.5rem;margin-bottom:0.5rem">📂</div>
+      <p><strong>Click to select</strong> or drag &amp; drop a CSV file</p>
+      <p style="font-size:0.8rem;margin-top:0.3rem;color:var(--muted)">Accepts summary_*.csv from the AI Evaluation Tool</p>
+      <input type="file" id="fileInput" accept=".csv"/>
+    </div>
+    <div id="upload-status" style="margin-top:1rem"></div>
+    <div style="margin-top:1.2rem"><button class="btn btn-primary" onclick="loadReal()">Reload Default Results</button></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<div id="page-about" class="page">
+  <div class="card">
+    <h2>About This Project</h2>
+    <p style="line-height:1.7;margin-bottom:1rem">Developed as a final-year Computer Science Honours project at the University of Hull (2025/26). The tool provides an accessible, systematic way to evaluate and compare large language models across multiple domains — without requiring specialist knowledge or expensive compute.</p>
+    <p style="line-height:1.7">Questions span five domains: <strong>Mathematics</strong>, <strong>Factual Accuracy</strong>, <strong>Logical Reasoning</strong>, <strong>Ethical Reasoning</strong>, and <strong>Creative Generation</strong> — with 200 questions total across three difficulty levels.</p>
+  </div>
+  <div class="card">
+    <h2>Models Evaluated</h2>
+    <table><thead><tr><th>Model</th><th>Provider</th><th>Access Tier</th></tr></thead>
+    <tbody>
+      <tr><td>GPT-4o-mini</td><td>OpenAI</td><td>Pay-as-you-go API</td></tr>
+      <tr><td>Gemini 2.5 Flash</td><td>Google</td><td>Free tier / Pay-as-you-go</td></tr>
+      <tr><td>Claude Haiku 3</td><td>Anthropic</td><td>Pay-as-you-go API</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+</main>
+<footer>AI Model Evaluation Tool · Honours Stage Project 2025/26 · University of Hull · Sam Curry</footer>
+
+<script>
+const DOMAINS      = ["mathematics","factual","logical","ethics","creative"];
+const DLABELS      = ["Mathematics","Factual Accuracy","Logical Reasoning","Ethical Reasoning","Creative Generation"];
+const MCOLORS      = {gpt:"#10a37f",gemini:"#4285F4",claude:"#c96442"};
+const MNAMES       = {gpt:"GPT-4o-mini",gemini:"Gemini 2.5 Flash",claude:"Claude Haiku 3"};
+
+const DEFAULT_DATA = {
+  models:["gpt","gemini","claude"],
+  overall:{gpt:83.3,gemini:86.2,claude:86.8},
+  by_domain:{
+    mathematics:{gpt:86.7,gemini:100.0,claude:93.3},
+    factual:    {gpt:85.6,gemini:85.6, claude:90.0},
+    logical:    {gpt:74.9,gemini:74.9, claude:82.9},
+    ethics:     {gpt:92.0,gemini:90.7, claude:85.3},
+    creative:   {gpt:77.3,gemini:80.0, claude:82.7},
+  },
+  by_difficulty:{
+    easy:  {gpt:82.3,gemini:83.9,claude:88.4},
+    medium:{gpt:82.5,gemini:83.1,claude:84.1},
+    hard:  {gpt:86.3,gemini:95.7,claude:89.8},
+  },
+  questions:75,source:"Standard run · 15 Apr 2026"
+};
+
+const COMMUNITY_DATA = [
+  {date:"2026-04-15",models:{gpt:83.3,gemini:86.2,claude:86.8},questions:75, note:"Standard run (15 per domain)"},
+  {date:"2026-04-15",models:{gpt:81.3,gemini:77.3,claude:81.5},questions:25, note:"Quick test (5 per domain)"},
+  {date:"2026-04-15",models:{gpt:87.0},                         questions:25, note:"GPT-only run (early testing)"},
+];
+
+let D  = DEFAULT_DATA;
+let CI = {};
+
+function showPage(name,btn){
+  document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+  document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
+  document.getElementById("page-"+name).classList.add("active");
+  if(btn) btn.classList.add("active");
+  if(name==="charts")    renderCharts();
+  if(name==="community") renderCommunity();
+  if(name==="findings")  renderFindings();
+}
+
+function loadReal(){ D=DEFAULT_DATA; resetCharts(); renderOverview(); document.getElementById("upload-status").innerHTML='<div class="alert alert-success">Default results loaded.</div>'; }
+
+function resetCharts(){ Object.values(CI).forEach(c=>c.destroy()); CI={}; }
+
+// ── OVERVIEW ──────────────────────────────────────────────────────────────────
+function renderOverview(){
+  const sorted=[...D.models].sort((a,b)=>D.overall[b]-D.overall[a]);
+  const medals=["🥇","🥈","🥉"];
+
+  document.getElementById("model-cards").innerHTML=sorted.map((m,i)=>{
+    const wins=DOMAINS.filter(d=>{
+      const mx=Math.max(...D.models.map(x=>D.by_domain[d]?.[x]||0));
+      return (D.by_domain[d]?.[m]||0)===mx;
+    });
+    return `<div class="model-card" style="border-top-color:${MCOLORS[m]}">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start">
+        <div><h3>${MNAMES[m]}</h3><div class="score" style="color:${MCOLORS[m]}">${D.overall[m].toFixed(1)}%</div></div>
+        <span style="font-size:1.8rem">${medals[i]}</span>
+      </div>
+      ${wins.length?`<div style="margin-top:0.5rem;font-size:0.75rem;color:var(--muted)">Leads: ${wins.map(w=>DLABELS[DOMAINS.indexOf(w)]).join(', ')}</div>`:''}
+    </div>`;
+  }).join("");
+
+  document.getElementById("domain-bars").innerHTML=DOMAINS.map((dom,di)=>{
+    const vals=D.models.map(m=>D.by_domain[dom]?.[m]||0);
+    const mx=Math.max(...vals);
+    return `<div style="margin-bottom:0.9rem">
+      <div style="font-size:0.82rem;font-weight:600;margin-bottom:0.35rem">${DLABELS[di]}</div>
+      ${D.models.map(m=>{
+        const s=D.by_domain[dom]?.[m]||0;
+        return `<div style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.2rem">
+          <span style="width:90px;font-size:0.76rem;color:var(--muted)">${MNAMES[m].split(' ')[0]}</span>
+          <div style="flex:1;background:#e9ecef;border-radius:4px;height:8px;overflow:hidden">
+            <div style="width:${s}%;height:100%;background:${MCOLORS[m]};border-radius:4px"></div>
+          </div>
+          <span style="width:40px;font-size:0.8rem;font-weight:${s===mx?700:400}">${s.toFixed(1)}%</span>
+        </div>`;
+      }).join("")}
+    </div>`;
+  }).join("");
+
+  const davg=DOMAINS.map(d=>({d,avg:D.models.reduce((s,m)=>s+(D.by_domain[d]?.[m]||0),0)/D.models.length}));
+  const strong=davg.reduce((a,b)=>a.avg>b.avg?a:b);
+  const weak  =davg.reduce((a,b)=>a.avg<b.avg?a:b);
+  const best  =sorted[0];
+  document.getElementById("st1").textContent =MNAMES[best].split(' ')[0];
+  document.getElementById("st1s").textContent=`${D.overall[best].toFixed(1)}% overall`;
+  document.getElementById("st2").textContent =DLABELS[DOMAINS.indexOf(strong.d)];
+  document.getElementById("st2s").textContent=`${strong.avg.toFixed(1)}% avg across models`;
+  document.getElementById("st3").textContent =DLABELS[DOMAINS.indexOf(weak.d)];
+  document.getElementById("st3s").textContent=`${weak.avg.toFixed(1)}% avg across models`;
+
+  if(CI.overviewRadar) CI.overviewRadar.destroy();
+  CI.overviewRadar=new Chart(document.getElementById("overviewRadar"),{
+    type:"radar",
+    data:{labels:DLABELS,datasets:D.models.map(m=>({label:MNAMES[m],data:DOMAINS.map(d=>D.by_domain[d]?.[m]||0),borderColor:MCOLORS[m],backgroundColor:MCOLORS[m]+"22",borderWidth:2,pointBackgroundColor:MCOLORS[m]}))},
+    options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:100,ticks:{stepSize:20,font:{size:9}}}},plugins:{legend:{position:"bottom",labels:{font:{size:10}}}}}
+  });
+
+  renderBreakdown();
+}
+
+// ── CHARTS ────────────────────────────────────────────────────────────────────
+function renderCharts(){
+  const mk=(fn)=>D.models.map(m=>({label:MNAMES[m],data:fn(m),backgroundColor:MCOLORS[m]+"cc",borderColor:MCOLORS[m],borderWidth:1}));
+  const opts=(axis)=>({responsive:true,maintainAspectRatio:false,scales:{[axis]:{min:0,max:100}},plugins:{legend:{position:"top"}}});
+
+  if(!CI.domainBar) CI.domainBar=new Chart(document.getElementById("domainBar"),{type:"bar",data:{labels:DLABELS,datasets:mk(m=>DOMAINS.map(d=>D.by_domain[d]?.[m]||0))},options:opts("y")});
+  if(!CI.diffBar)   CI.diffBar  =new Chart(document.getElementById("diffBar"),  {type:"bar",data:{labels:["Easy","Medium","Hard"],datasets:mk(m=>["easy","medium","hard"].map(d=>D.by_difficulty[d]?.[m]||0))},options:opts("y")});
+  if(!CI.overallBar) CI.overallBar=new Chart(document.getElementById("overallBar"),{
+    type:"bar",
+    data:{labels:D.models.map(m=>MNAMES[m]),datasets:[{label:"Overall %",data:D.models.map(m=>D.overall[m]),backgroundColor:D.models.map(m=>MCOLORS[m]+"cc"),borderColor:D.models.map(m=>MCOLORS[m]),borderWidth:1}]},
+    options:{indexAxis:"y",responsive:true,maintainAspectRatio:false,scales:{x:{min:0,max:100}},plugins:{legend:{display:false}}}
+  });
+  if(!CI.fullRadar) CI.fullRadar=new Chart(document.getElementById("fullRadar"),{
+    type:"radar",
+    data:{labels:DLABELS,datasets:D.models.map(m=>({label:MNAMES[m],data:DOMAINS.map(d=>D.by_domain[d]?.[m]||0),borderColor:MCOLORS[m],backgroundColor:MCOLORS[m]+"22",borderWidth:2,pointBackgroundColor:MCOLORS[m]}))},
+    options:{responsive:true,maintainAspectRatio:false,scales:{r:{min:0,max:100}},plugins:{legend:{position:"bottom"}}}
+  });
+}
+
+// ── BREAKDOWN ─────────────────────────────────────────────────────────────────
+function renderBreakdown(){
+  const mcols=D.models.map(m=>`<th>${MNAMES[m]}</th>`).join("");
+  const rows=DOMAINS.map(dom=>{
+    const vals=D.models.map(m=>D.by_domain[dom]?.[m]||0);
+    const mx=Math.max(...vals);
+    const cells=D.models.map(m=>{
+      const s=D.by_domain[dom]?.[m]; if(s===undefined) return "<td>N/A</td>";
+      const cl=s>=85?"good":s>=70?"ok":"poor";
+      return `<td><span class="bg bg-${cl}">${s.toFixed(1)}%</span>${s===mx?" ★":""}</td>`;
+    }).join("");
+    return `<tr><td><strong>${DLABELS[DOMAINS.indexOf(dom)]}</strong></td>${cells}</tr>`;
+  }).join("");
+  const ocells=D.models.map(m=>{const mx=Math.max(...D.models.map(x=>D.overall[x]));return `<td style="font-weight:700">${D.overall[m].toFixed(1)}%${D.overall[m]===mx?" ★":""}</td>`;}).join("");
+  document.getElementById("breakdown-table").innerHTML=`<table><thead><tr><th>Domain</th>${mcols}</tr></thead><tbody>${rows}<tr style="background:#f8f9fa"><td><strong>Overall</strong></td>${ocells}</tr></tbody></table>`;
+
+  const diffRows=["easy","medium","hard"].map(diff=>{
+    const cells=D.models.map(m=>{const s=D.by_difficulty[diff]?.[m];if(!s)return"<td>N/A</td>";const cl=s>=85?"good":s>=70?"ok":"poor";return`<td><span class="bg bg-${cl}">${s.toFixed(1)}%</span></td>`;}).join("");
+    return `<tr><td><strong>${diff.charAt(0).toUpperCase()+diff.slice(1)}</strong></td>${cells}</tr>`;
+  }).join("");
+  document.getElementById("difficulty-table").innerHTML=`<table><thead><tr><th>Difficulty</th>${mcols}</tr></thead><tbody>${diffRows}</tbody></table>`;
+}
+
+// ── FINDINGS ──────────────────────────────────────────────────────────────────
+function renderFindings(){
+  const sorted=[...D.models].sort((a,b)=>D.overall[b]-D.overall[a]);
+  const best=sorted[0],worst=sorted[sorted.length-1];
+  const spread=(D.overall[best]-D.overall[worst]).toFixed(1);
+  const davg=DOMAINS.map(d=>({d,avg:D.models.reduce((s,m)=>s+(D.by_domain[d]?.[m]||0),0)/D.models.length}));
+  const strong=davg.reduce((a,b)=>a.avg>b.avg?a:b);
+  const weak  =davg.reduce((a,b)=>a.avg<b.avg?a:b);
+  const eAvg=D.models.reduce((s,m)=>s+(D.by_difficulty.easy?.[m]||0),0)/D.models.length;
+  const hAvg=D.models.reduce((s,m)=>s+(D.by_difficulty.hard?.[m]||0),0)/D.models.length;
+  const winners=DOMAINS.map(dom=>{const mx=Math.max(...D.models.map(m=>D.by_domain[dom]?.[m]||0));const w=D.models.find(m=>(D.by_domain[dom]?.[m]||0)===mx);return`${MNAMES[w]} leads ${DLABELS[DOMAINS.indexOf(dom)]} (${mx.toFixed(1)}%)`;});
+
+  const findings=[
+    `<strong>Overall rankings are extremely close.</strong> ${MNAMES[best]} leads with ${D.overall[best].toFixed(1)}%, but only <strong>${spread}pp</strong> separates all three models. High-level overall scores mask important domain-level differences — this is the central argument for domain-specific evaluation.`,
+    `<strong>No single model dominates every domain.</strong> ${winners.join('; ')}.`,
+    `<strong>${DLABELS[DOMAINS.indexOf(strong.d)]} produces the highest scores overall</strong>, averaging ${strong.avg.toFixed(1)}% across all models. Well-defined problems with unambiguous answers leave little room for scoring ambiguity.`,
+    `<strong>${DLABELS[DOMAINS.indexOf(weak.d)]} is the hardest domain for all models</strong>, averaging ${weak.avg.toFixed(1)}%. Subjective domains without a single ground truth are inherently harder to evaluate with automated keyword-based scoring.`,
+    `<strong>Scores increase with question difficulty</strong> across all models — Easy averaged ${eAvg.toFixed(1)}% vs Hard at ${hAvg.toFixed(1)}% (+${(hAvg-eAvg).toFixed(1)}pp). This counterintuitive result suggests harder questions have more specific, keyword-rich answers that automated scoring detects more reliably.`,
+    `<strong>Gemini 2.5 Flash achieved a perfect 100% in Mathematics</strong> — the only domain where any model scored maximum across all 15 questions in the standard run, demonstrating strong numerical reasoning.`,
+  ];
+
+  document.getElementById("findings-list").innerHTML=findings.map(f=>`<div class="finding">${f}</div>`).join("");
+}
+
+// ── COMMUNITY ─────────────────────────────────────────────────────────────────
+function renderCommunity(){
+  const el=document.getElementById("community-list");
+  if(el.innerHTML) return;
+  el.innerHTML=COMMUNITY_DATA.map(e=>{
+    const scores=Object.entries(e.models).map(([m,s])=>`<span class="ms" style="color:${MCOLORS[m]||'#888'}">${(MNAMES[m]||m).split(' ')[0]}: ${s.toFixed(1)}%</span>`).join("");
+    return `<div class="community-entry"><div><div class="scores">${scores}</div><div class="meta">${e.date} · ${e.questions} questions · ${e.note}</div></div></div>`;
+  }).join("");
+}
+
+// ── CSV UPLOAD ────────────────────────────────────────────────────────────────
+document.getElementById("fileInput").addEventListener("change",e=>{
+  const f=e.target.files[0]; if(!f) return;
+  const r=new FileReader(); r.onload=ev=>parseCSV(ev.target.result,f.name); r.readAsText(f);
+});
+const zone=document.querySelector(".upload-zone");
+zone.addEventListener("dragover",e=>{e.preventDefault();zone.style.borderColor="var(--accent)";});
+zone.addEventListener("dragleave",()=>zone.style.borderColor="");
+zone.addEventListener("drop",e=>{
+  e.preventDefault();zone.style.borderColor="";
+  const f=e.dataTransfer.files[0];if(!f)return;
+  const r=new FileReader();r.onload=ev=>parseCSV(ev.target.result,f.name);r.readAsText(f);
+});
+
+function parseCSV(text,filename){
+  const lines=text.trim().split("\n").map(l=>l.split(",").map(c=>c.trim()));
+  if(lines.length<2){showStatus("Could not parse file.","alert-info");return;}
+  const header=lines[0];
+  const keys=header.slice(1);
+  const data={models:keys,by_domain:{},by_difficulty:{},overall:{},questions:"?",source:filename};
+  for(const line of lines.slice(1)){
+    const label=line[0].toLowerCase().replace(/\s+/g,"");
+    if(label==="overall"){keys.forEach((m,i)=>data.overall[m]=parseFloat(line[i+1])||0);}
+    else if(["easy","medium","hard"].includes(label)){data.by_difficulty[label]={};keys.forEach((m,i)=>data.by_difficulty[label][m]=parseFloat(line[i+1])||0);}
+    else{const dom=DOMAINS.find(d=>label.includes(d.slice(0,4)));if(dom){data.by_domain[dom]={};keys.forEach((m,i)=>data.by_domain[dom][m]=parseFloat(line[i+1])||0);}}
+  }
+  D=data; resetCharts(); renderOverview();
+  showStatus(`Results loaded from "${filename}".`,"alert-success");
+}
+
+function showStatus(msg,cls){document.getElementById("upload-status").innerHTML=`<div class="alert ${cls}">${msg}</div>`;}
+
+window.onload=()=>renderOverview();
+</script>
+</body>
+</html>

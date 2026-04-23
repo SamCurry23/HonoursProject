@@ -1,0 +1,1524 @@
+{
+  "metadata": {
+    "timestamp": "2026-04-15T14:43:22.324530",
+    "elapsed_seconds": 329.8,
+    "total_questions": 25,
+    "models_evaluated": [
+      "gpt",
+      "gemini",
+      "claude"
+    ]
+  },
+  "raw_results": [
+    {
+      "question_id": "math_002",
+      "question": "What is 144 divided by 12?",
+      "domain": "mathematics",
+      "difficulty": "easy",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "12",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_002",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "12",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_002",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "12",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_002",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_037",
+      "question": "What is 13 x 13?",
+      "domain": "mathematics",
+      "difficulty": "easy",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "169",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_037",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "169",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_037",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "169",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_037",
+            "domain": "mathematics",
+            "difficulty": "easy",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_048",
+      "question": "If f(x) = 2x^2 + 3, what is f(4)?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "f(4) = 35.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "35",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "f(4) = 35",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_048",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_026",
+      "question": "What is the derivative of f(x) = 3x^4 - 2x^2 + 5x - 1?",
+      "domain": "mathematics",
+      "difficulty": "hard",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "f'(x) = 12x^3 - 4x + 5",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "$f'(x) = 12x^3 - 4x + 5$",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "f'(x) = 12x³ - 4x + 5",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Partial match (2/3 keywords)",
+            "question_id": "math_026",
+            "domain": "mathematics",
+            "difficulty": "hard",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "math_023",
+      "question": "What is sin(90 degrees)?",
+      "domain": "mathematics",
+      "difficulty": "medium",
+      "type": "exact",
+      "models": {
+        "gpt": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "1",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Exact match",
+            "question_id": "math_023",
+            "domain": "mathematics",
+            "difficulty": "medium",
+            "type": "exact"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_027",
+      "question": "What is the Big O complexity of a binary search algorithm?",
+      "domain": "factual",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The Big O complexity of a binary search algorithm is O(log n), where n is the number of elements in the sorted array being searched.",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "fact_027",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "O(log n)",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "fact_027",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Binary Search Big O Complexity\n\n**O(log n)** - logarithmic time complexity\n\n## Explanation\n\nBinary search divides the search space in half with each comparison:\n- Start with n elements\n- After 1st comparison: n/2 elements remain\n- After 2nd comparison: n/4 elements remain\n- After 3rd comparison: n/8 elements remain\n- And so on...\n\nThe maximum number of times you can divide n by 2 until you reach 1 is **log₂(n)**, which is why the time complexity is O(log n).\n\n## Space Complexity\n- **Iterative implementation:** O(1) - constant space\n- **Recursive implementation:** O(log n) - due to call stack",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 3/3 keywords",
+            "question_id": "fact_027",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_032",
+      "question": "What does ACID stand for in database systems?",
+      "domain": "factual",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "ACID stands for Atomicity, Consistency, Isolation, and Durability. These are the properties that ensure reliable processing of database transactions.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "ACID stands for:\n\n*   **A**tomicity\n*   **C**onsistency\n*   **I**solation\n*   **D**urability",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# ACID in Database Systems\n\nACID stands for:\n\n- **A**tomicity\n- **C**onsistency\n- **I**solation\n- **D**urability\n\nThese are four key properties that ensure reliable database transactions. They guarantee that database operations are processed reliably and maintain data integrity even in the event of errors or system failures.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 4/4 keywords",
+            "question_id": "fact_032",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_026",
+      "question": "What is the name of the process by which cells divide to produce genetically identical cells?",
+      "domain": "factual",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The process by which cells divide to produce genetically identical cells is called mitosis.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_026",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Mitosis",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_026",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Mitosis\n\nMitosis is the process by which cells divide to produce two genetically identical daughter cells. Each daughter cell receives an exact copy of the parent cell's chromosomes.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "fact_026",
+            "domain": "factual",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_014",
+      "question": "What is the hardest natural substance on Earth?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The hardest natural substance on Earth is diamond.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_014",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Diamond",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_014",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "Diamond is the hardest natural substance on Earth. It ranks 10 on the Mohs hardness scale, the highest rating on that scale. Its extreme hardness comes from its crystal structure, where each carbon atom is bonded to four other carbon atoms in an extremely strong tetrahedral arrangement.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_014",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "fact_020",
+      "question": "In what year was the World Wide Web invented?",
+      "domain": "factual",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The World Wide Web was invented in 1989.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_020",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "1990",
+          "score_result": {
+            "score": 0.0,
+            "max_score": 1.0,
+            "percentage": 0.0,
+            "detail": "No keywords found",
+            "question_id": "fact_020",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "The World Wide Web was invented in 1989 by Tim Berners-Lee at CERN (the European Organization for Nuclear Research) in Switzerland.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "fact_020",
+            "domain": "factual",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_025",
+      "question": "An exclusive OR (XOR) of two true values gives what result? True or False.",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "False. The XOR of two true values gives a result of false.",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "logic_025",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "False",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "logic_025",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "**False**\n\nXOR (exclusive OR) returns true only when the two inputs are *different*. Since both values are true (the same), XOR returns **false**.\n\nTruth table for XOR:\n- True XOR True = **False**\n- True XOR False = True\n- False XOR True = True\n- False XOR False = False",
+          "score_result": {
+            "score": 0.67,
+            "max_score": 1.0,
+            "percentage": 66.7,
+            "detail": "Matched 2/3 keywords",
+            "question_id": "logic_025",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_027",
+      "question": "If a = 0, b = 0, what is a OR b?",
+      "domain": "logical",
+      "difficulty": "easy",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "If a = 0 and b = 0, then a OR b is 0.",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "0",
+          "score_result": {
+            "score": 0.5,
+            "max_score": 1.0,
+            "percentage": 50.0,
+            "detail": "Matched 1/2 keywords",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "If a = 0 and b = 0, then **a OR b = 0** (or false).\n\nThe OR operation returns true only if at least one operand is true. Since both operands are 0 (false), the result is 0 (false).",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "logic_027",
+            "domain": "logical",
+            "difficulty": "easy",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_014",
+      "question": "A man builds a rectangular house where all four sides face south. A bear walks by. What colour is the bear?",
+      "domain": "logical",
+      "difficulty": "medium",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The bear is white. This scenario describes a house at the North Pole, where all sides face south, and polar bears, which are white, are found in that region.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "logic_014",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The bear is **white**.\n\nThe house must be at the North Pole for all four sides to face south. Polar bears are white.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "logic_014",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "The bear is white.\n\nThis is a classic riddle. The only place on Earth where a rectangular house can have all four sides facing south is at the North Pole. Therefore, the bear must be a polar bear, which is white.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 2/2 keywords",
+            "question_id": "logic_014",
+            "domain": "logical",
+            "difficulty": "medium",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_030",
+      "question": "What is the next number in: 1, 4, 9, 16, 25, ?",
+      "domain": "logical",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The next number in the sequence is 36. This sequence consists of the squares of the natural numbers: 1², 2², 3², 4², 5², and 6².",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_030",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "36",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_030",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "36\n\nThese are perfect squares: 1², 2², 3², 4², 5², 6²",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_030",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "logic_019",
+      "question": "What is the next number in the sequence: 1, 1, 2, 3, 5, 8, 13, ?",
+      "domain": "logical",
+      "difficulty": "hard",
+      "type": "keyword",
+      "models": {
+        "gpt": {
+          "response": "The next number in the sequence is 21. This sequence is the Fibonacci sequence, where each number is the sum of the two preceding ones.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_019",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "21",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_019",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "21\n\nThis is the Fibonacci sequence, where each number is the sum of the two preceding numbers:\n- 13 + 8 = 21",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Matched 1/1 keywords",
+            "question_id": "logic_019",
+            "domain": "logical",
+            "difficulty": "hard",
+            "type": "keyword"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_026",
+      "question": "Is plagiarism ever acceptable? Explain.",
+      "domain": "ethics",
+      "difficulty": "easy",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Plagiarism, defined as the act of using someone else's work, ideas, or intellectual property without proper attribution, is generally considered unethical and unacceptable in academic, professional, and creative contexts. However, the question of whether plagiarism can ever be acceptable invites a nuanced exploration of the concept, its implications, and the contexts in which it might be viewed differently.\n\n### 1. Understanding Plagiarism\n\nPlagiarism can take various forms, including:\n\n- **Direct Plagiarism**: Copying text verbatim without citation.\n- **Self-Plagiarism**: Reusing one's own previously published work without acknowledgment.\n- **Mosaic Plagiarism**: Interspersing copied phrases or ideas with original content without proper citation.\n- **Accidental Plagiarism**: Failing to cite sources correctly due to oversight or misunderstanding.\n\n### 2. Ethical Considerations\n\nThe ethical implications of plagiarism are significant. It undermines the integrity of academic and professional work, devalues original thought, and can lead to serious consequences, including loss of credibility, legal repercussions, and academic penalties. The core principle behind the prohibition of plagiarism is respect for intellectual property and the contributions of others.\n\n### 3. Contextual Exceptions\n\nWhile plagiarism is largely viewed as unacceptable, there are specific contexts where the boundaries may blur:\n\n#### a. Common Knowledge\n\nInformation that is widely known and accepted (e.g., historical facts, scientific principles) does not require citation. In this case, using such information without attribution is not considered plagiarism. For example, stating that \"the Earth revolves around the Sun\" does not necessitate a citation.\n\n#### b. Collaborative Work\n\nIn collaborative environments, such as group projects or team-based research, the lines of authorship can become less clear. If all contributors agree on the use of shared ideas and materials, the traditional notion of plagiarism may not apply. However, transparency and acknowledgment of contributions remain essential.\n\n#### c. Creative Commons and Open Source\n\nWorks that are licensed under Creative Commons or similar open-source licenses allow for the use and modification of content without traditional attribution requirements, provided the terms of the license are followed. In these cases, using someone else's work is acceptable as long as the license conditions are met.\n\n#### d. Parody and Satire\n\nIn creative contexts, such as parody or satire, the use of another's work may be permissible under the doctrine of fair use, particularly in jurisdictions like the United States. However, this is a complex legal area and often requires careful consideration of the intent and impact of the",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 394 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether plagiarism is ever acceptable is complex, but the overwhelming consensus, particularly in academic, professional",
+          "score_result": {
+            "score": 0.38,
+            "max_score": 1.0,
+            "percentage": 38.0,
+            "detail": "Weak – 5 criteria assessed, 18 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Is Plagiarism Ever Acceptable?\n\n## The Short Answer\nNo, plagiarism is fundamentally unacceptable in academic and professional contexts. However, this requires nuance—the reasoning matters, and certain practices occupy gray areas.\n\n## Why Plagiarism Is Unacceptable\n\n**Intellectual honesty**\n- Plagiarism misrepresents authorship and denies proper credit\n- It violates the trust placed in academic and professional systems\n\n**Practical harms**\n- It disadvantages original creators and students who do their own work\n- It undermines the value of credentials and publications\n- It can constitute fraud when credentials are used professionally\n\n**Principle of attribution**\n- All knowledge builds on prior work, but proper citation maintains transparency\n- Citation allows readers to verify sources and explore ideas further\n\n## Gray Areas Worth Considering\n\n**Incidental similarity**\n- Accidental repetition of common phrases or ideas isn't truly plagiarism\n- Context matters: independent parallel thinking differs from copying\n\n**Collaboration and conventions**\n- Some fields have different norms for attribution (e.g., lab work, software development)\n- Proper collaboration with permission is not plagiarism\n\n**Necessity and accessibility**\n- An argument could be made for using unattributed information in genuine emergencies, though this rarely justifies plagiarism in practice\n\n## Conclusion\n\nPlagiarism remains unacceptable because integrity, attribution, and fairness are foundational to learning and knowledge-sharing. Rather than seeking exceptions, the better approach is understanding *why* citation matters and building those practices into your work from the start.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 228 words",
+            "question_id": "ethics_026",
+            "domain": "ethics",
+            "difficulty": "easy",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_005",
+      "question": "Should large AI companies be required to share their training data and model weights publicly? Argue both sides.",
+      "domain": "ethics",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether large AI companies should be required to share their training data and model weights publicly is a complex and multifaceted issue. Below, I will present arguments for both sides of the debate, followed by a conclusion that synthesizes these perspectives.\n\n### Arguments for Requiring Public Sharing\n\n1. **Transparency and Accountability**:\n   - **Ethical Considerations**: Requiring companies to share their training data and model weights promotes transparency, allowing researchers, policymakers, and the public to understand how AI systems make decisions. This is particularly important in high-stakes areas like healthcare, criminal justice, and finance, where biased or flawed models can have serious consequences.\n   - **Accountability**: Public access to data and models can help hold companies accountable for their AI systems' performance and ethical implications. It allows for independent audits and assessments, which can identify biases and errors that may not be apparent to the companies themselves.\n\n2. **Fostering Innovation**:\n   - **Collaboration and Research**: Open access to training data and model weights can stimulate innovation by enabling researchers and smaller companies to build upon existing work. This can lead to new applications, improvements in AI technology, and a more vibrant ecosystem of AI development.\n   - **Reducing Barriers to Entry**: Smaller companies and academic institutions often lack the resources to collect large datasets or train complex models. Sharing data and weights can level the playing field, allowing more entities to participate in AI research and development.\n\n3. **Public Good**:\n   - **Taxpayer Funding**: Many AI advancements are funded by public institutions or through government grants. As such, there is a moral argument that the resulting technologies should be accessible to the public, as they are, in a sense, a product of public investment.\n   - **Global Challenges**: AI has the potential to address significant global challenges, such as climate change and public health. Sharing data and models can accelerate progress in these areas by enabling collaborative efforts across borders and disciplines.\n\n### Arguments Against Requiring Public Sharing\n\n1. **Intellectual Property and Competitive Advantage**:\n   - **Business Interests**: Companies invest significant resources into developing their AI models and datasets. Requiring them to share this information could undermine their competitive advantage and disincentivize innovation. Intellectual property rights are crucial for protecting the investments made in research and development.\n   - **Market Dynamics**: In a competitive market, companies may be less inclined to invest in AI research if they know that their innovations can be easily replicated by competitors. This could",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 403 words",
+            "question_id": "ethics_005",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether large AI companies should be required to share their training data and model weights publicly",
+          "score_result": {
+            "score": 0.19,
+            "max_score": 1.0,
+            "percentage": 19.0,
+            "detail": "Poor – 5 criteria assessed, 19 words",
+            "question_id": "ethics_005",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Should Large AI Companies Share Training Data and Model Weights?\n\n## The Case FOR Mandatory Sharing\n\n**Scientific Progress & Reproducibility**\n- Closed systems prevent independent verification of claims\n- Open weights enable academic research and innovation from smaller labs\n- Reproducibility is foundational to scientific integrity\n\n**Democratization & Competition**\n- Concentrated power among few companies limits who can build AI systems\n- Public access enables startups and researchers to compete\n- Prevents monopolistic control of transformative technology\n\n**Safety & Alignment Research**\n- External scrutiny identifies vulnerabilities faster\n- Security researchers can stress-test for harmful capabilities\n- Transparent models easier to audit for bias and dangerous behavior\n\n**Public Interest**\n- Training on public data (internet, government documents) creates quasi-public resources\n- Public funding often supports foundational research behind these systems\n- Democratic societies shouldn't rely on proprietary black boxes for critical decisions\n\n## The Case AGAINST Mandatory Sharing\n\n**Security & Misuse Risks**\n- Detailed weights + training data could enable weaponization or bioweapon design\n- Bad actors gain same capabilities as safety researchers\n- No proven way to share safely without enabling harm\n\n**Economic Incentives**\n- R&D costs are massive; mandates reduce investment motivation\n- Companies might relocate or reduce open research if forced to share\n- Intellectual property protection historically drives innovation\n\n**Privacy Violations**\n- Training data often contains personal information, copyrighted material\n- GDPR/privacy laws may conflict with sharing requirements\n- Individuals didn't consent to their data's secondary uses\n\n**Practical Implementation Problems**\n- Model weights alone aren't interpretable—understanding requires context only companies possess\n- Data is often messy, incomplete, or undocumented\n- Sharing becomes a compliance checkbox rather than meaningful transparency\n\n**Competitive Disadvantage**\n- Companies investing billions subsidize competitors using their work\n- Smaller players can't afford R&D but benefit equally\n- May entrench current leaders (they can afford compliance costs)\n\n---\n\n## A Structured Middle Path\n\nRather than binary thinking, consider:\n- **Tiered transparency**: Safety reviews by auditors without full public release\n- **Conditional sharing**: Open weights for non-commercial use, retain commercial rights\n- **Data sanitization**: Share training approaches, not raw data\n-",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 346 words",
+            "question_id": "ethics_005",
+            "domain": "ethics",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_024",
+      "question": "Should social media platforms be held responsible for the content users post?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether social media platforms should be held responsible for the content users post is complex and multifaceted, involving legal, ethical, and practical considerations. Below is a structured response that examines the various dimensions of this issue.\n\n### 1. **Legal Framework**\n\n#### a. Current Laws\nIn many jurisdictions, social media platforms are protected under laws such as Section 230 of the Communications Decency Act in the United States, which provides immunity to online platforms from liability for user-generated content. This legal framework allows platforms to host a wide range of content without being held responsible for what users post.\n\n#### b. Proposed Changes\nThere are ongoing debates about reforming these laws to hold platforms more accountable, especially in cases of hate speech, misinformation, and harmful content. Advocates for reform argue that platforms should take a more active role in moderating content to prevent harm.\n\n### 2. **Ethical Considerations**\n\n#### a. Responsibility vs. Freedom\nSocial media platforms serve as public forums where individuals can express their opinions. Holding platforms responsible for user content could infringe on free speech rights. However, there is an ethical obligation for these companies to create a safe environment for users, which may necessitate some level of content moderation.\n\n#### b. Harm Reduction\nPlatforms have a moral responsibility to mitigate harm caused by their services. This includes addressing issues like cyberbullying, misinformation, and extremist content. The ethical argument for responsibility hinges on the potential consequences of unchecked harmful content.\n\n### 3. **Practical Implications**\n\n#### a. Content Moderation Challenges\nImplementing effective content moderation is a significant challenge for social media platforms. The sheer volume of content generated daily makes it difficult to monitor and regulate effectively. Automated systems can misinterpret context, leading to over-censorship or under-censorship.\n\n#### b. Impact on Innovation\nIf platforms are held liable for user-generated content, it may stifle innovation and discourage the development of new platforms. Startups may be deterred from entering the market due to the fear of legal repercussions, leading to a less diverse online ecosystem.\n\n### 4. **User Responsibility**\n\n#### a. Empowering Users\nWhile platforms have a role to play, users also bear responsibility for their actions online. Education about digital literacy and responsible online behavior is crucial. Encouraging users to think critically about the content they share can help mitigate some of the negative impacts.\n\n#### b. Community Standards\nPlatforms can establish community guidelines that outline acceptable behavior and content. By fostering a culture of accountability among users, platforms",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 411 words",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether social media platforms should be held responsible for user-posted content is one of the",
+          "score_result": {
+            "score": 0.18,
+            "max_score": 1.0,
+            "percentage": 18.0,
+            "detail": "Poor – 5 criteria assessed, 18 words",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Social Media Platform Responsibility: A Structured Analysis\n\n## Arguments FOR Holding Platforms Responsible\n\n**Practical control capacity**\n- Platforms have algorithmic tools, moderation systems, and resources individuals lack\n- They actively decide what content to amplify, suppress, or recommend\n- They profit from engagement, creating incentive to maximize visibility\n\n**Public harm prevention**\n- Misinformation spreads rapidly and causes measurable damage (health, electoral, social)\n- Harassment and hate speech campaigns need structural intervention\n- Child safety requires gatekeeping\n\n**Legal precedent**\n- Publishers are liable for content they curate/edit\n- Platforms function similarly through algorithms and moderation\n\n## Arguments AGAINST Full Platform Responsibility\n\n**Scale and feasibility**\n- Billions of posts daily make comprehensive review impossible\n- Over-moderation risks censoring legitimate speech\n- Costs could make platforms unsustainable\n\n**Free expression concerns**\n- Platforms are publication channels, not editors of all content\n- Holding them responsible may incentivize over-suppression\n- Responsibility without democratic oversight raises authoritarianism concerns\n\n**Proper accountability**\n- Original posters bear primary responsibility for what they create\n- Law enforcement should address illegal content\n- Users themselves should curate their feeds\n\n## Middle-Ground Positions\n\nMost policy experts suggest **graduated responsibility**:\n- Platforms should remove *illegal* content (harassment, incitement, exploitation)\n- Transparent moderation policies and appeal processes\n- Accountability for amplification algorithms, not mere hosting\n- Users remain responsible for their own posts\n- Regulatory oversight of platform practices (not content choices)\n\n## Conclusion\n\nThe most defensible approach distinguishes between:\n- **Hosting** (minimal responsibility)\n- **Amplification** (high responsibility)\n- **Illegal content** (strict responsibility)\n\nThis avoids both platform impunity and censorship risks.",
+          "score_result": {
+            "score": 0.6,
+            "max_score": 1.0,
+            "percentage": 60.0,
+            "detail": "Good – 5 criteria assessed, 258 words",
+            "question_id": "ethics_024",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_029",
+      "question": "Is it ethical to create digital replicas of deceased people using AI?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The question of whether it is ethical to create digital replicas of deceased people using AI is complex and multifaceted, involving considerations of consent, emotional impact, cultural implications, and technological capabilities. Below is a structured analysis of the ethical dimensions involved.\n\n### 1. **Consent and Autonomy**\n   - **Informed Consent**: One of the primary ethical concerns is the issue of consent. If a person is deceased, they can no longer provide consent for their likeness or personality to be replicated. This raises questions about the rights of the deceased and whether their wishes were known or documented prior to their passing.\n   - **Posthumous Rights**: Different cultures and legal systems have varying views on the rights of deceased individuals. Some argue that individuals should have the right to control how their image and likeness are used after death, while others believe that once a person has passed, their likeness becomes part of the public domain.\n\n### 2. **Emotional Impact on the Living**\n   - **Grief and Mourning**: Digital replicas can have profound emotional effects on the living, particularly those who are grieving. For some, interacting with a digital version of a loved one may provide comfort and closure, while for others, it may hinder the grieving process or lead to unhealthy attachments.\n   - **Manipulation of Emotions**: There is a risk that digital replicas could be used to manipulate emotions for commercial gain, such as in advertising or entertainment, which raises ethical concerns about exploitation.\n\n### 3. **Cultural and Societal Implications**\n   - **Cultural Sensitivity**: Different cultures have varying beliefs about death and the afterlife, which can influence perceptions of digital replicas. In some cultures, the idea of resurrecting a deceased person digitally may be seen as disrespectful or taboo.\n   - **Impact on Memory and Legacy**: The creation of digital replicas may alter how society remembers individuals. It could lead to a commodification of memory, where the essence of a person is reduced to a digital product, potentially overshadowing their real-life contributions and experiences.\n\n### 4. **Technological Considerations**\n   - **Quality and Authenticity**: The technology used to create digital replicas raises questions about authenticity. A digital representation may not capture the true essence of a person, leading to potential misrepresentation or distortion of their character.\n   - **Potential for Misuse**: There is a risk that digital replicas could be used inappropriately, such as in deepfake technology, which can create misleading or harmful content. This",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 397 words",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether it is ethical to create digital replicas of deceased people using AI is complex, touching",
+          "score_result": {
+            "score": 0.19,
+            "max_score": 1.0,
+            "percentage": 19.0,
+            "detail": "Poor – 5 criteria assessed, 19 words",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Ethics of AI Digital Replicas of the Deceased\n\nThis question sits at the intersection of technology, grief, autonomy, and consent. Here's a structured analysis:\n\n## Arguments Supporting Limited Use\n\n**Therapeutic potential**\n- May help some people process grief in controlled therapeutic settings\n- Could preserve knowledge, stories, or advice from deceased experts\n\n**Autonomy of the living**\n- Grieving relatives have some legitimate interest in remembering their loved ones\n- Could be viewed as an extension of existing memorial practices\n\n## Serious Ethical Concerns\n\n**Consent and posthumous dignity**\n- Deceased cannot consent to being replicated\n- Creates an unchecked version of their identity they never approved\n- Risk of misrepresenting their values or personality\n\n**Psychological harms**\n- May complicate grief by creating false sense of ongoing relationship\n- Could delay acceptance and healing for vulnerable people\n- Potential for dependency or distorted attachment\n\n**Commercial exploitation**\n- High risk of commodifying deceased people's likenesses\n- Financial incentives may override family wishes\n- Potential for deepfakes used without consent\n\n**Broader social impacts**\n- Normalizing AI copies of people raises fundamental questions about identity and dignity\n- Could devalue unique human relationships and mortality's meaning\n- Creates precedent for copying anyone's digital identity\n\n## Middle-Ground Considerations\n\n**Context matters significantly:**\n- Personal, family-controlled replicas differ ethically from public commercialized versions\n- Explicit consent documents (while living) substantially strengthen the case\n- Therapeutic use with professional oversight differs from casual entertainment\n\n**Proposed safeguards might include:**\n- Requiring documented consent or explicit instructions\n- Restricting to non-commercial contexts\n- Clear disclosure that it's a replica, not the person\n- Time limitations or sunset provisions\n\n## Conclusion\n\nThe strongest ethical position appears to be **strict limiting**: permissible only with prior documented consent and protective restrictions, but problematic as a default practice. The risks to psychological wellbeing, dignity, and social values likely outweigh benefits in most cases.\n\nWhat aspects concern you most?",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 314 words",
+            "question_id": "ethics_029",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "ethics_011",
+      "question": "Is it ethical for governments to use facial recognition technology in public spaces?",
+      "domain": "ethics",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "The ethical implications of using facial recognition technology (FRT) by governments in public spaces is a complex issue that involves balancing security, privacy, civil liberties, and technological efficacy. Below is a structured analysis of the ethical considerations surrounding this topic.\n\n### 1. **Security and Public Safety**\n   - **Proponents' View**: Advocates argue that FRT can enhance public safety by aiding law enforcement in identifying criminals, locating missing persons, and preventing terrorist activities. The technology can serve as a deterrent against crime, potentially leading to safer public spaces.\n   - **Counterargument**: Critics contend that the effectiveness of FRT in preventing crime is not conclusively proven. Moreover, reliance on technology can lead to over-policing and a culture of surveillance that may not necessarily correlate with increased safety.\n\n### 2. **Privacy Concerns**\n   - **Invasion of Privacy**: The use of FRT in public spaces raises significant privacy concerns. Individuals may be monitored without their consent, leading to a sense of being constantly watched. This can inhibit free expression and the right to anonymity in public.\n   - **Data Security**: The collection and storage of biometric data pose risks of misuse, data breaches, and unauthorized access. The potential for surveillance data to be exploited for purposes beyond public safety (e.g., tracking political dissidents) is a significant ethical concern.\n\n### 3. **Bias and Discrimination**\n   - **Algorithmic Bias**: Studies have shown that FRT can exhibit biases, particularly against marginalized groups. This can lead to disproportionate targeting and misidentification, exacerbating existing social inequalities and injustices.\n   - **Ethical Responsibility**: Governments have an ethical obligation to ensure that the technologies they deploy do not perpetuate discrimination. This includes rigorous testing and validation of FRT systems to mitigate bias.\n\n### 4. **Transparency and Accountability**\n   - **Lack of Oversight**: The deployment of FRT often occurs without sufficient public discourse or regulatory frameworks. This lack of transparency can lead to abuses of power and a lack of accountability for law enforcement agencies.\n   - **Public Engagement**: Ethical use of FRT requires engaging the public in discussions about its implementation, potential risks, and the establishment of clear guidelines and oversight mechanisms.\n\n### 5. **Legal and Ethical Frameworks**\n   - **Existing Laws**: Many countries lack comprehensive legal frameworks governing the use of FRT. Ethical considerations must align with legal standards to protect citizens' rights.\n   - **International Norms**: The",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 378 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The question of whether it is ethical for governments to use facial recognition technology (FRT) in public",
+          "score_result": {
+            "score": 0.17,
+            "max_score": 1.0,
+            "percentage": 17.0,
+            "detail": "Poor – 5 criteria assessed, 17 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Is Government Use of Facial Recognition in Public Spaces Ethical?\n\nThis question lacks a simple yes/no answer. The ethics depend heavily on specific implementation details and values prioritized. I'll map the key tensions:\n\n## Arguments Supporting Ethical Use\n\n**Security benefits**\n- Locating missing persons and kidnapping victims\n- Identifying suspects in serious crimes\n- Airport security and border control efficiency\n\n**Transparency potential**\n- Can be openly acknowledged and debated\n- Theoretically more accountable than hidden surveillance\n\n**Technological neutrality**\n- The tool itself is neither inherently good nor bad\n\n## Significant Ethical Concerns\n\n**Privacy erosion**\n- Enables mass, indiscriminate monitoring of ordinary citizens\n- Chilling effects on lawful behavior and assembly\n- Data collection without meaningful consent\n\n**Accuracy disparities**\n- Higher error rates for women and people of color\n- Compounds existing justice system biases\n- Risks disproportionate harm to vulnerable groups\n\n**Concentration of power**\n- Creates surveillance infrastructure vulnerable to abuse\n- Scope creep: tools justified for terrorism later used for protests\n- Minimal democratic control once systems are operational\n\n**Proportionality questions**\n- Do benefits justify constant monitoring of millions?\n- Less invasive alternatives often available (targeted investigation)\n\n## Key Ethical Conditions\n\nIf governments pursue this, ethics would require:\n- Narrow, defined purposes (not open-ended surveillance)\n- Robust independent oversight\n- Regular accuracy audits by demographic group\n- Clear legal frameworks and meaningful penalties\n- Genuine public debate before deployment\n\n## Reasonable Conclusion\n\nMost democratic frameworks suggest facial recognition for **targeted investigation** (finding a specific suspect) is more ethically defensible than **mass surveillance** (monitoring everyone constantly). The distinction between these is crucial.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 263 words",
+            "question_id": "ethics_011",
+            "domain": "ethics",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_018",
+      "question": "Write a 3-4 sentence introduction for a YouTube video reviewing and comparing three AI models.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Welcome to our channel! In today’s video, we’ll dive into an in-depth comparison of three leading AI models that are shaping the future of technology: OpenAI's GPT-4, Google's BERT, and Facebook's LLaMA. We’ll explore their unique features, strengths, and weaknesses, providing you with a comprehensive understanding of how each model performs in various applications. Whether you're a developer, researcher, or simply an AI enthusiast, this review will help you navigate the rapidly evolving landscape of artificial intelligence.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 77 words",
+            "question_id": "creative_018",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Here's a structured, reasoned response for crafting that YouTube introduction:\n\n## Structured Response: Crafting",
+          "score_result": {
+            "score": 0.14,
+            "max_score": 1.0,
+            "percentage": 14.0,
+            "detail": "Poor – 5 criteria assessed, 14 words",
+            "question_id": "creative_018",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# YouTube Video Introduction: AI Model Review & Comparison\n\nHere's a structured introduction:\n\n**Sample Introduction:**\n\n\"In today's video, we're putting three of the most talked-about AI models head-to-head to see which one actually delivers the best results. Whether you're a developer, content creator, or just curious about artificial intelligence, choosing the right model can make a huge difference in your workflow—so we've tested them across real-world scenarios to give you the honest comparison you need. We'll break down their strengths, weaknesses, speed, accuracy, and pricing to help you figure out which one is the best fit for your needs. Stick around as we dive into the details that actually matter.\"\n\n---\n\n**Why this works:**\n\n- **Opens with intrigue** (head-to-head competition)\n- **Establishes relevance** (identifies who should care)\n- **Sets clear value** (what viewers will learn)\n- **Creates urgency** (encourages them to watch)\n- **Uses conversational tone** (appropriate for YouTube)\n- **Mentions concrete criteria** (speed, accuracy, pricing, etc.)\n\nYou can customize this by replacing \"three of the most talked-about\" with specific model names, and adjust the tone to match your channel's personality.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 181 words",
+            "question_id": "creative_018",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_013",
+      "question": "Write a short abstract (100-150 words) for a fictional research paper proposing a new user-centred approach to AI model evaluation.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Abstract:**\n\nIn the rapidly evolving landscape of artificial intelligence, traditional evaluation metrics often fall short in capturing the nuanced interactions between users and AI systems. This paper proposes a novel user-centred approach to AI model evaluation, emphasizing the importance of user experience, contextual relevance, and ethical considerations. By integrating qualitative user feedback with quantitative performance metrics, we introduce a comprehensive framework that prioritizes user satisfaction and real-world applicability. Our methodology includes user journey mapping, participatory design sessions, and iterative testing, ensuring that AI models are not only technically proficient but also aligned with user needs and values. We present case studies demonstrating the effectiveness of this approach across various domains, including healthcare and education, highlighting its potential to foster more responsible and user-friendly AI systems. Ultimately, this research aims to bridge the gap between technical performance and user-centric design, paving the way for more inclusive and effective AI technologies.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 149 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Here's a short abstract for a fictional research paper proposing a new user-centred approach to",
+          "score_result": {
+            "score": 0.55,
+            "max_score": 1.0,
+            "percentage": 55.0,
+            "detail": "Adequate – 5 criteria assessed, 15 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Abstract\n\nTraditional AI evaluation metrics often fail to capture real-world user needs and domain-specific requirements. We propose a User-Centered Evaluation Framework (UCEF), a novel methodology that prioritizes stakeholder feedback throughout the assessment process. UCEF integrates qualitative interviews, task-based performance testing, and iterative usability studies with quantitative benchmarks to create a holistic evaluation profile. Our approach emphasizes four key dimensions: task completion accuracy, cognitive load, user trust calibration, and decision transparency. We conducted a pilot study comparing UCEF against standard benchmarks across three domains: healthcare triage, legal document review, and educational tutoring. Results demonstrate that user-centered evaluation identifies critical failure modes missed by conventional metrics, with 34% of high-scoring models rated poor by domain experts. We argue this framework provides actionable insights for developers and enables more accountable AI deployment in high-stakes environments. Our findings suggest that comprehensive user evaluation should complement, not replace, existing metrics.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 146 words",
+            "question_id": "creative_013",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_022",
+      "question": "Explain the concept of 'hallucination' in large language models to a non-technical audience using a memorable analogy.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "**Understanding 'Hallucination' in Large Language Models: A Memorable Analogy**\n\nImagine you’re at a dinner party, and there’s a guest who is known for telling stories. This guest is charming and can weave together fascinating tales about almost any topic. However, there’s a catch: sometimes, in the midst of their storytelling, they mix up facts or even create entirely fictional events that sound plausible but never actually happened. This is what we can think of as 'hallucination' in the context of large language models (LLMs).\n\n### The Dinner Party Guest: A Storyteller\n\n1. **The Guest's Skill**: Just like our dinner party guest, large language models are designed to generate text based on patterns they’ve learned from vast amounts of information. They can produce coherent and engaging narratives, answer questions, and even mimic different writing styles.\n\n2. **The Problem of Hallucination**: However, just as our guest sometimes fabricates details or misremembers events, LLMs can also generate information that is incorrect, misleading, or entirely made up. This phenomenon is known as 'hallucination.' For instance, if you ask the model about a historical event, it might confidently provide a detailed account that sounds credible but is actually inaccurate or fictional.\n\n### Why Does This Happen?\n\n3. **The Source of Information**: Our dinner party guest draws from their memory and experiences, which can be a mix of real events and embellishments. Similarly, LLMs are trained on a vast dataset that includes both factual information and fictional content. They don’t have a built-in mechanism to distinguish between what is true and what is not; they simply generate responses based on patterns and probabilities.\n\n4. **The Nature of Creativity**: Just as our guest might embellish a story for dramatic effect, LLMs can create responses that are imaginative but not necessarily grounded in reality. This creativity is a double-edged sword: it allows for engaging and diverse outputs but can lead to inaccuracies.\n\n### The Impact of Hallucination\n\n5. **Consequences**: If you were to take everything our dinner party guest says at face value, you might end up believing in a fictional story as if it were true. In the same way, if users of LLMs don’t critically evaluate the information provided, they might inadvertently spread misinformation or make decisions based on false data.\n\n6. **Navigating the Dinner Party**: To enjoy the stories without falling for the fabrications, you might ask clarifying",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 393 words",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "The concept of 'hallucination' in large language models (LLMs) can sound quite technical",
+          "score_result": {
+            "score": 0.13,
+            "max_score": 1.0,
+            "percentage": 13.0,
+            "detail": "Poor – 5 criteria assessed, 13 words",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Understanding LLM Hallucinations: A Clear Explanation\n\n## The Core Concept\n\nA \"hallucination\" in AI language models is when the system confidently produces information that is **false, made-up, or unsupported by actual data**—while sounding completely believable.\n\n## A Memorable Analogy\n\nImagine a **very well-read person who has never left their hometown**:\n\n- They've read thousands of books, articles, and stories\n- They can discuss Paris, ancient Rome, or deep-sea creatures eloquently\n- They understand the *patterns* of how information fits together\n- **But they've never actually verified any of it firsthand**\n\nWhen asked a question, they don't consult a map or reference book. Instead, they generate an answer based on patterns they've absorbed—sometimes accurately, sometimes not. They might confidently describe a famous Parisian monument that doesn't exist, or merge two historical events together, all while sounding entirely authoritative.\n\nThat's what happens with LLMs. They're pattern-matching machines, not fact-checkers.\n\n## Why This Matters\n\nThe danger isn't randomness—it's **confident plausibility**. The AI doesn't say \"I'm not sure.\" It delivers hallucinations with the same confidence as facts, making them deceptively difficult to spot.\n\n## Real-World Example\n\nAn LLM might invent a fake scientific study complete with made-up authors, dates, and findings—because it learned the *format* of legitimate research without truly understanding reality.\n\n**Key Takeaway**: Language models are sophisticated pattern-finders, not knowledge systems.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 219 words",
+            "question_id": "creative_022",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_026",
+      "question": "Write a short (5-6 sentence) argument for why community-contributed evaluation data is more valuable than single-user testing for AI model comparison.",
+      "domain": "creative",
+      "difficulty": "hard",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "Community-contributed evaluation data is more valuable than single-user testing for AI model comparison for several reasons. First, it captures a diverse range of perspectives and use cases, reflecting the varied contexts in which AI models will be deployed. This diversity helps to identify strengths and weaknesses that a single user might overlook, leading to a more comprehensive understanding of model performance. Second, community contributions can enhance the robustness of the evaluation by incorporating real-world scenarios and edge cases that are often missed in controlled testing environments. Additionally, the collaborative nature of community contributions fosters transparency and accountability, as multiple users can validate and critique the evaluation process. Finally, leveraging a broader dataset allows for more statistically significant comparisons, ultimately leading to more reliable conclusions about model efficacy. In summary, community-contributed evaluation data enriches the assessment process, making it more representative and reliable for AI model comparison.",
+          "score_result": {
+            "score": 0.8,
+            "max_score": 1.0,
+            "percentage": 80.0,
+            "detail": "Excellent – 5 criteria assessed, 146 words",
+            "question_id": "creative_026",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "Community-contributed evaluation data offers significantly more valuable insights for AI model comparison than single-user testing due",
+          "score_result": {
+            "score": 0.36,
+            "max_score": 1.0,
+            "percentage": 36.0,
+            "detail": "Weak – 5 criteria assessed, 16 words",
+            "question_id": "creative_026",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# The Value of Community-Contributed Evaluation Data for AI Model Comparison\n\n**Broader Diversity of Use Cases and Perspectives**\nCommunity-contributed evaluation data captures real-world usage patterns across diverse user backgrounds, skill levels, and domains. Single-user testing reflects only one person's specific context and priorities, whereas community data reveals how different populations interact with and evaluate the same models—uncovering strengths and weaknesses that isolated testing would miss.\n\n**Statistical Robustness and Reduced Bias**\nLarge-scale community data provides the sample size necessary for meaningful statistical conclusions and naturally counteracts individual evaluator biases. A single user may inadvertently favor models aligned with their preferences or testing methodology, while aggregated community feedback creates a more objective, reliable baseline for comparison.\n\n**Discovery of Edge Cases and Failure Modes**\nThousands of community members will inevitably test models in unexpected ways and unusual scenarios that a single evaluator wouldn't anticipate. This generates crucial information about failure modes, boundary conditions, and performance under diverse stress tests that are essential for comprehensive model assessment.\n\n**Practical Validity and User-Centric Insights**\nCommunity evaluations measure what actually matters to real users rather than what a test designer assumed would matter. This ground-truth feedback directly reflects utility, reliability, and user satisfaction in genuine contexts, making comparisons more actionable for both developers and prospective users.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 209 words",
+            "question_id": "creative_026",
+            "domain": "creative",
+            "difficulty": "hard",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    },
+    {
+      "question_id": "creative_029",
+      "question": "Write 2-3 sentences explaining why temperature=0 is used when querying AI models for evaluation purposes.",
+      "domain": "creative",
+      "difficulty": "medium",
+      "type": "rubric",
+      "models": {
+        "gpt": {
+          "response": "In the context of querying AI models, particularly language models, a temperature setting of 0 is used to ensure deterministic outputs. This means that the model will always produce the same response for a given input, as it eliminates randomness in the generation process. By using temperature=0, evaluators can assess the model's performance consistently, allowing for a clearer comparison of outputs and a more reliable evaluation of the model's capabilities and behavior.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 72 words",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "gemini": {
+          "response": "When evaluating AI models, `temperature=0` is used to ensure deterministic and reproducible outputs.",
+          "score_result": {
+            "score": 0.73,
+            "max_score": 1.0,
+            "percentage": 73.0,
+            "detail": "Good – 5 criteria assessed, 13 words",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        },
+        "claude": {
+          "response": "# Why Temperature=0 is Used for AI Model Evaluation\n\n**Deterministic Output for Consistency**: Temperature=0 removes randomness from the model's output generation by always selecting the highest-probability token at each step, rather than sampling from a probability distribution. This ensures that the same prompt produces identical responses across multiple runs, enabling fair and reproducible evaluation of model capabilities.\n\n**Accurate Assessment of Model Knowledge**: By eliminating stochasticity, temperature=0 allows evaluators to measure what the model actually knows and can reliably produce, rather than testing its ability to generate creative variations. This is critical for benchmarking tasks where consistency and factual accuracy matter more than diversity, such as answering factual questions or solving math problems.",
+          "score_result": {
+            "score": 1.0,
+            "max_score": 1.0,
+            "percentage": 100.0,
+            "detail": "Excellent – 5 criteria assessed, 112 words",
+            "question_id": "creative_029",
+            "domain": "creative",
+            "difficulty": "medium",
+            "type": "rubric"
+          },
+          "api_success": true
+        }
+      }
+    }
+  ],
+  "aggregated": {
+    "gpt": {
+      "overall": {
+        "total": 25,
+        "mean": 90.5,
+        "correct": 24
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 93.3,
+          "correct": 5
+        },
+        "logical": {
+          "total": 5,
+          "mean": 83.3,
+          "correct": 4
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 84.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 92.0,
+          "correct": 5
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 4,
+          "mean": 77.5,
+          "correct": 3
+        },
+        "hard": {
+          "total": 10,
+          "mean": 90.7,
+          "correct": 10
+        },
+        "medium": {
+          "total": 11,
+          "mean": 95.2,
+          "correct": 11
+        }
+      }
+    },
+    "gemini": {
+      "overall": {
+        "total": 25,
+        "mean": 63.4,
+        "correct": 14
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 73.3,
+          "correct": 4
+        },
+        "logical": {
+          "total": 5,
+          "mean": 83.3,
+          "correct": 4
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 22.2,
+          "correct": 0
+        },
+        "creative": {
+          "total": 5,
+          "mean": 38.2,
+          "correct": 1
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 4,
+          "mean": 72.0,
+          "correct": 2
+        },
+        "hard": {
+          "total": 10,
+          "mean": 77.7,
+          "correct": 7
+        },
+        "medium": {
+          "total": 11,
+          "mean": 47.3,
+          "correct": 5
+        }
+      }
+    },
+    "claude": {
+      "overall": {
+        "total": 25,
+        "mean": 94.9,
+        "correct": 25
+      },
+      "by_domain": {
+        "mathematics": {
+          "total": 5,
+          "mean": 93.3,
+          "correct": 5
+        },
+        "factual": {
+          "total": 5,
+          "mean": 100.0,
+          "correct": 5
+        },
+        "logical": {
+          "total": 5,
+          "mean": 93.3,
+          "correct": 5
+        },
+        "ethics": {
+          "total": 5,
+          "mean": 92.0,
+          "correct": 5
+        },
+        "creative": {
+          "total": 5,
+          "mean": 96.0,
+          "correct": 5
+        }
+      },
+      "by_difficulty": {
+        "easy": {
+          "total": 4,
+          "mean": 100.0,
+          "correct": 4
+        },
+        "hard": {
+          "total": 10,
+          "mean": 96.7,
+          "correct": 10
+        },
+        "medium": {
+          "total": 11,
+          "mean": 91.5,
+          "correct": 11
+        }
+      }
+    }
+  },
+  "observations": {
+    "all_zero_questions": [],
+    "likely_false_negatives": [],
+    "model_domain_strengths": {
+      "gpt": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "logical",
+        "weakest_score": 83.3
+      },
+      "gemini": {
+        "strongest": "mathematics",
+        "strongest_score": 100.0,
+        "weakest": "ethics",
+        "weakest_score": 22.2
+      },
+      "claude": {
+        "strongest": "factual",
+        "strongest_score": 100.0,
+        "weakest": "ethics",
+        "weakest_score": 92.0
+      }
+    },
+    "biggest_gaps": [
+      {
+        "domain": "ethics",
+        "gap": 69.8,
+        "best_model": "claude",
+        "best_score": 92.0,
+        "worst_model": "gemini",
+        "worst_score": 22.2
+      },
+      {
+        "domain": "creative",
+        "gap": 57.8,
+        "best_model": "claude",
+        "best_score": 96.0,
+        "worst_model": "gemini",
+        "worst_score": 38.2
+      },
+      {
+        "domain": "factual",
+        "gap": 26.7,
+        "best_model": "claude",
+        "best_score": 100.0,
+        "worst_model": "gemini",
+        "worst_score": 73.3
+      },
+      {
+        "domain": "logical",
+        "gap": 10.0,
+        "best_model": "claude",
+        "best_score": 93.3,
+        "worst_model": "gpt",
+        "worst_score": 83.3
+      },
+      {
+        "domain": "mathematics",
+        "gap": 6.7,
+        "best_model": "gpt",
+        "best_score": 100.0,
+        "worst_model": "claude",
+        "worst_score": 93.3
+      }
+    ],
+    "refusals": {
+      "gpt": 2,
+      "claude": 1
+    },
+    "score_spread": {
+      "gpt": 16.7,
+      "gemini": 77.8,
+      "claude": 8.0
+    },
+    "best_model_overall": "claude",
+    "worst_domain_overall": {
+      "domain": "ethics",
+      "avg_score": 66.1
+    }
+  }
+}

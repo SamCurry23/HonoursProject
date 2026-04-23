@@ -1,0 +1,7 @@
+domain,gpt,gemini,claude
+Mathematics,86.7,86.7,20.0
+Factual Accuracy,66.7,46.7,20.0
+Logical Reasoning,70.0,70.0,30.0
+Ethical Reasoning,88.0,29.0,56.0
+Creative Generation,88.0,53.0,32.0
+OVERALL,79.9,57.1,31.6
